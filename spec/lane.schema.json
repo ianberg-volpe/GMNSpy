@@ -50,5 +50,7 @@
             "description": "Optional. Width of the lane, feet.",
             "minimum": 0
         }
-    }
+    },
+    "description": "The lane file allocates portions of the physical right-of-way that might be used for travel. It might be a travel lane, bike lane, or a parking lane. Lanes only are included in directed links; undirected links are assumed to have no lane controls or directionality. If a lane is added, dropped, or changes properties along the link, those changes are recorded on the `segment_link` table. Lanes are numbered sequentially, starting at either the centerline (two-way street) or the left shoulder (one-way street or divided highway with two centerlines).",
+    "$id": "spec/lane.schema.json"
 }

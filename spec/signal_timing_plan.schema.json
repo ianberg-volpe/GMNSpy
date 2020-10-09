@@ -58,5 +58,7 @@
             "description": "Optional. Offset in seconds.",
             "minimum": 0
         }
-    }
+    },
+    "description": "For signalized nodes, establishes timing plans and coordination.",
+    "$id": "spec/signal_timing_plan.schema.json"
 }

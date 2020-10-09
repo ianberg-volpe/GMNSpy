@@ -47,5 +47,7 @@
                 "rtor"
             ]
         }
-    }
+    },
+    "description": "Associates Movements and pedestrian Links (e.g., crosswalks) with signal phases. A signal phase may be associated with several movements. A Movement may also run on more than one phase.",
+    "$id": "spec/signal_phase_mvmt.schema.json"
 }

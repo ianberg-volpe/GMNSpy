@@ -54,5 +54,7 @@
             "description": "Optional. Associated node. For example, if this node is a sidewalk, a parent_nodek_id could represent the intersection  it is associated with.",
             "foreign_key": ".node_id"
         }
-    }
+    },
+    "description": "A list of vertices that locate points on a map. Typically, they will represent intersections, but may also represent other points, such as a transition between divided and undivided highway. Nodes are the endpoints of a link (as opposed to the other type of vertex, location, which is used to represent points along a link)",
+    "$id": "spec/node.schema.json"
 }

@@ -79,5 +79,7 @@
                 "signal"
             ]
         }
-    }
+    },
+    "description": "Describes how inbound and outbound links connect at an intersection.",
+    "$id": "spec/movement.schema.json"
 }

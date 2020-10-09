@@ -51,5 +51,7 @@
             "type": "string",
             "description": "Optional. Type of detector."
         }
-    }
+    },
+    "description": "A signal detector is associated with a phase and a group of lanes.",
+    "$id": "spec/signal_detector.schema.json"
 }

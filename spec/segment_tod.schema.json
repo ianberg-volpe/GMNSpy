@@ -92,5 +92,7 @@
             "foreign_key": "use_group.use_group",
             "description": "Optional. Set of allowed uses; comma-separated. Foreign key to use_definition or use sets."
         }
-    }
+    },
+    "description": "An optional file that handles day-of-week and time-of-day restrictions on segments. It is used for part-time changes in segment capacity and number of lanes.",
+    "$id": "spec/segment_tod.schema.json"
 }

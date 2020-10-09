@@ -63,5 +63,7 @@
             "minimum": 0,
             "maximum": 120
         }
-    }
+    },
+    "description": "For signalizd nodes, provides signal timing.",
+    "$id": "spec/signal_timing_phase.schema.json"
 }

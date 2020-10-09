@@ -52,5 +52,7 @@
             "type": "string",
             "description": "Optional. Foreign Key to GTFS data. For bus stops and transit station entrances, provides a link to the General Transit Feed Specification."
         }
-    }
+    },
+    "description": "A location is a vertex that is associated with a specific location along a link. Locations may be used to represent places where activities occur (e.g., driveways and bus stops). Its attributes are nearly the same as those for a node, except that the location includes an associated link and node, with location specified as distance along the link from the node.",
+    "$id": "spec/location.schema.json"
 }
