@@ -1,7 +1,7 @@
 {
   "primaryKey": "link_id",
   "missingValues": ["NaN"],
-  "properties": [{
+  "fields": [{
       "name": "link_id",
       "type": "any",
       "description": "Primary key – could be SharedStreets Reference ID",

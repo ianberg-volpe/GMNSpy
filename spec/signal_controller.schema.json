@@ -1,7 +1,7 @@
 {
     "primaryKey": "controller_id",
     "missingValues": ["NaN",""],
-    "properties": [
+    "fields": [
         {
             "name": "controller_id",
             "type": "any",

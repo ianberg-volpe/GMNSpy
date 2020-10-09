@@ -1,7 +1,7 @@
 {
     "primaryKey": "zone_id",
     "missingValues": ["NaN"],
-    "properties": [
+    "fields": [
         {
             "name": "zone_id",
             "type": "any",

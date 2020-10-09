@@ -1,7 +1,7 @@
 {
     "primaryKey": "signal_phase_id",
     "missingValues": ["NaN",""],
-    "properties": [
+    "fields": [
         {
             "name": "signal_phase_id",
             "type": "any",
