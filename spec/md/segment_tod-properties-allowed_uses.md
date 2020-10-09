@@ -1,4 +1,4 @@
-# Untitled string in undefined Schema
+# Untitled string in segment_tod Schema
 
 ```txt
 undefined#/properties/allowed_uses

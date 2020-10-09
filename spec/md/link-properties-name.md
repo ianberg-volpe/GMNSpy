@@ -1,4 +1,4 @@
-# Untitled string in undefined Schema
+# Untitled string in link Schema
 
 ```txt
 undefined#/properties/name

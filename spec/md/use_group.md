@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# use_group Schema
 
 ```txt
 undefined
@@ -11,17 +11,17 @@ undefined
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [use_group.schema.json](../../out/use_group.schema.json "open original schema") |
 
-## Untitled schema Type
+## use_group Type
 
-unknown
+unknown ([use_group](use_group.md))
 
-# undefined Properties
+# use_group Properties
 
-| Property                    | Type     | Required | Nullable       | Defined by                                                                                 |
-| :-------------------------- | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------- |
-| [use_group](#use_group)     | `string` | Optional | cannot be null | [Untitled schema](use_group-properties-use_group.md "undefined#/properties/use_group")     |
-| [uses](#uses)               | `string` | Optional | cannot be null | [Untitled schema](use_group-properties-uses.md "undefined#/properties/uses")               |
-| [description](#description) | `string` | Optional | cannot be null | [Untitled schema](use_group-properties-description.md "undefined#/properties/description") |
+| Property                    | Type     | Required | Nullable       | Defined by                                                                           |
+| :-------------------------- | -------- | -------- | -------------- | :----------------------------------------------------------------------------------- |
+| [use_group](#use_group)     | `string` | Optional | cannot be null | [use_group](use_group-properties-use_group.md "undefined#/properties/use_group")     |
+| [uses](#uses)               | `string` | Optional | cannot be null | [use_group](use_group-properties-uses.md "undefined#/properties/uses")               |
+| [description](#description) | `string` | Optional | cannot be null | [use_group](use_group-properties-description.md "undefined#/properties/description") |
 
 ## use_group
 
@@ -33,7 +33,7 @@ Primary key.
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](use_group-properties-use_group.md "undefined#/properties/use_group")
+-   defined in: [use_group](use_group-properties-use_group.md "undefined#/properties/use_group")
 
 ### use_group Type
 
@@ -49,7 +49,7 @@ Comma-separated list of uses.
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](use_group-properties-uses.md "undefined#/properties/uses")
+-   defined in: [use_group](use_group-properties-uses.md "undefined#/properties/uses")
 
 ### uses Type
 
@@ -65,7 +65,7 @@ Optional.
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](use_group-properties-description.md "undefined#/properties/description")
+-   defined in: [use_group](use_group-properties-description.md "undefined#/properties/description")
 
 ### description Type
 

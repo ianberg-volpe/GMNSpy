@@ -1,4 +1,4 @@
-# Untitled any in undefined Schema
+# Untitled any in node Schema
 
 ```txt
 undefined#/properties/parent_node_id

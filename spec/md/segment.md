@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# segment Schema
 
 ```txt
 undefined
@@ -11,32 +11,32 @@ undefined
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [segment.schema.json](../../out/segment.schema.json "open original schema") |
 
-## Untitled schema Type
+## segment Type
 
-unknown
+unknown ([segment](segment.md))
 
-# undefined Properties
+# segment Properties
 
-| Property                        | Type      | Required | Nullable       | Defined by                                                                                   |
-| :------------------------------ | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------- |
-| [segment_id](#segment_id)       | `any`     | Optional | cannot be null | [Untitled schema](segment-properties-segment_id.md "undefined#/properties/segment_id")       |
-| [link_id](#link_id)             | `any`     | Optional | cannot be null | [Untitled schema](segment-properties-link_id.md "undefined#/properties/link_id")             |
-| [ref_node_id](#ref_node_id)     | `any`     | Optional | cannot be null | [Untitled schema](segment-properties-ref_node_id.md "undefined#/properties/ref_node_id")     |
-| [start_lr](#start_lr)           | `number`  | Optional | cannot be null | [Untitled schema](segment-properties-start_lr.md "undefined#/properties/start_lr")           |
-| [end_lr](#end_lr)               | `number`  | Optional | cannot be null | [Untitled schema](segment-properties-end_lr.md "undefined#/properties/end_lr")               |
-| [grade](#grade)                 | `number`  | Optional | cannot be null | [Untitled schema](segment-properties-grade.md "undefined#/properties/grade")                 |
-| [capacity](#capacity)           | `integer` | Optional | cannot be null | [Untitled schema](segment-properties-capacity.md "undefined#/properties/capacity")           |
-| [free_speed](#free_speed)       | `integer` | Optional | cannot be null | [Untitled schema](segment-properties-free_speed.md "undefined#/properties/free_speed")       |
-| [lanes](#lanes)                 | `integer` | Optional | cannot be null | [Untitled schema](segment-properties-lanes.md "undefined#/properties/lanes")                 |
-| [l_lanes_added](#l_lanes_added) | `integer` | Optional | cannot be null | [Untitled schema](segment-properties-l_lanes_added.md "undefined#/properties/l_lanes_added") |
-| [r_lanes_added](#r_lanes_added) | `integer` | Optional | cannot be null | [Untitled schema](segment-properties-r_lanes_added.md "undefined#/properties/r_lanes_added") |
-| [bike_facility](#bike_facility) | `string`  | Optional | cannot be null | [Untitled schema](segment-properties-bike_facility.md "undefined#/properties/bike_facility") |
-| [ped_facility](#ped_facility)   | `string`  | Optional | cannot be null | [Untitled schema](segment-properties-ped_facility.md "undefined#/properties/ped_facility")   |
-| [parking](#parking)             | `string`  | Optional | cannot be null | [Untitled schema](segment-properties-parking.md "undefined#/properties/parking")             |
-| [allowed_uses](#allowed_uses)   | `string`  | Optional | cannot be null | [Untitled schema](segment-properties-allowed_uses.md "undefined#/properties/allowed_uses")   |
-| [toll](#toll)                   | `integer` | Optional | cannot be null | [Untitled schema](segment-properties-toll.md "undefined#/properties/toll")                   |
-| [jurisdiction](#jurisdiction)   | `string`  | Optional | cannot be null | [Untitled schema](segment-properties-jurisdiction.md "undefined#/properties/jurisdiction")   |
-| [row_width](#row_width)         | `number`  | Optional | cannot be null | [Untitled schema](segment-properties-row_width.md "undefined#/properties/row_width")         |
+| Property                        | Type      | Required | Nullable       | Defined by                                                                           |
+| :------------------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------- |
+| [segment_id](#segment_id)       | `any`     | Optional | cannot be null | [segment](segment-properties-segment_id.md "undefined#/properties/segment_id")       |
+| [link_id](#link_id)             | `any`     | Optional | cannot be null | [segment](segment-properties-link_id.md "undefined#/properties/link_id")             |
+| [ref_node_id](#ref_node_id)     | `any`     | Optional | cannot be null | [segment](segment-properties-ref_node_id.md "undefined#/properties/ref_node_id")     |
+| [start_lr](#start_lr)           | `number`  | Optional | cannot be null | [segment](segment-properties-start_lr.md "undefined#/properties/start_lr")           |
+| [end_lr](#end_lr)               | `number`  | Optional | cannot be null | [segment](segment-properties-end_lr.md "undefined#/properties/end_lr")               |
+| [grade](#grade)                 | `number`  | Optional | cannot be null | [segment](segment-properties-grade.md "undefined#/properties/grade")                 |
+| [capacity](#capacity)           | `integer` | Optional | cannot be null | [segment](segment-properties-capacity.md "undefined#/properties/capacity")           |
+| [free_speed](#free_speed)       | `integer` | Optional | cannot be null | [segment](segment-properties-free_speed.md "undefined#/properties/free_speed")       |
+| [lanes](#lanes)                 | `integer` | Optional | cannot be null | [segment](segment-properties-lanes.md "undefined#/properties/lanes")                 |
+| [l_lanes_added](#l_lanes_added) | `integer` | Optional | cannot be null | [segment](segment-properties-l_lanes_added.md "undefined#/properties/l_lanes_added") |
+| [r_lanes_added](#r_lanes_added) | `integer` | Optional | cannot be null | [segment](segment-properties-r_lanes_added.md "undefined#/properties/r_lanes_added") |
+| [bike_facility](#bike_facility) | `string`  | Optional | cannot be null | [segment](segment-properties-bike_facility.md "undefined#/properties/bike_facility") |
+| [ped_facility](#ped_facility)   | `string`  | Optional | cannot be null | [segment](segment-properties-ped_facility.md "undefined#/properties/ped_facility")   |
+| [parking](#parking)             | `string`  | Optional | cannot be null | [segment](segment-properties-parking.md "undefined#/properties/parking")             |
+| [allowed_uses](#allowed_uses)   | `string`  | Optional | cannot be null | [segment](segment-properties-allowed_uses.md "undefined#/properties/allowed_uses")   |
+| [toll](#toll)                   | `integer` | Optional | cannot be null | [segment](segment-properties-toll.md "undefined#/properties/toll")                   |
+| [jurisdiction](#jurisdiction)   | `string`  | Optional | cannot be null | [segment](segment-properties-jurisdiction.md "undefined#/properties/jurisdiction")   |
+| [row_width](#row_width)         | `number`  | Optional | cannot be null | [segment](segment-properties-row_width.md "undefined#/properties/row_width")         |
 
 ## segment_id
 
@@ -48,7 +48,7 @@ Primary key.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-segment_id.md "undefined#/properties/segment_id")
+-   defined in: [segment](segment-properties-segment_id.md "undefined#/properties/segment_id")
 
 ### segment_id Type
 
@@ -64,7 +64,7 @@ Required. Foreign key to road_links. The link that the segment is located on.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-link_id.md "undefined#/properties/link_id")
+-   defined in: [segment](segment-properties-link_id.md "undefined#/properties/link_id")
 
 ### link_id Type
 
@@ -80,7 +80,7 @@ Required. Foreign key to node where distance is 0.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-ref_node_id.md "undefined#/properties/ref_node_id")
+-   defined in: [segment](segment-properties-ref_node_id.md "undefined#/properties/ref_node_id")
 
 ### ref_node_id Type
 
@@ -96,7 +96,7 @@ Required. Distance from `ref_node_id`.
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-start_lr.md "undefined#/properties/start_lr")
+-   defined in: [segment](segment-properties-start_lr.md "undefined#/properties/start_lr")
 
 ### start_lr Type
 
@@ -116,7 +116,7 @@ Required. Distance from `ref_node_id`.
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-end_lr.md "undefined#/properties/end_lr")
+-   defined in: [segment](segment-properties-end_lr.md "undefined#/properties/end_lr")
 
 ### end_lr Type
 
@@ -136,7 +136,7 @@ Required. Distance from `ref_node_id`.
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-grade.md "undefined#/properties/grade")
+-   defined in: [segment](segment-properties-grade.md "undefined#/properties/grade")
 
 ### grade Type
 
@@ -158,7 +158,7 @@ Optional. Capacity (veh/hr/ln)
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-capacity.md "undefined#/properties/capacity")
+-   defined in: [segment](segment-properties-capacity.md "undefined#/properties/capacity")
 
 ### capacity Type
 
@@ -178,7 +178,7 @@ Optional. Free flow speed (mph)
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-free_speed.md "undefined#/properties/free_speed")
+-   defined in: [segment](segment-properties-free_speed.md "undefined#/properties/free_speed")
 
 ### free_speed Type
 
@@ -198,7 +198,7 @@ Optional. Number of lanes in the direction of travel (must be consistent with li
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-lanes.md "undefined#/properties/lanes")
+-   defined in: [segment](segment-properties-lanes.md "undefined#/properties/lanes")
 
 ### lanes Type
 
@@ -214,7 +214,7 @@ Optional. # of lanes added on the left of the road link (negative indicates a la
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-l_lanes_added.md "undefined#/properties/l_lanes_added")
+-   defined in: [segment](segment-properties-l_lanes_added.md "undefined#/properties/l_lanes_added")
 
 ### l_lanes_added Type
 
@@ -230,7 +230,7 @@ Optional. # of lanes added on the right of the road link (negative indicates a l
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-r_lanes_added.md "undefined#/properties/r_lanes_added")
+-   defined in: [segment](segment-properties-r_lanes_added.md "undefined#/properties/r_lanes_added")
 
 ### r_lanes_added Type
 
@@ -246,7 +246,7 @@ Optional. Type of bicycle accommodation: unknown, none,wcl, bikelane,cycletrack,
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-bike_facility.md "undefined#/properties/bike_facility")
+-   defined in: [segment](segment-properties-bike_facility.md "undefined#/properties/bike_facility")
 
 ### bike_facility Type
 
@@ -276,7 +276,7 @@ Optional. Type of pedestrian accommodation:unknown,none,shoulder,sidewalk,offstr
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-ped_facility.md "undefined#/properties/ped_facility")
+-   defined in: [segment](segment-properties-ped_facility.md "undefined#/properties/ped_facility")
 
 ### ped_facility Type
 
@@ -304,7 +304,7 @@ Optional. Type of parking: unknown,none,shoulder,sidewalk,offstreet_path.
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-parking.md "undefined#/properties/parking")
+-   defined in: [segment](segment-properties-parking.md "undefined#/properties/parking")
 
 ### parking Type
 
@@ -332,7 +332,7 @@ Optional. Set of allowed uses; comma-separated. Foreign key  to use_definition o
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-allowed_uses.md "undefined#/properties/allowed_uses")
+-   defined in: [segment](segment-properties-allowed_uses.md "undefined#/properties/allowed_uses")
 
 ### allowed_uses Type
 
@@ -348,7 +348,7 @@ Optional.  Toll on the link, in cents.
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-toll.md "undefined#/properties/toll")
+-   defined in: [segment](segment-properties-toll.md "undefined#/properties/toll")
 
 ### toll Type
 
@@ -364,7 +364,7 @@ Optional. Optional.  Owner/operator of the link.
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-jurisdiction.md "undefined#/properties/jurisdiction")
+-   defined in: [segment](segment-properties-jurisdiction.md "undefined#/properties/jurisdiction")
 
 ### jurisdiction Type
 
@@ -380,7 +380,7 @@ Optional. Width (feet) of the entire right-of-way (both directions).
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](segment-properties-row_width.md "undefined#/properties/row_width")
+-   defined in: [segment](segment-properties-row_width.md "undefined#/properties/row_width")
 
 ### row_width Type
 

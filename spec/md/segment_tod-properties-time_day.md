@@ -1,4 +1,4 @@
-# Untitled any in undefined Schema
+# Untitled any in segment_tod Schema
 
 ```txt
 undefined#/properties/time_day

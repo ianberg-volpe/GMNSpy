@@ -1,4 +1,4 @@
-# Untitled number in undefined Schema
+# Untitled number in node Schema
 
 ```txt
 undefined#/properties/y_coord

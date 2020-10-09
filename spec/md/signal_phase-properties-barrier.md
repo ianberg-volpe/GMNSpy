@@ -1,4 +1,4 @@
-# Untitled integer in undefined Schema
+# Untitled integer in signal_phase Schema
 
 ```txt
 undefined#/properties/barrier

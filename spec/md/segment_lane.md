@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# segment_lane Schema
 
 ```txt
 undefined
@@ -11,22 +11,22 @@ undefined
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [segment_lane.schema.json](../../out/segment_lane.schema.json "open original schema") |
 
-## Untitled schema Type
+## segment_lane Type
 
-unknown
+unknown ([segment_lane](segment_lane.md))
 
-# undefined Properties
+# segment_lane Properties
 
-| Property                            | Type      | Required | Nullable       | Defined by                                                                                            |
-| :---------------------------------- | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------- |
-| [segment_lane_id](#segment_lane_id) | `any`     | Optional | cannot be null | [Untitled schema](segment_lane-properties-segment_lane_id.md "undefined#/properties/segment_lane_id") |
-| [segment_id](#segment_id)           | `any`     | Optional | cannot be null | [Untitled schema](segment_lane-properties-segment_id.md "undefined#/properties/segment_id")           |
-| [lane_num](#lane_num)               | `integer` | Optional | cannot be null | [Untitled schema](segment_lane-properties-lane_num.md "undefined#/properties/lane_num")               |
-| [parent_lane_id](#parent_lane_id)   | `any`     | Optional | cannot be null | [Untitled schema](segment_lane-properties-parent_lane_id.md "undefined#/properties/parent_lane_id")   |
-| [allowed_uses](#allowed_uses)       | `string`  | Optional | cannot be null | [Untitled schema](segment_lane-properties-allowed_uses.md "undefined#/properties/allowed_uses")       |
-| [r_barrier](#r_barrier)             | `any`     | Optional | cannot be null | [Untitled schema](segment_lane-properties-r_barrier.md "undefined#/properties/r_barrier")             |
-| [l_barrier](#l_barrier)             | `any`     | Optional | cannot be null | [Untitled schema](segment_lane-properties-l_barrier.md "undefined#/properties/l_barrier")             |
-| [width](#width)                     | `number`  | Optional | cannot be null | [Untitled schema](segment_lane-properties-width.md "undefined#/properties/width")                     |
+| Property                            | Type      | Required | Nullable       | Defined by                                                                                         |
+| :---------------------------------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------- |
+| [segment_lane_id](#segment_lane_id) | `any`     | Optional | cannot be null | [segment_lane](segment_lane-properties-segment_lane_id.md "undefined#/properties/segment_lane_id") |
+| [segment_id](#segment_id)           | `any`     | Optional | cannot be null | [segment_lane](segment_lane-properties-segment_id.md "undefined#/properties/segment_id")           |
+| [lane_num](#lane_num)               | `integer` | Optional | cannot be null | [segment_lane](segment_lane-properties-lane_num.md "undefined#/properties/lane_num")               |
+| [parent_lane_id](#parent_lane_id)   | `any`     | Optional | cannot be null | [segment_lane](segment_lane-properties-parent_lane_id.md "undefined#/properties/parent_lane_id")   |
+| [allowed_uses](#allowed_uses)       | `string`  | Optional | cannot be null | [segment_lane](segment_lane-properties-allowed_uses.md "undefined#/properties/allowed_uses")       |
+| [r_barrier](#r_barrier)             | `any`     | Optional | cannot be null | [segment_lane](segment_lane-properties-r_barrier.md "undefined#/properties/r_barrier")             |
+| [l_barrier](#l_barrier)             | `any`     | Optional | cannot be null | [segment_lane](segment_lane-properties-l_barrier.md "undefined#/properties/l_barrier")             |
+| [width](#width)                     | `number`  | Optional | cannot be null | [segment_lane](segment_lane-properties-width.md "undefined#/properties/width")                     |
 
 ## segment_lane_id
 
@@ -38,7 +38,7 @@ Primary key.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](segment_lane-properties-segment_lane_id.md "undefined#/properties/segment_lane_id")
+-   defined in: [segment_lane](segment_lane-properties-segment_lane_id.md "undefined#/properties/segment_lane_id")
 
 ### segment_lane_id Type
 
@@ -54,7 +54,7 @@ Required. Foreign key to the associated segment.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](segment_lane-properties-segment_id.md "undefined#/properties/segment_id")
+-   defined in: [segment_lane](segment_lane-properties-segment_id.md "undefined#/properties/segment_id")
 
 ### segment_id Type
 
@@ -70,7 +70,7 @@ Required. -1, 1, 2 (use left-to-right numbering). 0 signifies a lane that is dro
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](segment_lane-properties-lane_num.md "undefined#/properties/lane_num")
+-   defined in: [segment_lane](segment_lane-properties-lane_num.md "undefined#/properties/lane_num")
 
 ### lane_num Type
 
@@ -92,7 +92,7 @@ Optional. If a lane drops or changes characteristics on the segment, the lane_id
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](segment_lane-properties-parent_lane_id.md "undefined#/properties/parent_lane_id")
+-   defined in: [segment_lane](segment_lane-properties-parent_lane_id.md "undefined#/properties/parent_lane_id")
 
 ### parent_lane_id Type
 
@@ -108,7 +108,7 @@ Optional. Set of allowed uses; comma-separated. Foreign key for use group.
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](segment_lane-properties-allowed_uses.md "undefined#/properties/allowed_uses")
+-   defined in: [segment_lane](segment_lane-properties-allowed_uses.md "undefined#/properties/allowed_uses")
 
 ### allowed_uses Type
 
@@ -124,7 +124,7 @@ Optional. Whether a barrier exists to prevent vehicles from changing lanes to th
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](segment_lane-properties-r_barrier.md "undefined#/properties/r_barrier")
+-   defined in: [segment_lane](segment_lane-properties-r_barrier.md "undefined#/properties/r_barrier")
 
 ### r_barrier Type
 
@@ -150,7 +150,7 @@ Optional. Whether a barrier exists to prevent vehicles from changing lanes to th
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](segment_lane-properties-l_barrier.md "undefined#/properties/l_barrier")
+-   defined in: [segment_lane](segment_lane-properties-l_barrier.md "undefined#/properties/l_barrier")
 
 ### l_barrier Type
 
@@ -176,7 +176,7 @@ Optional. Width of the lane (feet)
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](segment_lane-properties-width.md "undefined#/properties/width")
+-   defined in: [segment_lane](segment_lane-properties-width.md "undefined#/properties/width")
 
 ### width Type
 

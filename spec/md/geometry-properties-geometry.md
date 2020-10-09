@@ -1,4 +1,4 @@
-# Untitled any in undefined Schema
+# Untitled any in geometry Schema
 
 ```txt
 undefined#/properties/geometry

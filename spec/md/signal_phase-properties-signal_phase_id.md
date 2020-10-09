@@ -1,4 +1,4 @@
-# Untitled any in undefined Schema
+# Untitled any in signal_phase Schema
 
 ```txt
 undefined#/properties/signal_phase_id

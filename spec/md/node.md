@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# node Schema
 
 ```txt
 undefined
@@ -11,23 +11,23 @@ undefined
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [node.schema.json](../../out/node.schema.json "open original schema") |
 
-## Untitled schema Type
+## node Type
 
-unknown
+unknown ([node](node.md))
 
-# undefined Properties
+# node Properties
 
-| Property                          | Type     | Required | Nullable       | Defined by                                                                                  |
-| :-------------------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------ |
-| [node_id](#node_id)               | `any`    | Optional | cannot be null | [Untitled schema](node-properties-node_id.md "undefined#/properties/node_id")               |
-| [name](#name)                     | `string` | Optional | cannot be null | [Untitled schema](node-properties-name.md "undefined#/properties/name")                     |
-| [x_coord](#x_coord)               | `number` | Optional | cannot be null | [Untitled schema](node-properties-x_coord.md "undefined#/properties/x_coord")               |
-| [y_coord](#y_coord)               | `number` | Optional | cannot be null | [Untitled schema](node-properties-y_coord.md "undefined#/properties/y_coord")               |
-| [z_coord](#z_coord)               | `number` | Optional | cannot be null | [Untitled schema](node-properties-z_coord.md "undefined#/properties/z_coord")               |
-| [node_type](#node_type)           | `string` | Optional | cannot be null | [Untitled schema](node-properties-node_type.md "undefined#/properties/node_type")           |
-| [ctrl_type](#ctrl_type)           | `string` | Optional | cannot be null | [Untitled schema](node-properties-ctrl_type.md "undefined#/properties/ctrl_type")           |
-| [zone_id](#zone_id)               | `any`    | Optional | cannot be null | [Untitled schema](node-properties-zone_id.md "undefined#/properties/zone_id")               |
-| [parent_node_id](#parent_node_id) | `any`    | Optional | cannot be null | [Untitled schema](node-properties-parent_node_id.md "undefined#/properties/parent_node_id") |
+| Property                          | Type     | Required | Nullable       | Defined by                                                                       |
+| :-------------------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------- |
+| [node_id](#node_id)               | `any`    | Optional | cannot be null | [node](node-properties-node_id.md "undefined#/properties/node_id")               |
+| [name](#name)                     | `string` | Optional | cannot be null | [node](node-properties-name.md "undefined#/properties/name")                     |
+| [x_coord](#x_coord)               | `number` | Optional | cannot be null | [node](node-properties-x_coord.md "undefined#/properties/x_coord")               |
+| [y_coord](#y_coord)               | `number` | Optional | cannot be null | [node](node-properties-y_coord.md "undefined#/properties/y_coord")               |
+| [z_coord](#z_coord)               | `number` | Optional | cannot be null | [node](node-properties-z_coord.md "undefined#/properties/z_coord")               |
+| [node_type](#node_type)           | `string` | Optional | cannot be null | [node](node-properties-node_type.md "undefined#/properties/node_type")           |
+| [ctrl_type](#ctrl_type)           | `string` | Optional | cannot be null | [node](node-properties-ctrl_type.md "undefined#/properties/ctrl_type")           |
+| [zone_id](#zone_id)               | `any`    | Optional | cannot be null | [node](node-properties-zone_id.md "undefined#/properties/zone_id")               |
+| [parent_node_id](#parent_node_id) | `any`    | Optional | cannot be null | [node](node-properties-parent_node_id.md "undefined#/properties/parent_node_id") |
 
 ## node_id
 
@@ -39,7 +39,7 @@ Primary key
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](node-properties-node_id.md "undefined#/properties/node_id")
+-   defined in: [node](node-properties-node_id.md "undefined#/properties/node_id")
 
 ### node_id Type
 
@@ -55,7 +55,7 @@ Primary key
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](node-properties-name.md "undefined#/properties/name")
+-   defined in: [node](node-properties-name.md "undefined#/properties/name")
 
 ### name Type
 
@@ -71,7 +71,7 @@ Coordinate system specified in config file (longitude, UTM-easting etc.)
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](node-properties-x_coord.md "undefined#/properties/x_coord")
+-   defined in: [node](node-properties-x_coord.md "undefined#/properties/x_coord")
 
 ### x_coord Type
 
@@ -87,7 +87,7 @@ Coordinate system specified in config file (latitude, UTM-northing etc.)
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](node-properties-y_coord.md "undefined#/properties/y_coord")
+-   defined in: [node](node-properties-y_coord.md "undefined#/properties/y_coord")
 
 ### y_coord Type
 
@@ -103,7 +103,7 @@ Optional. Altitude.
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](node-properties-z_coord.md "undefined#/properties/z_coord")
+-   defined in: [node](node-properties-z_coord.md "undefined#/properties/z_coord")
 
 ### z_coord Type
 
@@ -119,7 +119,7 @@ Optional. What it represents (intersection, transit station, park & ride).
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](node-properties-node_type.md "undefined#/properties/node_type")
+-   defined in: [node](node-properties-node_type.md "undefined#/properties/node_type")
 
 ### node_type Type
 
@@ -135,7 +135,7 @@ Optional. Intersection control type - one of ControlType_Set.
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](node-properties-ctrl_type.md "undefined#/properties/ctrl_type")
+-   defined in: [node](node-properties-ctrl_type.md "undefined#/properties/ctrl_type")
 
 ### ctrl_type Type
 
@@ -163,7 +163,7 @@ Optional. Could be a Transportation Analysis Zone (TAZ) or city, or census tract
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](node-properties-zone_id.md "undefined#/properties/zone_id")
+-   defined in: [node](node-properties-zone_id.md "undefined#/properties/zone_id")
 
 ### zone_id Type
 
@@ -179,7 +179,7 @@ Optional. Associated node. For example, if this node is a sidewalk, a parent_nod
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](node-properties-parent_node_id.md "undefined#/properties/parent_node_id")
+-   defined in: [node](node-properties-parent_node_id.md "undefined#/properties/parent_node_id")
 
 ### parent_node_id Type
 

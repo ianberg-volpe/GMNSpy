@@ -1,4 +1,4 @@
-# Untitled integer in undefined Schema
+# Untitled integer in signal_phase_mvmt Schema
 
 ```txt
 undefined#/properties/signal_phase_num

@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# geometry Schema
 
 ```txt
 undefined
@@ -11,16 +11,16 @@ undefined
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [geometry.schema.json](../../out/geometry.schema.json "open original schema") |
 
-## Untitled schema Type
+## geometry Type
 
-unknown
+unknown ([geometry](geometry.md))
 
-# undefined Properties
+# geometry Properties
 
-| Property                    | Type  | Required | Nullable       | Defined by                                                                                |
-| :-------------------------- | ----- | -------- | -------------- | :---------------------------------------------------------------------------------------- |
-| [geometry_id](#geometry_id) | `any` | Optional | cannot be null | [Untitled schema](geometry-properties-geometry_id.md "undefined#/properties/geometry_id") |
-| [geometry](#geometry)       | `any` | Optional | cannot be null | [Untitled schema](geometry-properties-geometry.md "undefined#/properties/geometry")       |
+| Property                    | Type  | Required | Nullable       | Defined by                                                                         |
+| :-------------------------- | ----- | -------- | -------------- | :--------------------------------------------------------------------------------- |
+| [geometry_id](#geometry_id) | `any` | Optional | cannot be null | [geometry](geometry-properties-geometry_id.md "undefined#/properties/geometry_id") |
+| [geometry](#geometry)       | `any` | Optional | cannot be null | [geometry](geometry-properties-geometry.md "undefined#/properties/geometry")       |
 
 ## geometry_id
 
@@ -32,7 +32,7 @@ Primary key â€“ could be SharedStreets Geometry ID
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](geometry-properties-geometry_id.md "undefined#/properties/geometry_id")
+-   defined in: [geometry](geometry-properties-geometry_id.md "undefined#/properties/geometry_id")
 
 ### geometry_id Type
 
@@ -48,7 +48,7 @@ Optional. Link geometry, specific format could be WKT, GeoJSON, etc.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](geometry-properties-geometry.md "undefined#/properties/geometry")
+-   defined in: [geometry](geometry-properties-geometry.md "undefined#/properties/geometry")
 
 ### geometry Type
 

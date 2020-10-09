@@ -1,4 +1,4 @@
-# Untitled number in undefined Schema
+# Untitled number in location Schema
 
 ```txt
 undefined#/properties/lr

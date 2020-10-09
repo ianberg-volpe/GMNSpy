@@ -1,4 +1,4 @@
-# Untitled string in undefined Schema
+# Untitled string in link_tod Schema
 
 ```txt
 undefined#/properties/bike_facility

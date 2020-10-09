@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# Untitled undefined type in node Schema
 
 ```txt
 undefined#/properties

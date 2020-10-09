@@ -1,4 +1,4 @@
-# Untitled string in undefined Schema
+# Untitled string in signal_detector Schema
 
 ```txt
 undefined#/properties/det_type

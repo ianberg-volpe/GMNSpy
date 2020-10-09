@@ -1,4 +1,4 @@
-# Untitled string in undefined Schema
+# Untitled string in signal_timing_plan Schema
 
 ```txt
 undefined#/properties/coord_ref_to

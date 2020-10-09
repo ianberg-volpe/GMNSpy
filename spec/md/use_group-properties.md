@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# Untitled undefined type in use_group Schema
 
 ```txt
 undefined#/properties

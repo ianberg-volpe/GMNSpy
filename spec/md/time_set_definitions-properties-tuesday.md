@@ -1,4 +1,4 @@
-# Untitled boolean in undefined Schema
+# Untitled boolean in time_set_definitions Schema
 
 ```txt
 undefined#/properties/tuesday

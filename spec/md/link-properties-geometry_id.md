@@ -1,4 +1,4 @@
-# Untitled any in undefined Schema
+# Untitled any in link Schema
 
 ```txt
 undefined#/properties/geometry_id

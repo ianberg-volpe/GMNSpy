@@ -1,4 +1,4 @@
-# Untitled number in undefined Schema
+# Untitled number in link Schema
 
 ```txt
 undefined#/properties/length

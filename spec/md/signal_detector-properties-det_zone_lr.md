@@ -1,4 +1,4 @@
-# Untitled number in undefined Schema
+# Untitled number in signal_detector Schema
 
 ```txt
 undefined#/properties/det_zone_lr

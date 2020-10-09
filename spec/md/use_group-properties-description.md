@@ -1,4 +1,4 @@
-# Untitled string in undefined Schema
+# Untitled string in use_group Schema
 
 ```txt
 undefined#/properties/description

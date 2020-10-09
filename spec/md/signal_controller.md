@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# signal_controller Schema
 
 ```txt
 undefined
@@ -11,15 +11,15 @@ undefined
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [signal_controller.schema.json](../../out/signal_controller.schema.json "open original schema") |
 
-## Untitled schema Type
+## signal_controller Type
 
-unknown
+unknown ([signal_controller](signal_controller.md))
 
-# undefined Properties
+# signal_controller Properties
 
-| Property                        | Type  | Required | Nullable       | Defined by                                                                                             |
-| :------------------------------ | ----- | -------- | -------------- | :----------------------------------------------------------------------------------------------------- |
-| [controller_id](#controller_id) | `any` | Optional | cannot be null | [Untitled schema](signal_controller-properties-controller_id.md "undefined#/properties/controller_id") |
+| Property                        | Type  | Required | Nullable       | Defined by                                                                                               |
+| :------------------------------ | ----- | -------- | -------------- | :------------------------------------------------------------------------------------------------------- |
+| [controller_id](#controller_id) | `any` | Optional | cannot be null | [signal_controller](signal_controller-properties-controller_id.md "undefined#/properties/controller_id") |
 
 ## controller_id
 
@@ -31,7 +31,7 @@ Primary key.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](signal_controller-properties-controller_id.md "undefined#/properties/controller_id")
+-   defined in: [signal_controller](signal_controller-properties-controller_id.md "undefined#/properties/controller_id")
 
 ### controller_id Type
 

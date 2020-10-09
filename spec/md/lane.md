@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# lane Schema
 
 ```txt
 undefined
@@ -11,21 +11,21 @@ undefined
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [lane.schema.json](../../out/lane.schema.json "open original schema") |
 
-## Untitled schema Type
+## lane Type
 
-unknown
+unknown ([lane](lane.md))
 
-# undefined Properties
+# lane Properties
 
-| Property                      | Type      | Required | Nullable       | Defined by                                                                              |
-| :---------------------------- | --------- | -------- | -------------- | :-------------------------------------------------------------------------------------- |
-| [lane_id](#lane_id)           | `any`     | Optional | cannot be null | [Untitled schema](lane-properties-lane_id.md "undefined#/properties/lane_id")           |
-| [link_id](#link_id)           | `any`     | Optional | cannot be null | [Untitled schema](lane-properties-link_id.md "undefined#/properties/link_id")           |
-| [lane_num](#lane_num)         | `integer` | Optional | cannot be null | [Untitled schema](lane-properties-lane_num.md "undefined#/properties/lane_num")         |
-| [allowed_uses](#allowed_uses) | `string`  | Optional | cannot be null | [Untitled schema](lane-properties-allowed_uses.md "undefined#/properties/allowed_uses") |
-| [r_barrier](#r_barrier)       | `any`     | Optional | cannot be null | [Untitled schema](lane-properties-r_barrier.md "undefined#/properties/r_barrier")       |
-| [l_barrier](#l_barrier)       | `any`     | Optional | cannot be null | [Untitled schema](lane-properties-l_barrier.md "undefined#/properties/l_barrier")       |
-| [width](#width)               | `number`  | Optional | cannot be null | [Untitled schema](lane-properties-width.md "undefined#/properties/width")               |
+| Property                      | Type      | Required | Nullable       | Defined by                                                                   |
+| :---------------------------- | --------- | -------- | -------------- | :--------------------------------------------------------------------------- |
+| [lane_id](#lane_id)           | `any`     | Optional | cannot be null | [lane](lane-properties-lane_id.md "undefined#/properties/lane_id")           |
+| [link_id](#link_id)           | `any`     | Optional | cannot be null | [lane](lane-properties-link_id.md "undefined#/properties/link_id")           |
+| [lane_num](#lane_num)         | `integer` | Optional | cannot be null | [lane](lane-properties-lane_num.md "undefined#/properties/lane_num")         |
+| [allowed_uses](#allowed_uses) | `string`  | Optional | cannot be null | [lane](lane-properties-allowed_uses.md "undefined#/properties/allowed_uses") |
+| [r_barrier](#r_barrier)       | `any`     | Optional | cannot be null | [lane](lane-properties-r_barrier.md "undefined#/properties/r_barrier")       |
+| [l_barrier](#l_barrier)       | `any`     | Optional | cannot be null | [lane](lane-properties-l_barrier.md "undefined#/properties/l_barrier")       |
+| [width](#width)               | `number`  | Optional | cannot be null | [lane](lane-properties-width.md "undefined#/properties/width")               |
 
 ## lane_id
 
@@ -37,7 +37,7 @@ Primary key
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](lane-properties-lane_id.md "undefined#/properties/lane_id")
+-   defined in: [lane](lane-properties-lane_id.md "undefined#/properties/lane_id")
 
 ### lane_id Type
 
@@ -53,7 +53,7 @@ Required. Foreign key to link table.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](lane-properties-link_id.md "undefined#/properties/link_id")
+-   defined in: [lane](lane-properties-link_id.md "undefined#/properties/link_id")
 
 ### link_id Type
 
@@ -69,7 +69,7 @@ Required. e.g., -1, 1, 2 (use left-to-right numbering).
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](lane-properties-lane_num.md "undefined#/properties/lane_num")
+-   defined in: [lane](lane-properties-lane_num.md "undefined#/properties/lane_num")
 
 ### lane_num Type
 
@@ -85,7 +85,7 @@ Required. Set of allowed uses from Use_set: shoulder, parking, walk, all, bike, 
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](lane-properties-allowed_uses.md "undefined#/properties/allowed_uses")
+-   defined in: [lane](lane-properties-allowed_uses.md "undefined#/properties/allowed_uses")
 
 ### allowed_uses Type
 
@@ -105,7 +105,7 @@ Optional. Whether a barrier exists to prevent vehicles from changing lanes to th
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](lane-properties-r_barrier.md "undefined#/properties/r_barrier")
+-   defined in: [lane](lane-properties-r_barrier.md "undefined#/properties/r_barrier")
 
 ### r_barrier Type
 
@@ -135,7 +135,7 @@ Optional. Whether a barrier exists to prevent vehicles from changing lanes to th
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](lane-properties-l_barrier.md "undefined#/properties/l_barrier")
+-   defined in: [lane](lane-properties-l_barrier.md "undefined#/properties/l_barrier")
 
 ### l_barrier Type
 
@@ -161,7 +161,7 @@ Optional. Width of the lane, feet.
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](lane-properties-width.md "undefined#/properties/width")
+-   defined in: [lane](lane-properties-width.md "undefined#/properties/width")
 
 ### width Type
 

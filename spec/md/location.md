@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# location Schema
 
 ```txt
 undefined
@@ -11,24 +11,24 @@ undefined
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [location.schema.json](../../out/location.schema.json "open original schema") |
 
-## Untitled schema Type
+## location Type
 
-unknown
+unknown ([location](location.md))
 
-# undefined Properties
+# location Properties
 
-| Property                      | Type     | Required | Nullable       | Defined by                                                                                  |
-| :---------------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------ |
-| [loc_id](#loc_id)             | `any`    | Optional | cannot be null | [Untitled schema](location-properties-loc_id.md "undefined#/properties/loc_id")             |
-| [link_id](#link_id)           | `any`    | Optional | cannot be null | [Untitled schema](location-properties-link_id.md "undefined#/properties/link_id")           |
-| [ref_node_id](#ref_node_id)   | `any`    | Optional | cannot be null | [Untitled schema](location-properties-ref_node_id.md "undefined#/properties/ref_node_id")   |
-| [lr](#lr)                     | `number` | Optional | cannot be null | [Untitled schema](location-properties-lr.md "undefined#/properties/lr")                     |
-| [x_coord](#x_coord)           | `number` | Optional | cannot be null | [Untitled schema](location-properties-x_coord.md "undefined#/properties/x_coord")           |
-| [y_coord](#y_coord)           | `number` | Optional | cannot be null | [Untitled schema](location-properties-y_coord.md "undefined#/properties/y_coord")           |
-| [z_coord](#z_coord)           | `number` | Optional | cannot be null | [Untitled schema](location-properties-z_coord.md "undefined#/properties/z_coord")           |
-| [loc_type](#loc_type)         | `string` | Optional | cannot be null | [Untitled schema](location-properties-loc_type.md "undefined#/properties/loc_type")         |
-| [zone_id](#zone_id)           | `any`    | Optional | cannot be null | [Untitled schema](location-properties-zone_id.md "undefined#/properties/zone_id")           |
-| [gtfs_stop_id](#gtfs_stop_id) | `string` | Optional | cannot be null | [Untitled schema](location-properties-gtfs_stop_id.md "undefined#/properties/gtfs_stop_id") |
+| Property                      | Type     | Required | Nullable       | Defined by                                                                           |
+| :---------------------------- | -------- | -------- | -------------- | :----------------------------------------------------------------------------------- |
+| [loc_id](#loc_id)             | `any`    | Optional | cannot be null | [location](location-properties-loc_id.md "undefined#/properties/loc_id")             |
+| [link_id](#link_id)           | `any`    | Optional | cannot be null | [location](location-properties-link_id.md "undefined#/properties/link_id")           |
+| [ref_node_id](#ref_node_id)   | `any`    | Optional | cannot be null | [location](location-properties-ref_node_id.md "undefined#/properties/ref_node_id")   |
+| [lr](#lr)                     | `number` | Optional | cannot be null | [location](location-properties-lr.md "undefined#/properties/lr")                     |
+| [x_coord](#x_coord)           | `number` | Optional | cannot be null | [location](location-properties-x_coord.md "undefined#/properties/x_coord")           |
+| [y_coord](#y_coord)           | `number` | Optional | cannot be null | [location](location-properties-y_coord.md "undefined#/properties/y_coord")           |
+| [z_coord](#z_coord)           | `number` | Optional | cannot be null | [location](location-properties-z_coord.md "undefined#/properties/z_coord")           |
+| [loc_type](#loc_type)         | `string` | Optional | cannot be null | [location](location-properties-loc_type.md "undefined#/properties/loc_type")         |
+| [zone_id](#zone_id)           | `any`    | Optional | cannot be null | [location](location-properties-zone_id.md "undefined#/properties/zone_id")           |
+| [gtfs_stop_id](#gtfs_stop_id) | `string` | Optional | cannot be null | [location](location-properties-gtfs_stop_id.md "undefined#/properties/gtfs_stop_id") |
 
 ## loc_id
 
@@ -40,7 +40,7 @@ Primary key. Location ID.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](location-properties-loc_id.md "undefined#/properties/loc_id")
+-   defined in: [location](location-properties-loc_id.md "undefined#/properties/loc_id")
 
 ### loc_id Type
 
@@ -56,7 +56,7 @@ Required. Road Link ID. Foreign Key from Road_Link.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](location-properties-link_id.md "undefined#/properties/link_id")
+-   defined in: [location](location-properties-link_id.md "undefined#/properties/link_id")
 
 ### link_id Type
 
@@ -72,7 +72,7 @@ Required. The From node of the link. Foreign Key from Node.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](location-properties-ref_node_id.md "undefined#/properties/ref_node_id")
+-   defined in: [location](location-properties-ref_node_id.md "undefined#/properties/ref_node_id")
 
 ### ref_node_id Type
 
@@ -88,7 +88,7 @@ Required. Linear Reference of the location, measured as distance along the link 
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](location-properties-lr.md "undefined#/properties/lr")
+-   defined in: [location](location-properties-lr.md "undefined#/properties/lr")
 
 ### lr Type
 
@@ -108,7 +108,7 @@ Optional. Either provided, or derived from Link, Ref_Node and LR.
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](location-properties-x_coord.md "undefined#/properties/x_coord")
+-   defined in: [location](location-properties-x_coord.md "undefined#/properties/x_coord")
 
 ### x_coord Type
 
@@ -124,7 +124,7 @@ Optional. Either provided, or derived from Link, Ref_Node and LR.
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](location-properties-y_coord.md "undefined#/properties/y_coord")
+-   defined in: [location](location-properties-y_coord.md "undefined#/properties/y_coord")
 
 ### y_coord Type
 
@@ -140,7 +140,7 @@ Optional. Altitude.
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](location-properties-z_coord.md "undefined#/properties/z_coord")
+-   defined in: [location](location-properties-z_coord.md "undefined#/properties/z_coord")
 
 ### z_coord Type
 
@@ -156,7 +156,7 @@ Optional. What it represents (driveway, bus stop, etc.) OpenStreetMap map featur
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](location-properties-loc_type.md "undefined#/properties/loc_type")
+-   defined in: [location](location-properties-loc_type.md "undefined#/properties/loc_type")
 
 ### loc_type Type
 
@@ -172,7 +172,7 @@ Optional. Foreign Key, Associated zone
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](location-properties-zone_id.md "undefined#/properties/zone_id")
+-   defined in: [location](location-properties-zone_id.md "undefined#/properties/zone_id")
 
 ### zone_id Type
 
@@ -188,7 +188,7 @@ Optional. Foreign Key to GTFS data. For bus stops and transit station entrances,
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](location-properties-gtfs_stop_id.md "undefined#/properties/gtfs_stop_id")
+-   defined in: [location](location-properties-gtfs_stop_id.md "undefined#/properties/gtfs_stop_id")
 
 ### gtfs_stop_id Type
 

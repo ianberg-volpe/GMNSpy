@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# signal_detector Schema
 
 ```txt
 undefined
@@ -11,23 +11,23 @@ undefined
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [signal_detector.schema.json](../../out/signal_detector.schema.json "open original schema") |
 
-## Untitled schema Type
+## signal_detector Type
 
-unknown
+unknown ([signal_detector](signal_detector.md))
 
-# undefined Properties
+# signal_detector Properties
 
 | Property                            | Type      | Required | Nullable       | Defined by                                                                                               |
 | :---------------------------------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------- |
-| [detector_id](#detector_id)         | `any`     | Optional | cannot be null | [Untitled schema](signal_detector-properties-detector_id.md "undefined#/properties/detector_id")         |
-| [signal_phase_id](#signal_phase_id) | `any`     | Optional | cannot be null | [Untitled schema](signal_detector-properties-signal_phase_id.md "undefined#/properties/signal_phase_id") |
-| [link_id](#link_id)                 | `any`     | Optional | cannot be null | [Untitled schema](signal_detector-properties-link_id.md "undefined#/properties/link_id")                 |
-| [start_lane](#start_lane)           | `integer` | Optional | cannot be null | [Untitled schema](signal_detector-properties-start_lane.md "undefined#/properties/start_lane")           |
-| [end_lane](#end_lane)               | `integer` | Optional | cannot be null | [Untitled schema](signal_detector-properties-end_lane.md "undefined#/properties/end_lane")               |
-| [ref_node_id](#ref_node_id)         | `any`     | Optional | cannot be null | [Untitled schema](signal_detector-properties-ref_node_id.md "undefined#/properties/ref_node_id")         |
-| [det_zone_lr](#det_zone_lr)         | `number`  | Optional | cannot be null | [Untitled schema](signal_detector-properties-det_zone_lr.md "undefined#/properties/det_zone_lr")         |
-| [det_zone_front](#det_zone_front)   | `number`  | Optional | cannot be null | [Untitled schema](signal_detector-properties-det_zone_front.md "undefined#/properties/det_zone_front")   |
-| [det_type](#det_type)               | `string`  | Optional | cannot be null | [Untitled schema](signal_detector-properties-det_type.md "undefined#/properties/det_type")               |
+| [detector_id](#detector_id)         | `any`     | Optional | cannot be null | [signal_detector](signal_detector-properties-detector_id.md "undefined#/properties/detector_id")         |
+| [signal_phase_id](#signal_phase_id) | `any`     | Optional | cannot be null | [signal_detector](signal_detector-properties-signal_phase_id.md "undefined#/properties/signal_phase_id") |
+| [link_id](#link_id)                 | `any`     | Optional | cannot be null | [signal_detector](signal_detector-properties-link_id.md "undefined#/properties/link_id")                 |
+| [start_lane](#start_lane)           | `integer` | Optional | cannot be null | [signal_detector](signal_detector-properties-start_lane.md "undefined#/properties/start_lane")           |
+| [end_lane](#end_lane)               | `integer` | Optional | cannot be null | [signal_detector](signal_detector-properties-end_lane.md "undefined#/properties/end_lane")               |
+| [ref_node_id](#ref_node_id)         | `any`     | Optional | cannot be null | [signal_detector](signal_detector-properties-ref_node_id.md "undefined#/properties/ref_node_id")         |
+| [det_zone_lr](#det_zone_lr)         | `number`  | Optional | cannot be null | [signal_detector](signal_detector-properties-det_zone_lr.md "undefined#/properties/det_zone_lr")         |
+| [det_zone_front](#det_zone_front)   | `number`  | Optional | cannot be null | [signal_detector](signal_detector-properties-det_zone_front.md "undefined#/properties/det_zone_front")   |
+| [det_type](#det_type)               | `string`  | Optional | cannot be null | [signal_detector](signal_detector-properties-det_type.md "undefined#/properties/det_type")               |
 
 ## detector_id
 
@@ -39,7 +39,7 @@ Primary key.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](signal_detector-properties-detector_id.md "undefined#/properties/detector_id")
+-   defined in: [signal_detector](signal_detector-properties-detector_id.md "undefined#/properties/detector_id")
 
 ### detector_id Type
 
@@ -55,7 +55,7 @@ Required. Foreign key to signal_phase table.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](signal_detector-properties-signal_phase_id.md "undefined#/properties/signal_phase_id")
+-   defined in: [signal_detector](signal_detector-properties-signal_phase_id.md "undefined#/properties/signal_phase_id")
 
 ### signal_phase_id Type
 
@@ -71,7 +71,7 @@ Foreign key. The link covered by the detector.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](signal_detector-properties-link_id.md "undefined#/properties/link_id")
+-   defined in: [signal_detector](signal_detector-properties-link_id.md "undefined#/properties/link_id")
 
 ### link_id Type
 
@@ -87,7 +87,7 @@ Left-most lane covered by the detector.
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](signal_detector-properties-start_lane.md "undefined#/properties/start_lane")
+-   defined in: [signal_detector](signal_detector-properties-start_lane.md "undefined#/properties/start_lane")
 
 ### start_lane Type
 
@@ -103,7 +103,7 @@ Right-most lane covered by the detector (blank if only one lane).
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](signal_detector-properties-end_lane.md "undefined#/properties/end_lane")
+-   defined in: [signal_detector](signal_detector-properties-end_lane.md "undefined#/properties/end_lane")
 
 ### end_lane Type
 
@@ -119,7 +119,7 @@ The detector is on the approach to this node.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](signal_detector-properties-ref_node_id.md "undefined#/properties/ref_node_id")
+-   defined in: [signal_detector](signal_detector-properties-ref_node_id.md "undefined#/properties/ref_node_id")
 
 ### ref_node_id Type
 
@@ -135,7 +135,7 @@ Required. Distance from from reference node to detector.
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](signal_detector-properties-det_zone_lr.md "undefined#/properties/det_zone_lr")
+-   defined in: [signal_detector](signal_detector-properties-det_zone_lr.md "undefined#/properties/det_zone_lr")
 
 ### det_zone_lr Type
 
@@ -151,7 +151,7 @@ Optional. Linear reference of front of detection zone.
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](signal_detector-properties-det_zone_front.md "undefined#/properties/det_zone_front")
+-   defined in: [signal_detector](signal_detector-properties-det_zone_front.md "undefined#/properties/det_zone_front")
 
 ### det_zone_front Type
 
@@ -167,7 +167,7 @@ Optional. Type of detector.
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](signal_detector-properties-det_type.md "undefined#/properties/det_type")
+-   defined in: [signal_detector](signal_detector-properties-det_type.md "undefined#/properties/det_type")
 
 ### det_type Type
 

@@ -1,4 +1,4 @@
-# Untitled boolean in undefined Schema
+# Untitled boolean in link Schema
 
 ```txt
 undefined#/properties/directed

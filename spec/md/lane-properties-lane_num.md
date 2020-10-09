@@ -1,4 +1,4 @@
-# Untitled integer in undefined Schema
+# Untitled integer in lane Schema
 
 ```txt
 undefined#/properties/lane_num

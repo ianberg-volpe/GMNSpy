@@ -1,4 +1,4 @@
-# Untitled any in undefined Schema
+# Untitled any in signal_controller Schema
 
 ```txt
 undefined#/properties/controller_id

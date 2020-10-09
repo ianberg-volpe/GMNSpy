@@ -1,4 +1,4 @@
-# Untitled any in undefined Schema
+# Untitled any in movement Schema
 
 ```txt
 undefined#/properties/penalty

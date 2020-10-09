@@ -1,4 +1,4 @@
-# Untitled string in undefined Schema
+# Untitled string in node Schema
 
 ```txt
 undefined#/properties/ctrl_type

@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# Untitled undefined type in signal_timing_phase Schema
 
 ```txt
 undefined#/properties

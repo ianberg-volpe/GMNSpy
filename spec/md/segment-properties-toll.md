@@ -1,4 +1,4 @@
-# Untitled integer in undefined Schema
+# Untitled integer in segment Schema
 
 ```txt
 undefined#/properties/toll

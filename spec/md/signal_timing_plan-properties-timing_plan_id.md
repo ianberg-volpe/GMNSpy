@@ -1,4 +1,4 @@
-# Untitled any in undefined Schema
+# Untitled any in signal_timing_plan Schema
 
 ```txt
 undefined#/properties/timing_plan_id

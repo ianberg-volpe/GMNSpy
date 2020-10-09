@@ -1,4 +1,4 @@
-# Untitled time in undefined Schema
+# Untitled time in time_set_definitions Schema
 
 ```txt
 undefined#/properties/start_time

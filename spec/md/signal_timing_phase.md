@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# signal_timing_phase Schema
 
 ```txt
 undefined
@@ -11,24 +11,24 @@ undefined
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [signal_timing_phase.schema.json](../../out/signal_timing_phase.schema.json "open original schema") |
 
-## Untitled schema Type
+## signal_timing_phase Type
 
-unknown
+unknown ([signal_timing_phase](signal_timing_phase.md))
 
-# undefined Properties
+# signal_timing_phase Properties
 
-| Property                              | Type      | Required | Nullable       | Defined by                                                                                                     |
-| :------------------------------------ | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------- |
-| [timing_phase_id](#timing_phase_id)   | `any`     | Optional | cannot be null | [Untitled schema](signal_timing_phase-properties-timing_phase_id.md "undefined#/properties/timing_phase_id")   |
-| [signal_phase_id](#signal_phase_id)   | `any`     | Optional | cannot be null | [Untitled schema](signal_timing_phase-properties-signal_phase_id.md "undefined#/properties/signal_phase_id")   |
-| [timing_plan_id](#timing_plan_id)     | `any`     | Optional | cannot be null | [Untitled schema](signal_timing_phase-properties-timing_plan_id.md "undefined#/properties/timing_plan_id")     |
-| [signal_phase_num](#signal_phase_num) | `integer` | Optional | cannot be null | [Untitled schema](signal_timing_phase-properties-signal_phase_num.md "undefined#/properties/signal_phase_num") |
-| [min_green](#min_green)               | `integer` | Optional | cannot be null | [Untitled schema](signal_timing_phase-properties-min_green.md "undefined#/properties/min_green")               |
-| [max_green](#max_green)               | `integer` | Optional | cannot be null | [Untitled schema](signal_timing_phase-properties-max_green.md "undefined#/properties/max_green")               |
-| [extension](#extension)               | `integer` | Optional | cannot be null | [Untitled schema](signal_timing_phase-properties-extension.md "undefined#/properties/extension")               |
-| [clearance](#clearance)               | `integer` | Optional | cannot be null | [Untitled schema](signal_timing_phase-properties-clearance.md "undefined#/properties/clearance")               |
-| [walk_time](#walk_time)               | `integer` | Optional | cannot be null | [Untitled schema](signal_timing_phase-properties-walk_time.md "undefined#/properties/walk_time")               |
-| [ped_clearance](#ped_clearance)       | `integer` | Optional | cannot be null | [Untitled schema](signal_timing_phase-properties-ped_clearance.md "undefined#/properties/ped_clearance")       |
+| Property                              | Type      | Required | Nullable       | Defined by                                                                                                         |
+| :------------------------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------- |
+| [timing_phase_id](#timing_phase_id)   | `any`     | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-timing_phase_id.md "undefined#/properties/timing_phase_id")   |
+| [signal_phase_id](#signal_phase_id)   | `any`     | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-signal_phase_id.md "undefined#/properties/signal_phase_id")   |
+| [timing_plan_id](#timing_plan_id)     | `any`     | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-timing_plan_id.md "undefined#/properties/timing_plan_id")     |
+| [signal_phase_num](#signal_phase_num) | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-signal_phase_num.md "undefined#/properties/signal_phase_num") |
+| [min_green](#min_green)               | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-min_green.md "undefined#/properties/min_green")               |
+| [max_green](#max_green)               | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-max_green.md "undefined#/properties/max_green")               |
+| [extension](#extension)               | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-extension.md "undefined#/properties/extension")               |
+| [clearance](#clearance)               | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-clearance.md "undefined#/properties/clearance")               |
+| [walk_time](#walk_time)               | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-walk_time.md "undefined#/properties/walk_time")               |
+| [ped_clearance](#ped_clearance)       | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-ped_clearance.md "undefined#/properties/ped_clearance")       |
 
 ## timing_phase_id
 
@@ -40,7 +40,7 @@ Primary key.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](signal_timing_phase-properties-timing_phase_id.md "undefined#/properties/timing_phase_id")
+-   defined in: [signal_timing_phase](signal_timing_phase-properties-timing_phase_id.md "undefined#/properties/timing_phase_id")
 
 ### timing_phase_id Type
 
@@ -56,7 +56,7 @@ Optional. Foreign key, the associated sigal phase.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](signal_timing_phase-properties-signal_phase_id.md "undefined#/properties/signal_phase_id")
+-   defined in: [signal_timing_phase](signal_timing_phase-properties-signal_phase_id.md "undefined#/properties/signal_phase_id")
 
 ### signal_phase_id Type
 
@@ -72,7 +72,7 @@ Optional. Foreign key, the associated sigal phase.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](signal_timing_phase-properties-timing_plan_id.md "undefined#/properties/timing_plan_id")
+-   defined in: [signal_timing_phase](signal_timing_phase-properties-timing_plan_id.md "undefined#/properties/timing_plan_id")
 
 ### timing_plan_id Type
 
@@ -88,7 +88,7 @@ Optional. Redundant with the record in the signal_phase table.
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](signal_timing_phase-properties-signal_phase_num.md "undefined#/properties/signal_phase_num")
+-   defined in: [signal_timing_phase](signal_timing_phase-properties-signal_phase_num.md "undefined#/properties/signal_phase_num")
 
 ### signal_phase_num Type
 
@@ -108,7 +108,7 @@ Required. The minimum green time in seconds for an actuated signal. Green time i
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](signal_timing_phase-properties-min_green.md "undefined#/properties/min_green")
+-   defined in: [signal_timing_phase](signal_timing_phase-properties-min_green.md "undefined#/properties/min_green")
 
 ### min_green Type
 
@@ -128,7 +128,7 @@ Optional.The maximum green time in seconds for an actuated signal; the default i
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](signal_timing_phase-properties-max_green.md "undefined#/properties/max_green")
+-   defined in: [signal_timing_phase](signal_timing_phase-properties-max_green.md "undefined#/properties/max_green")
 
 ### max_green Type
 
@@ -148,7 +148,7 @@ Optional. The number of seconds the green time is extended each time vehicles ar
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](signal_timing_phase-properties-extension.md "undefined#/properties/extension")
+-   defined in: [signal_timing_phase](signal_timing_phase-properties-extension.md "undefined#/properties/extension")
 
 ### extension Type
 
@@ -170,7 +170,7 @@ Required. Yellow interval plus all red interval
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](signal_timing_phase-properties-clearance.md "undefined#/properties/clearance")
+-   defined in: [signal_timing_phase](signal_timing_phase-properties-clearance.md "undefined#/properties/clearance")
 
 ### clearance Type
 
@@ -192,7 +192,7 @@ Required if have ped phase. If a pedestrian phase exists, the walk time in secon
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](signal_timing_phase-properties-walk_time.md "undefined#/properties/walk_time")
+-   defined in: [signal_timing_phase](signal_timing_phase-properties-walk_time.md "undefined#/properties/walk_time")
 
 ### walk_time Type
 
@@ -214,7 +214,7 @@ Required if have ped phase. If a pedestrian phase exists, the flashing donâ€�
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](signal_timing_phase-properties-ped_clearance.md "undefined#/properties/ped_clearance")
+-   defined in: [signal_timing_phase](signal_timing_phase-properties-ped_clearance.md "undefined#/properties/ped_clearance")
 
 ### ped_clearance Type
 

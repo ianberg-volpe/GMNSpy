@@ -1,4 +1,4 @@
-# Untitled string in undefined Schema
+# Untitled string in segment Schema
 
 ```txt
 undefined#/properties/parking

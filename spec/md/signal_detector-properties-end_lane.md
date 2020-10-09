@@ -1,4 +1,4 @@
-# Untitled integer in undefined Schema
+# Untitled integer in signal_detector Schema
 
 ```txt
 undefined#/properties/end_lane

@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# link Schema
 
 ```txt
 undefined
@@ -11,36 +11,36 @@ undefined
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [link.schema.json](../../out/link.schema.json "open original schema") |
 
-## Untitled schema Type
+## link Type
 
-unknown
+unknown ([link](link.md))
 
-# undefined Properties
+# link Properties
 
-| Property                          | Type      | Required | Nullable       | Defined by                                                                                  |
-| :-------------------------------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------ |
-| [link_id](#link_id)               | `any`     | Optional | cannot be null | [Untitled schema](link-properties-link_id.md "undefined#/properties/link_id")               |
-| [parent_link_id](#parent_link_id) | `any`     | Optional | cannot be null | [Untitled schema](link-properties-parent_link_id.md "undefined#/properties/parent_link_id") |
-| [name](#name)                     | `string`  | Optional | cannot be null | [Untitled schema](link-properties-name.md "undefined#/properties/name")                     |
-| [from_node_id](#from_node_id)     | `any`     | Optional | cannot be null | [Untitled schema](link-properties-from_node_id.md "undefined#/properties/from_node_id")     |
-| [to_node_id](#to_node_id)         | `any`     | Optional | cannot be null | [Untitled schema](link-properties-to_node_id.md "undefined#/properties/to_node_id")         |
-| [directed](#directed)             | `boolean` | Optional | cannot be null | [Untitled schema](link-properties-directed.md "undefined#/properties/directed")             |
-| [geometry_id](#geometry_id)       | `any`     | Optional | cannot be null | [Untitled schema](link-properties-geometry_id.md "undefined#/properties/geometry_id")       |
-| [geometry](#geometry)             | `any`     | Optional | cannot be null | [Untitled schema](link-properties-geometry.md "undefined#/properties/geometry")             |
-| [dir_flag](#dir_flag)             | `integer` | Optional | cannot be null | [Untitled schema](link-properties-dir_flag.md "undefined#/properties/dir_flag")             |
-| [length](#length)                 | `number`  | Optional | cannot be null | [Untitled schema](link-properties-length.md "undefined#/properties/length")                 |
-| [grade](#grade)                   | `number`  | Optional | cannot be null | [Untitled schema](link-properties-grade.md "undefined#/properties/grade")                   |
-| [facility_type](#facility_type)   | `string`  | Optional | cannot be null | [Untitled schema](link-properties-facility_type.md "undefined#/properties/facility_type")   |
-| [capacity](#capacity)             | `integer` | Optional | cannot be null | [Untitled schema](link-properties-capacity.md "undefined#/properties/capacity")             |
-| [free_speed](#free_speed)         | `integer` | Optional | cannot be null | [Untitled schema](link-properties-free_speed.md "undefined#/properties/free_speed")         |
-| [lanes](#lanes)                   | `integer` | Optional | cannot be null | [Untitled schema](link-properties-lanes.md "undefined#/properties/lanes")                   |
-| [bike_facility](#bike_facility)   | `string`  | Optional | cannot be null | [Untitled schema](link-properties-bike_facility.md "undefined#/properties/bike_facility")   |
-| [ped_facility](#ped_facility)     | `string`  | Optional | cannot be null | [Untitled schema](link-properties-ped_facility.md "undefined#/properties/ped_facility")     |
-| [parking](#parking)               | `string`  | Optional | cannot be null | [Untitled schema](link-properties-parking.md "undefined#/properties/parking")               |
-| [allowed_uses](#allowed_uses)     | `string`  | Optional | cannot be null | [Untitled schema](link-properties-allowed_uses.md "undefined#/properties/allowed_uses")     |
-| [toll](#toll)                     | `integer` | Optional | cannot be null | [Untitled schema](link-properties-toll.md "undefined#/properties/toll")                     |
-| [jurisdiction](#jurisdiction)     | `string`  | Optional | cannot be null | [Untitled schema](link-properties-jurisdiction.md "undefined#/properties/jurisdiction")     |
-| [row_width](#row_width)           | `number`  | Optional | cannot be null | [Untitled schema](link-properties-row_width.md "undefined#/properties/row_width")           |
+| Property                          | Type      | Required | Nullable       | Defined by                                                                       |
+| :-------------------------------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------- |
+| [link_id](#link_id)               | `any`     | Optional | cannot be null | [link](link-properties-link_id.md "undefined#/properties/link_id")               |
+| [parent_link_id](#parent_link_id) | `any`     | Optional | cannot be null | [link](link-properties-parent_link_id.md "undefined#/properties/parent_link_id") |
+| [name](#name)                     | `string`  | Optional | cannot be null | [link](link-properties-name.md "undefined#/properties/name")                     |
+| [from_node_id](#from_node_id)     | `any`     | Optional | cannot be null | [link](link-properties-from_node_id.md "undefined#/properties/from_node_id")     |
+| [to_node_id](#to_node_id)         | `any`     | Optional | cannot be null | [link](link-properties-to_node_id.md "undefined#/properties/to_node_id")         |
+| [directed](#directed)             | `boolean` | Optional | cannot be null | [link](link-properties-directed.md "undefined#/properties/directed")             |
+| [geometry_id](#geometry_id)       | `any`     | Optional | cannot be null | [link](link-properties-geometry_id.md "undefined#/properties/geometry_id")       |
+| [geometry](#geometry)             | `any`     | Optional | cannot be null | [link](link-properties-geometry.md "undefined#/properties/geometry")             |
+| [dir_flag](#dir_flag)             | `integer` | Optional | cannot be null | [link](link-properties-dir_flag.md "undefined#/properties/dir_flag")             |
+| [length](#length)                 | `number`  | Optional | cannot be null | [link](link-properties-length.md "undefined#/properties/length")                 |
+| [grade](#grade)                   | `number`  | Optional | cannot be null | [link](link-properties-grade.md "undefined#/properties/grade")                   |
+| [facility_type](#facility_type)   | `string`  | Optional | cannot be null | [link](link-properties-facility_type.md "undefined#/properties/facility_type")   |
+| [capacity](#capacity)             | `integer` | Optional | cannot be null | [link](link-properties-capacity.md "undefined#/properties/capacity")             |
+| [free_speed](#free_speed)         | `integer` | Optional | cannot be null | [link](link-properties-free_speed.md "undefined#/properties/free_speed")         |
+| [lanes](#lanes)                   | `integer` | Optional | cannot be null | [link](link-properties-lanes.md "undefined#/properties/lanes")                   |
+| [bike_facility](#bike_facility)   | `string`  | Optional | cannot be null | [link](link-properties-bike_facility.md "undefined#/properties/bike_facility")   |
+| [ped_facility](#ped_facility)     | `string`  | Optional | cannot be null | [link](link-properties-ped_facility.md "undefined#/properties/ped_facility")     |
+| [parking](#parking)               | `string`  | Optional | cannot be null | [link](link-properties-parking.md "undefined#/properties/parking")               |
+| [allowed_uses](#allowed_uses)     | `string`  | Optional | cannot be null | [link](link-properties-allowed_uses.md "undefined#/properties/allowed_uses")     |
+| [toll](#toll)                     | `integer` | Optional | cannot be null | [link](link-properties-toll.md "undefined#/properties/toll")                     |
+| [jurisdiction](#jurisdiction)     | `string`  | Optional | cannot be null | [link](link-properties-jurisdiction.md "undefined#/properties/jurisdiction")     |
+| [row_width](#row_width)           | `number`  | Optional | cannot be null | [link](link-properties-row_width.md "undefined#/properties/row_width")           |
 
 ## link_id
 
@@ -52,7 +52,7 @@ Primary key â€“ could be SharedStreets Reference ID
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-link_id.md "undefined#/properties/link_id")
+-   defined in: [link](link-properties-link_id.md "undefined#/properties/link_id")
 
 ### link_id Type
 
@@ -68,7 +68,7 @@ Optional. The parent of this link. For example,for a sidewalk, this is the adjac
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-parent_link_id.md "undefined#/properties/parent_link_id")
+-   defined in: [link](link-properties-parent_link_id.md "undefined#/properties/parent_link_id")
 
 ### parent_link_id Type
 
@@ -84,7 +84,7 @@ Optional. Street or Path Name
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-name.md "undefined#/properties/name")
+-   defined in: [link](link-properties-name.md "undefined#/properties/name")
 
 ### name Type
 
@@ -100,7 +100,7 @@ Optional. Street or Path Name
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-from_node_id.md "undefined#/properties/from_node_id")
+-   defined in: [link](link-properties-from_node_id.md "undefined#/properties/from_node_id")
 
 ### from_node_id Type
 
@@ -116,7 +116,7 @@ Optional. Street or Path Name
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-to_node_id.md "undefined#/properties/to_node_id")
+-   defined in: [link](link-properties-to_node_id.md "undefined#/properties/to_node_id")
 
 ### to_node_id Type
 
@@ -132,7 +132,7 @@ Required. Whether the link is directed (travel only occurs from the from_node to
 -   is optional
 -   Type: `boolean`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-directed.md "undefined#/properties/directed")
+-   defined in: [link](link-properties-directed.md "undefined#/properties/directed")
 
 ### directed Type
 
@@ -148,7 +148,7 @@ Optional. Foreign key (Link_Geometry table).
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-geometry_id.md "undefined#/properties/geometry_id")
+-   defined in: [link](link-properties-geometry_id.md "undefined#/properties/geometry_id")
 
 ### geometry_id Type
 
@@ -164,7 +164,7 @@ Optional. Link geometry, specific format could be WKT, GeoJSON, etc.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-geometry.md "undefined#/properties/geometry")
+-   defined in: [link](link-properties-geometry.md "undefined#/properties/geometry")
 
 ### geometry Type
 
@@ -183,7 +183,7 @@ Optional.
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-dir_flag.md "undefined#/properties/dir_flag")
+-   defined in: [link](link-properties-dir_flag.md "undefined#/properties/dir_flag")
 
 ### dir_flag Type
 
@@ -209,7 +209,7 @@ Optional. Length of the link in miles
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-length.md "undefined#/properties/length")
+-   defined in: [link](link-properties-length.md "undefined#/properties/length")
 
 ### length Type
 
@@ -229,7 +229,7 @@ Optional. Length of the link in miles
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-grade.md "undefined#/properties/grade")
+-   defined in: [link](link-properties-grade.md "undefined#/properties/grade")
 
 ### grade Type
 
@@ -251,7 +251,7 @@ Facility type (e.g., freeway, arterial, etc.)
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-facility_type.md "undefined#/properties/facility_type")
+-   defined in: [link](link-properties-facility_type.md "undefined#/properties/facility_type")
 
 ### facility_type Type
 
@@ -267,7 +267,7 @@ Optional. Capacity (veh / hr / lane)
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-capacity.md "undefined#/properties/capacity")
+-   defined in: [link](link-properties-capacity.md "undefined#/properties/capacity")
 
 ### capacity Type
 
@@ -287,7 +287,7 @@ Optional. Free flow speed mph
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-free_speed.md "undefined#/properties/free_speed")
+-   defined in: [link](link-properties-free_speed.md "undefined#/properties/free_speed")
 
 ### free_speed Type
 
@@ -311,7 +311,7 @@ It does not include bike lanes, shoulders or parking lanes.
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-lanes.md "undefined#/properties/lanes")
+-   defined in: [link](link-properties-lanes.md "undefined#/properties/lanes")
 
 ### lanes Type
 
@@ -331,7 +331,7 @@ Optional. Type of bicycle accommodation: unknown, none, wcl, sharrow, bikelane, 
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-bike_facility.md "undefined#/properties/bike_facility")
+-   defined in: [link](link-properties-bike_facility.md "undefined#/properties/bike_facility")
 
 ### bike_facility Type
 
@@ -361,7 +361,7 @@ Optional. Type of pedestrian accommodation: unknown, none, shoulder, sidewalk, o
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-ped_facility.md "undefined#/properties/ped_facility")
+-   defined in: [link](link-properties-ped_facility.md "undefined#/properties/ped_facility")
 
 ### ped_facility Type
 
@@ -389,7 +389,7 @@ Optional. Type of parking: unknown, none, parallel, angle, other
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-parking.md "undefined#/properties/parking")
+-   defined in: [link](link-properties-parking.md "undefined#/properties/parking")
 
 ### parking Type
 
@@ -417,7 +417,7 @@ Optional. Set of allowed uses: shoulder, parking, walk, all, bike, auto, hov2, h
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-allowed_uses.md "undefined#/properties/allowed_uses")
+-   defined in: [link](link-properties-allowed_uses.md "undefined#/properties/allowed_uses")
 
 ### allowed_uses Type
 
@@ -433,7 +433,7 @@ Optional.  Toll on the link, in cents.
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-toll.md "undefined#/properties/toll")
+-   defined in: [link](link-properties-toll.md "undefined#/properties/toll")
 
 ### toll Type
 
@@ -449,7 +449,7 @@ Optional.  Owner/operator of the link.
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-jurisdiction.md "undefined#/properties/jurisdiction")
+-   defined in: [link](link-properties-jurisdiction.md "undefined#/properties/jurisdiction")
 
 ### jurisdiction Type
 
@@ -465,7 +465,7 @@ Optional. Width (feet) of the entire right-of-way (both directions).
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Untitled schema](link-properties-row_width.md "undefined#/properties/row_width")
+-   defined in: [link](link-properties-row_width.md "undefined#/properties/row_width")
 
 ### row_width Type
 

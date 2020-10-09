@@ -1,4 +1,4 @@
-# Untitled integer in undefined Schema
+# Untitled integer in signal_timing_phase Schema
 
 ```txt
 undefined#/properties/ped_clearance

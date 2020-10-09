@@ -1,4 +1,4 @@
-# Untitled integer in undefined Schema
+# Untitled integer in link Schema
 
 ```txt
 undefined#/properties/lanes

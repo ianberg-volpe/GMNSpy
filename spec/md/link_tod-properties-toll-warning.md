@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# Untitled undefined type in link_tod Schema
 
 ```txt
 undefined#/properties/toll/warning

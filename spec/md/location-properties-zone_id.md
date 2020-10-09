@@ -1,4 +1,4 @@
-# Untitled any in undefined Schema
+# Untitled any in location Schema
 
 ```txt
 undefined#/properties/zone_id

@@ -1,1 +1,1 @@
-{"primaryKey":"controller_id","missingValues":["NaN",""],"name":"signal_controller","properties":{"controller_id":{"type":"any","description":"Primary key.","required":true}}}
+{"primaryKey":"controller_id","missingValues":["NaN",""],"title":"signal_controller","properties":{"controller_id":{"type":"any","description":"Primary key.","required":true}}}

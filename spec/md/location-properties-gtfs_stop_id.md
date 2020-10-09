@@ -1,4 +1,4 @@
-# Untitled string in undefined Schema
+# Untitled string in location Schema
 
 ```txt
 undefined#/properties/gtfs_stop_id

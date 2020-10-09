@@ -1,4 +1,4 @@
-# Untitled string in undefined Schema
+# Untitled string in zone Schema
 
 ```txt
 undefined#/properties/super_zone

@@ -1,4 +1,4 @@
-# Untitled any in undefined Schema
+# Untitled any in link_tod Schema
 
 ```txt
 undefined#/properties/link_id

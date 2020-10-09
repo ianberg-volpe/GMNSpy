@@ -1,4 +1,4 @@
-# Untitled any in undefined Schema
+# Untitled any in signal_detector Schema
 
 ```txt
 undefined#/properties/ref_node_id

@@ -1,4 +1,4 @@
-# Untitled Any in undefined Schema
+# Untitled Any in link_tod Schema
 
 ```txt
 undefined#/properties/allowed_uses
