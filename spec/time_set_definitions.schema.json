@@ -1,65 +1,94 @@
 {
     "primaryKey": "timeday_id",
-    "missingValues": [
-        "NaN",
-        ""
-    ],
-    "name": "time_set_definitions",
-    "properties": {
-        "timeday_id": {
+    "missingValues": ["NaN",""],
+    "fields": [
+        {
+            "name": "timeday_id",
             "type": "any",
             "description": "Primary key.Primary key, similar to `service_id` in GTFS. Unique name of the time of day. Preferable legible rather than a number.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "monday": {
+        {
+            "name": "monday",
             "type": "boolean",
             "description": "Required. Whether Mondays are included.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "tuesday": {
+        {
+            "name": "tuesday",
             "type": "boolean",
             "description": "Required. Whether Tuesdays are included.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "wednesday": {
+        {
+            "name": "wednesday",
             "type": "boolean",
             "description": "Required. Whether Wednesdays are included.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "thursday": {
+        {
+            "name": "thursday",
             "type": "boolean",
             "description": "Required. Whether Thursdays are included.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "Friday": {
+        {
+            "name": "Friday",
             "type": "boolean",
             "description": "Required. Whether Fridays are included.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "saturday": {
+        {
+            "name": "saturday",
             "type": "boolean",
             "description": "Required. Whether Saturdays are included.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "sunday": {
+        {
+            "name": "sunday",
             "type": "boolean",
             "description": "Required. Whether Sundays are included.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "holiday": {
+        {
+            "name": "holiday",
             "type": "boolean",
             "description": "Required. Whether holidays are included.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "start_time": {
+        {
+            "name": "start_time",
             "type": "time",
             "description": "Required. Start time in HH:MM format.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "end_time": {
+        {
+            "name": "end_time",
             "type": "time",
             "description": "Required. End  time in HH:MM format.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         }
-    }
+    ]
 }

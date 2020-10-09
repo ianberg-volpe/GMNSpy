@@ -1,27 +1,30 @@
 {
     "primaryKey": "zone_id",
-    "missingValues": [
-        "NaN"
-    ],
-    "name": "zone",
-    "properties": {
-        "zone_id": {
+    "missingValues": ["NaN"],
+    "fields": [
+        {
+            "name": "zone_id",
             "type": "any",
             "description": "Primary key.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "name": {
+        {
+            "name": "name",
             "type": "any",
             "description": "Optional."
         },
-        "boundary": {
+        {
+            "name": "boundary",
             "type": "any",
             "description": "Optional. The polygon geometry of the zone in WKT or Polygon."
         },
-        "super_zone": {
+        {
+            "name": "super_zone",
             "type": "string",
             "foreign_key": ".zone_id",
             "description": "Optional. If there is a hierarchy of zones (e.g., parcels and TAZs), indicates the zone of next higher level."
         }
-    }
+    ]
 }

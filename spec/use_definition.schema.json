@@ -1,34 +1,42 @@
 {
     "primaryKey": "use",
-    "missingValues": [
-        "NaN"
-    ],
-    "name": "use_definition",
-    "properties": {
-        "use": {
+    "missingValues": ["NaN"],
+    "fields": [
+        {
+            "name": "use",
             "type": "string",
             "description": "Primary key",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "persons_per_vehicle": {
+        {
+            "name": "persons_per_vehicle",
             "type": "number",
             "description": "Required.",
-            "required": true,
-            "minimum": 0
+            "constraints": {
+              "required": true,
+              "minimum": 0
+              }
         },
-        "pce": {
+        {
+            "name": "pce",
             "type": "number",
             "description": "Required. Passenger car equivelent.",
-            "required": true,
-            "minimum": 0
+            "constraints": {
+              "required": true,
+              "minimum":0
+              }
         },
-        "special_conditions": {
+        {
+            "name": "special_conditions",
             "type": "string",
             "description": "Optional."
         },
-        "description": {
+        {
+            "name": "description",
             "type": "string",
             "description": "Optional "
         }
-    }
+    ]
 }

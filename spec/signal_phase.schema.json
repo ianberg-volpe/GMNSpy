@@ -1,45 +1,59 @@
 {
     "primaryKey": "signal_phase_id",
-    "missingValues": [
-        "NaN",
-        ""
-    ],
-    "name": "signal_phase",
-    "properties": {
-        "signal_phase_id": {
+    "missingValues": ["NaN",""],
+    "fields": [
+        {
+            "name": "signal_phase_id",
             "type": "any",
             "description": "Primary key.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "timing_plan_id": {
+        {
+            "name": "timing_plan_id",
             "type": "any",
             "foreign_key": "signal_controller.controller_id",
             "description": "Required. Foreign key (Signal_timing_plan table).",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "signal_phase_num": {
+        {
+            "name": "signal_phase_num",
             "type": "any",
             "description": "Required. controller_id and signal_phase_num are unique",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "ring": {
+        {
+            "name": "ring",
             "type": "integer",
             "description": "Required. Set of phases that conflict with each other. ",
-            "required": true,
-            "minimum": 0,
-            "maximum": 12
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 12
+              }
         },
-        "barrier": {
+        {
+            "name": "barrier",
             "type": "integer",
             "description": "Required. Set of phases that can operate other.",
-            "required": true,
-            "minimum": 0,
-            "maximum": 12
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 12
+              }
         },
-        "position": {
+		{
+            "name": "position",
             "type": "integer",
-            "description": "Required. Position.",
-            "required": true
+            "description": "Required. Position.",            
+			"constraints": {
+              "required": true
+            }
         }
-    }
+    ]
 }

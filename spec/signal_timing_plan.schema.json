@@ -1,62 +1,75 @@
 {
     "primaryKey": "timing_plan_id",
-    "missingValues": [
-        "NaN",
-        ""
-    ],
-    "name": "signal_timing_plan",
-    "properties": {
-        "timing_plan_id": {
+    "missingValues": ["NaN",""],
+    "fields": [
+        {
+            "name": "timing_plan_id",
             "type": "any",
             "description": "Primary key.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "controller_id": {
+		{
+            "name": "controller_id",
             "type": "any",
             "foreign_key": "signal_controller.controller_id",
-            "description": "Required. Foreign key (signal_controller table).",
-            "required": true
+            "description": "Required. Foreign key (signal_controller table).",            
+			"constraints": {
+              "required": true
+              }
         },
-        "timeday_id": {
+        {
+            "name": "timeday_id",
             "type": "any",
             "foreign_key": "time_set_definitions.timeday_id",
             "description": "Conditionally required (either timeday_id or time_day). Foreign key to time_set_definitions."
         },
-        "time_day": {
+        {
+            "name": "time_day",
             "type": "any",
             "description": "Conditionally required (either timeday_id or time_day). XXXXXXXX_HHMM_HHMM, where XXXXXXXX is a bitmap of days of the week, Sunday-Saturday, Holiday. The HHMM are the start and end times."
         },
-        "cycle_length": {
+        {
+            "name": "cycle_length",
             "type": "integer",
             "description": "Required. Cycle length in seconds.",
-            "required": true,
-            "minimum": 0,
-            "maximum": 600
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 600
+              }
         },
-        "coord_contr_id": {
+        {
+            "name": "coord_contr_id",
             "type": "any",
             "foreign_key": "signal_controller.controller_id",
             "description": "Optional. For coordinated signals, the `master` signal controller for coordination."
         },
-        "coord_phase": {
+        {
+            "name": "coord_phase",
             "type": "integer",
             "description": "Optional. For coordinated signals, the phase at which coordination starts (time 0).",
-            "minimum": 0,
-            "maximum": 32
+              "constraints": {
+                "minimum": 0,
+                "maximum": 32
+                }
         },
-        "coord_ref_to": {
+		{
+            "name": "coord_ref_to",
             "type": "string",
             "description": "Optional. For coordinated signals, the part of the phase where coordination starts: begin_of_green, begin_of_yellow, begin_of_red.",
-            "enum": [
-                "begin_of_green",
-                "begin_of_yellow",
-                "begin_of_red"
-            ]
+            "constraints": {
+                "enum":["begin_of_green", "begin_of_yellow", "begin_of_red"]
+                }
         },
-        "offset": {
+        {
+            "name": "offset",
             "type": "integer",
             "description": "Optional. Offset in seconds.",
-            "minimum": 0
+              "constraints": {
+                "minimum": 0
+                }
         }
-    }
+    ]
 }

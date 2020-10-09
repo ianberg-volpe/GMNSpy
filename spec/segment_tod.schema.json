@@ -1,96 +1,100 @@
 {
     "primaryKey": "segment_tod_id",
-    "missingValues": [
-        "NaN",
-        ""
-    ],
-    "name": "segment_tod",
-    "properties": {
-        "segment_tod_id": {
-            "type": "any",
-            "description": "Primary key.",
+    "missingValues": ["NaN",""],
+    "fields": [
+      {
+          "name": "segment_tod_id",
+          "type": "any",
+          "description": "Primary key.",
+          "constraints": {
             "required": true
-        },
-        "segment_id": {
+            }
+      },
+      {
+            "name": "segment_id",
             "type": "any",
             "foreign_key": "segment.segment_id",
             "description": "Foreign key to segment table.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "timeday_id": {
+        {
+            "name": "timeday_id",
             "type": "any",
             "foreign_key": "time_set_definitions.timeday_id",
             "description": "Conditionally required (either timeday_id or time_day). Foreign key to time_set_definitions."
         },
-        "time_day": {
+        {
+            "name": "time_day",
             "type": "any",
             "description": "Conditionally required (either timeday_id or time_day). XXXXXXXX_HHMM_HHMM, where XXXXXXXX is a bitmap of days of the week, Sunday-Saturday, Holiday. The HHMM are the start and end times."
         },
-        "capacity": {
+        {
+            "name": "capacity",
             "type": "integer",
             "description": "Optional. Capacity (veh/hr/ln)",
-            "minimum": 0
+            "constraints": {
+              "minimum": 0
+              }
         },
-        "free_speed": {
+        {
+            "name": "free_speed",
             "type": "integer",
             "description": "Optional. Free flow speed (mph)",
-            "minimum": 0
+            "constraints": {
+              "minimum": 0
+              }
         },
-        "lanes": {
+		{
+            "name": "lanes",
             "type": "integer",
             "description": "Optional. Number of lanes in the direction of travel (must be consistent with link lanes + lanes added)."
         },
-        "l_lanes_added": {
+        {
+            "name": "l_lanes_added",
             "type": "integer",
             "description": "Optional. # of lanes added on the left of the road link (negative indicates a lane drop)."
         },
-        "r_lanes_added": {
+        {
+            "name": "r_lanes_added",
             "type": "integer",
             "description": "Optional. # of lanes added on the right of the road link (negative indicates a lane drop)."
         },
-        "bike_facility": {
+        {
+            "name": "bike_facility",
             "type": "string",
             "description": "Optional. Type of bicycle accommodation: unknown, none,wcl, bikelane,cycletrack,wide_shoulder, offstreet_path.",
-            "enum": [
-                "unknown",
-                "none",
-                "wcl",
-                "bikelane",
-                "cycletrack",
-                "wide_shoulder",
-                "offstreet_path"
-            ]
+            "constraints": {
+              "enum": ["unknown","none","wcl","bikelane","cycletrack","wide_shoulder","offstreet_path"]
+            }
         },
-        "ped_facility": {
+        {
+            "name": "ped_facility",
             "type": "string",
             "description": "Optional. Type of pedestrian accommodation: unknown,none,shoulder,sidewalk,offstreet_path.",
-            "enum": [
-                "unknown",
-                "none",
-                "shoulder",
-                "sidewalk",
-                "offstreet_path"
-            ]
+            "constraints": {
+              "enum": ["unknown","none","shoulder","sidewalk","offstreet_path"]
+            }
         },
-        "parking": {
+        {
+            "name": "parking",
             "type": "string",
             "description": "Optional. Type of parking: unknown,none,shoulder,sidewalk,offstreet_path.",
-            "enum": [
-                "unknown",
-                "none",
-                "shoulder",
-                "sidewalk",
-                "offstreet_path"
-            ]
+            "constraints": {
+              "enum": ["unknown","none","shoulder","sidewalk","offstreet_path"]
+            }
         },
-        "toll": {
+        {
+            "name": "toll",
             "type": "integer",
             "description": "Optional. Toll in cents"
         },
-        "allowed_uses": {
+        {
+            "name": "allowed_uses",
             "type": "string",
             "foreign_key": "use_group.use_group",
             "description": "Optional. Set of allowed uses; comma-separated. Foreign key to use_definition or use sets."
         }
-    }
+    ]
 }

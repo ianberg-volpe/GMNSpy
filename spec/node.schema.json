@@ -1,58 +1,68 @@
 {
     "primaryKey": "node_id",
-    "missingValues": [
-        "NaN"
-    ],
-    "name": "node",
-    "properties": {
-        "node_id": {
+    "missingValues": ["NaN"],
+    "fields": [
+        {
+            "name": "node_id",
             "type": "any",
             "description": "Primary key",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "name": {
+        {
+            "name": "name",
             "type": "string",
             "description": ""
         },
-        "x_coord": {
+        {
+            "name": "x_coord",
             "type": "number",
             "description": "Coordinate system specified in config file (longitude, UTM-easting etc.)",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "y_coord": {
+        {
+            "name": "y_coord",
             "type": "number",
             "description": "Coordinate system specified in config file (latitude, UTM-northing etc.)",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "z_coord": {
+        {
+            "name": "z_coord",
             "type": "number",
             "description": "Optional. Altitude.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "node_type": {
+        {
+            "name": "node_type",
             "type": "string",
             "description": "Optional. What it represents (intersection, transit station, park & ride)."
         },
-        "ctrl_type": {
+        {
+            "name": "ctrl_type",
             "type": "string",
             "description": "Optional. Intersection control type - one of ControlType_Set.",
-            "enum": [
-                "none",
-                "yield",
-                "stop",
-                "4_stop",
-                "signal"
-            ]
+            "constraints": {
+              "enum": ["none", "yield", "stop", "4_stop", "signal"]
+              }
         },
-        "zone_id": {
+        {
+            "name": "zone_id",
             "type": "any",
-            "foreign_key": "zone.zone_id",
+			"foreign_key": "zone.zone_id",
             "description": "Optional. Could be a Transportation Analysis Zone (TAZ) or city, or census tract, or census block."
         },
-        "parent_node_id": {
+        {
+            "name": "parent_node_id",
             "type": "any",
             "description": "Optional. Associated node. For example, if this node is a sidewalk, a parent_nodek_id could represent the intersection  it is associated with.",
             "foreign_key": ".node_id"
         }
-    }
+    ]
 }

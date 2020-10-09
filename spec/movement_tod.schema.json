@@ -1,88 +1,99 @@
 {
     "primaryKey": "mvmt_tod_id",
-    "missingValues": [
-        "NaN"
-    ],
-    "name": "movement_tod",
-    "properties": {
-        "mvmt_tod_id": {
-            "type": "any",
-            "description": "Primary key.",
+    "missingValues": ["NaN"],
+    "fields": [
+      {
+          "name": "mvmt_tod_id",
+          "type": "any",
+          "description": "Primary key.",
+          "constraints": {
             "required": true
-        },
-        "mvmt_id": {
+            }
+      },
+      {
+            "name": "mvmt_id",
             "type": "any",
             "foreign_key": "movement.mvmt_id",
             "description": "The referenced movement.",
-            "required": true
-        },
-        "time_day": {
+            "constraints": {
+              "required": true
+              }
+      },
+      {
+            "name": "time_day",
             "type": "string",
             "description": "Time of day in XXXXXXXX_HHMM_HHMM format, where XXXXXXXX is a bitmap of days of the week, Sunday-Saturday, Holiday. The HHMM are the start and end times."
-        },
-        "timeday_id": {
+      },
+      {
+            "name": "timeday_id",
             "type": "string",
             "foreign_key": "timeday.timeday_id",
             "description": "Time of day set. Used if times-of-day are defined on the time_set_definitions table"
-        },
-        "ib_link_id": {
+      },
+        {
+            "name": "ib_link_id",
             "type": "any",
             "foreign_key": "link.link_id",
             "description": "Inbound link id.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "start_ib_lane": {
+        {
+            "name": "start_ib_lane",
             "type": "integer",
             "description": "Innermost lane number the movement applies to at the inbound end."
         },
-        "end_ib_lane": {
+        {
+            "name": "end_ib_lane",
             "type": "integer",
             "description": "Outermost lane number the movement applies to at the inbound end. Blank indicates a movement with a single inbound lane."
         },
-        "ob_link_id": {
+        {
+            "name": "ob_link_id",
             "type": "any",
             "foreign_key": "link.link_id",
             "description": "Outbound link id.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "start_ob_lane": {
+        {
+            "name": "start_ob_lane",
             "type": "integer",
             "description": "Innermost lane number the movement applies to at the outbound end."
         },
-        "end_ob_lane": {
+        {
+            "name": "end_ob_lane",
             "type": "integer",
             "description": "Outermost lane number the movement applies to at the outbound end. Blank indicates a movement with a single outbound lane."
         },
-        "type": {
+        {
+            "name": "type",
             "type": "string",
             "description": "Optional. Describes the type of movement (left, right, thru, etc.).",
-            "required": true,
-            "enum": [
-                "left",
-                "right",
-                "uturn",
-                "thru",
-                "merge"
-            ]
+            "constraints": {
+              "required": true,
+              "enum": ["left", "right", "uturn", "thru", "merge"]
+              }
         },
-        "penalty": {
+        {
+            "name": "penalty",
             "type": "any",
             "description": "Turn penalty (seconds)"
         },
-        "capacity": {
+        {
+            "name": "capacity",
             "type": "any",
             "description": "Capacity in vehicles per hour."
         },
-        "ctrl_type": {
+        {
+            "name": "ctrl_type",
             "type": "any",
             "description": "Optional. .",
-            "enum": [
-                "none",
-                "yield",
-                "stop",
-                "4_stop",
-                "signal"
-            ]
+            "constraints": {
+              "enum": ["none", "yield", "stop", "4_stop", "signal"]
+              }
         }
-    }
+    ]
 }

@@ -1,56 +1,71 @@
 {
     "primaryKey": "loc_id",
-    "missingValues": [
-        "NaN"
-    ],
-    "name": "location",
-    "properties": {
-        "loc_id": {
+    "missingValues": ["NaN"],
+    "fields": [
+        {
+            "name": "loc_id",
             "type": "any",
             "description": "Primary key. Location ID.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "link_id": {
+        {
+            "name": "link_id",
             "type": "any",
             "foreign_key": "link.link_id",
             "description": "Required. Road Link ID. Foreign Key from Road_Link.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "ref_node_id": {
+        {
+            "name": "ref_node_id",
             "type": "any",
             "foreign_key": "node.node_id",
             "description": "Required. The From node of the link. Foreign Key from Node.",
-            "required": true
+            "constraints": {
+              "required": true
+              }
         },
-        "lr": {
+        {
+            "name": "lr",
             "type": "number",
             "description": "Required. Linear Reference of the location, measured as distance along the link from the reference node.  If link_geometry exists, it is used. Otherwise, link geometry is assumed to be a crow-fly distance from A node to B node.",
-            "required": true,
-            "minimum": 0
+            "constraints": {
+              "required": true,
+              "minimum": 0
+              }
         },
-        "x_coord": {
+        {
+            "name": "x_coord",
             "type": "number",
             "description": "Optional. Either provided, or derived from Link, Ref_Node and LR."
         },
-        "y_coord": {
+        {
+            "name": "y_coord",
             "type": "number",
             "description": "Optional. Either provided, or derived from Link, Ref_Node and LR."
         },
-        "z_coord": {
+        {
+            "name": "z_coord",
             "type": "number",
             "description": "Optional. Altitude."
         },
-        "loc_type": {
+        {
+            "name": "loc_type",
             "type": "string",
             "description": "Optional. What it represents (driveway, bus stop, etc.) OpenStreetMap map feature names are recommended."
         },
-        "zone_id": {
+        {
+            "name": "zone_id",
             "type": "any",
             "description": "Optional. Foreign Key, Associated zone"
         },
-        "gtfs_stop_id": {
+        {
+            "name": "gtfs_stop_id",
             "type": "string",
             "description": "Optional. Foreign Key to GTFS data. For bus stops and transit station entrances, provides a link to the General Transit Feed Specification."
         }
-    }
+    ]
 }
