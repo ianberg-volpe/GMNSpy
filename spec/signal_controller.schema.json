@@ -1,14 +1,15 @@
 {
     "primaryKey": "controller_id",
-    "missingValues": ["NaN",""],
-    "fields": [
-        {
-            "name": "controller_id",
+    "missingValues": [
+        "NaN",
+        ""
+    ],
+    "name": "signal_controller",
+    "properties": {
+        "controller_id": {
             "type": "any",
             "description": "Primary key.",
-            "constraints": {
-              "required": true
-              }
+            "required": true
         }
-    ]
+    }
 }
