@@ -1,7 +1,7 @@
 {
     "primaryKey": "lane_id",
     "missingValues": ["NaN"],
-    "fields": [
+    "properties": [
         {
             "name": "lane_id",
             "type": "any",

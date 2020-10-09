@@ -1,7 +1,7 @@
 {
     "primaryKey": "loc_id",
     "missingValues": ["NaN"],
-    "fields": [
+    "properties": [
         {
             "name": "loc_id",
             "type": "any",

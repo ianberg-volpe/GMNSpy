@@ -1,7 +1,7 @@
 {
     "primaryKey": "detector_id",
     "missingValues": ["NaN",""],
-    "fields": [
+    "properties": [
         {
             "name": "detector_id",
             "type": "any",

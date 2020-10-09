@@ -1,7 +1,7 @@
 {
     "primaryKey": "geometry_id",
     "missingValues": ["NaN"],
-    "fields": [
+    "properties": [
         {
             "name": "geometry_id",
             "type": "any",

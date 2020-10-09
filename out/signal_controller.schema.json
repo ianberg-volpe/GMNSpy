@@ -1,1 +1,1 @@
-{"primaryKey":"controller_id","missingValues":["NaN",""],"fields":[{"name":"controller_id","type":"any","description":"Primary key.","constraints":{"required":true}}]}
+{"primaryKey":"controller_id","missingValues":["NaN",""],"properties":[{"name":"controller_id","type":"any","description":"Primary key.","constraints":{"required":true}}]}

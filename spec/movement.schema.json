@@ -1,7 +1,7 @@
 {
     "primaryKey": "mvmt_id",
     "missingValues": ["NaN"],
-    "fields": [
+    "properties": [
         {
             "name": "mvmt_id",
             "type": "any",

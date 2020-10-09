@@ -1,7 +1,7 @@
 {
     "primaryKey": "timing_plan_id",
     "missingValues": ["NaN",""],
-    "fields": [
+    "properties": [
         {
             "name": "timing_plan_id",
             "type": "any",

@@ -1,7 +1,7 @@
 {
     "primaryKey": "use_group",
     "missingValues": ["NaN"],
-    "fields": [
+    "properties": [
         {
             "name": "use_group",
             "type": "string",

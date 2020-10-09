@@ -1,7 +1,7 @@
 {
     "primaryKey": "segment_tod_id",
     "missingValues": ["NaN",""],
-    "fields": [
+    "properties": [
       {
           "name": "segment_tod_id",
           "type": "any",

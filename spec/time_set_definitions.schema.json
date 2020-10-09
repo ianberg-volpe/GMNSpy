@@ -1,7 +1,7 @@
 {
     "primaryKey": "timeday_id",
     "missingValues": ["NaN",""],
-    "fields": [
+    "properties": [
         {
             "name": "timeday_id",
             "type": "any",

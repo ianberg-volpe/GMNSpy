@@ -1,7 +1,7 @@
 {
     "primaryKey": "use",
     "missingValues": ["NaN"],
-    "fields": [
+    "properties": [
         {
             "name": "use",
             "type": "string",
