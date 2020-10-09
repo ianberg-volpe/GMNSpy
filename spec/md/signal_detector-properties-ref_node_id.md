@@ -1,7 +1,7 @@
 # Untitled any in signal_detector Schema
 
 ```txt
-undefined#/properties/ref_node_id
+spec/signal_detector.schema.json#/properties/ref_node_id
 ```
 
 The detector is on the approach to this node.

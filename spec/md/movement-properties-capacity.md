@@ -1,7 +1,7 @@
 # Untitled any in movement Schema
 
 ```txt
-undefined#/properties/capacity
+spec/movement.schema.json#/properties/capacity
 ```
 
 Capacity in vehicles per hour.

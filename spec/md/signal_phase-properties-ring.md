@@ -1,7 +1,7 @@
 # Untitled integer in signal_phase Schema
 
 ```txt
-undefined#/properties/ring
+spec/signal_phase.schema.json#/properties/ring
 ```
 
 Required. Set of phases that conflict with each other. 

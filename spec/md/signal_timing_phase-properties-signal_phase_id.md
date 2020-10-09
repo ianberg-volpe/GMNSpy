@@ -1,7 +1,7 @@
 # Untitled any in signal_timing_phase Schema
 
 ```txt
-undefined#/properties/signal_phase_id
+spec/signal_timing_phase.schema.json#/properties/signal_phase_id
 ```
 
 Optional. Foreign key, the associated sigal phase.

@@ -1,7 +1,7 @@
 # Untitled integer in link Schema
 
 ```txt
-undefined#/properties/dir_flag
+spec/link.schema.json#/properties/dir_flag
 ```
 
 Optional. 

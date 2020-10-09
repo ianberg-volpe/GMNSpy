@@ -1,7 +1,7 @@
 # Untitled integer in signal_timing_plan Schema
 
 ```txt
-undefined#/properties/coord_phase
+spec/signal_timing_plan.schema.json#/properties/coord_phase
 ```
 
 Optional. For coordinated signals, the phase at which coordination starts (time 0).

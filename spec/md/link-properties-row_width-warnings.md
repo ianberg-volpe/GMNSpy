@@ -1,7 +1,7 @@
 # Untitled undefined type in link Schema
 
 ```txt
-undefined#/properties/row_width/warnings
+spec/link.schema.json#/properties/row_width/warnings
 ```
 
 

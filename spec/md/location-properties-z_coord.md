@@ -1,7 +1,7 @@
 # Untitled number in location Schema
 
 ```txt
-undefined#/properties/z_coord
+spec/location.schema.json#/properties/z_coord
 ```
 
 Optional. Altitude.

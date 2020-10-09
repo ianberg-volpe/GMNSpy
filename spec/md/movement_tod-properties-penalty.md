@@ -1,7 +1,7 @@
 # Untitled any in movement_tod Schema
 
 ```txt
-undefined#/properties/penalty
+spec/movement_tod.schema.json#/properties/penalty
 ```
 
 Turn penalty (seconds)

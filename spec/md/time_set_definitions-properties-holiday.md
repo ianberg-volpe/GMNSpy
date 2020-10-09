@@ -1,7 +1,7 @@
 # Untitled boolean in time_set_definitions Schema
 
 ```txt
-undefined#/properties/holiday
+spec/time_set_definitions.schema.json#/properties/holiday
 ```
 
 Required. Whether holidays are included.

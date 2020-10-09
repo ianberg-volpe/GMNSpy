@@ -1,7 +1,7 @@
 # Untitled undefined type in use_group Schema
 
 ```txt
-undefined#/properties
+spec/use_group.schema.json#/properties
 ```
 
 

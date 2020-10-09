@@ -1,7 +1,7 @@
 # Untitled undefined type in use_definition Schema
 
 ```txt
-undefined#/properties
+spec/use_definition.schema.json#/properties
 ```
 
 

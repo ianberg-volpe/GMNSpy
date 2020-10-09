@@ -1,7 +1,7 @@
 # Untitled number in lane_tod Schema
 
 ```txt
-undefined#/properties/width
+spec/lane_tod.schema.json#/properties/width
 ```
 
 Optional. Width of the lane, feet.

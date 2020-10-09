@@ -1,7 +1,7 @@
 # Untitled integer in signal_timing_phase Schema
 
 ```txt
-undefined#/properties/clearance
+spec/signal_timing_phase.schema.json#/properties/clearance
 ```
 
 Required. Yellow interval plus all red interval

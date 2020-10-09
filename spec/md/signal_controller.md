@@ -1,10 +1,10 @@
 # signal_controller Schema
 
 ```txt
-undefined
+spec/signal_controller.schema.json
 ```
 
-
+The signal controller is associated with an intersection or a cluster of intersections.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                      |
@@ -17,9 +17,9 @@ unknown ([signal_controller](signal_controller.md))
 
 # signal_controller Properties
 
-| Property                        | Type  | Required | Nullable       | Defined by                                                                                               |
-| :------------------------------ | ----- | -------- | -------------- | :------------------------------------------------------------------------------------------------------- |
-| [controller_id](#controller_id) | `any` | Optional | cannot be null | [signal_controller](signal_controller-properties-controller_id.md "undefined#/properties/controller_id") |
+| Property                        | Type  | Required | Nullable       | Defined by                                                                                                                        |
+| :------------------------------ | ----- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| [controller_id](#controller_id) | `any` | Optional | cannot be null | [signal_controller](signal_controller-properties-controller_id.md "spec/signal_controller.schema.json#/properties/controller_id") |
 
 ## controller_id
 
@@ -31,7 +31,7 @@ Primary key.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [signal_controller](signal_controller-properties-controller_id.md "undefined#/properties/controller_id")
+-   defined in: [signal_controller](signal_controller-properties-controller_id.md "spec/signal_controller.schema.json#/properties/controller_id")
 
 ### controller_id Type
 

@@ -1,7 +1,7 @@
 # Untitled string in link Schema
 
 ```txt
-undefined#/properties/jurisdiction
+spec/link.schema.json#/properties/jurisdiction
 ```
 
 Optional.  Owner/operator of the link.

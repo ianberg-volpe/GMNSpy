@@ -1,7 +1,7 @@
 # Untitled string in movement_tod Schema
 
 ```txt
-undefined#/properties/type
+spec/movement_tod.schema.json#/properties/type
 ```
 
 Optional. Describes the type of movement (left, right, thru, etc.).

@@ -1,7 +1,7 @@
 # Untitled any in link Schema
 
 ```txt
-undefined#/properties/from_node_id
+spec/link.schema.json#/properties/from_node_id
 ```
 
 

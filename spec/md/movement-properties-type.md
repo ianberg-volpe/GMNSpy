@@ -1,7 +1,7 @@
 # Untitled string in movement Schema
 
 ```txt
-undefined#/properties/type
+spec/movement.schema.json#/properties/type
 ```
 
 Optional. Describes the type of movement (left, right, thru, etc.).

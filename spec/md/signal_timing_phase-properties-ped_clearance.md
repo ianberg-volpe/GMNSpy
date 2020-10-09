@@ -1,7 +1,7 @@
 # Untitled integer in signal_timing_phase Schema
 
 ```txt
-undefined#/properties/ped_clearance
+spec/signal_timing_phase.schema.json#/properties/ped_clearance
 ```
 
 Required if have ped phase. If a pedestrian phase exists, the flashing donâ€™t walk time.

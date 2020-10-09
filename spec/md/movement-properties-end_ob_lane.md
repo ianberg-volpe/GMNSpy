@@ -1,7 +1,7 @@
 # Untitled integer in movement Schema
 
 ```txt
-undefined#/properties/end_ob_lane
+spec/movement.schema.json#/properties/end_ob_lane
 ```
 
 Outermost lane number the movement applies to at the outbound end. Blank indicates a movement with a single outbound lane.

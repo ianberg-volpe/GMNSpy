@@ -1,7 +1,7 @@
 # Untitled any in lane Schema
 
 ```txt
-undefined#/properties/link_id
+spec/lane.schema.json#/properties/link_id
 ```
 
 Required. Foreign key to link table.

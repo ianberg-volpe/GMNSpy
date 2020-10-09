@@ -1,10 +1,10 @@
 # segment_lane_tod Schema
 
 ```txt
-undefined
+spec/segment_lane_tod.schema.json
 ```
 
-
+An optional file that handles day-of-week and time-of-day restrictions on lanes within segments of links.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                    |
@@ -17,17 +17,17 @@ unknown ([segment_lane_tod](segment_lane_tod.md))
 
 # segment_lane_tod Properties
 
-| Property                                    | Type      | Required | Nullable       | Defined by                                                                                                         |
-| :------------------------------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------- |
-| [segment_lane_tod_id](#segment_lane_tod_id) | `any`     | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-segment_lane_tod_id.md "undefined#/properties/segment_lane_tod_id") |
-| [segment_lane_id](#segment_lane_id)         | `any`     | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-segment_lane_id.md "undefined#/properties/segment_lane_id")         |
-| [timeday_id](#timeday_id)                   | `any`     | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-timeday_id.md "undefined#/properties/timeday_id")                   |
-| [time_day](#time_day)                       | `any`     | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-time_day.md "undefined#/properties/time_day")                       |
-| [lane_num](#lane_num)                       | `integer` | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-lane_num.md "undefined#/properties/lane_num")                       |
-| [allowed_uses](#allowed_uses)               | `string`  | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-allowed_uses.md "undefined#/properties/allowed_uses")               |
-| [r_barrier](#r_barrier)                     | `any`     | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-r_barrier.md "undefined#/properties/r_barrier")                     |
-| [l_barrier](#l_barrier)                     | `any`     | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-l_barrier.md "undefined#/properties/l_barrier")                     |
-| [width](#width)                             | `number`  | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-width.md "undefined#/properties/width")                             |
+| Property                                    | Type      | Required | Nullable       | Defined by                                                                                                                                 |
+| :------------------------------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| [segment_lane_tod_id](#segment_lane_tod_id) | `any`     | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-segment_lane_tod_id.md "spec/segment_lane_tod.schema.json#/properties/segment_lane_tod_id") |
+| [segment_lane_id](#segment_lane_id)         | `any`     | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-segment_lane_id.md "spec/segment_lane_tod.schema.json#/properties/segment_lane_id")         |
+| [timeday_id](#timeday_id)                   | `any`     | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-timeday_id.md "spec/segment_lane_tod.schema.json#/properties/timeday_id")                   |
+| [time_day](#time_day)                       | `any`     | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-time_day.md "spec/segment_lane_tod.schema.json#/properties/time_day")                       |
+| [lane_num](#lane_num)                       | `integer` | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-lane_num.md "spec/segment_lane_tod.schema.json#/properties/lane_num")                       |
+| [allowed_uses](#allowed_uses)               | `string`  | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-allowed_uses.md "spec/segment_lane_tod.schema.json#/properties/allowed_uses")               |
+| [r_barrier](#r_barrier)                     | `any`     | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-r_barrier.md "spec/segment_lane_tod.schema.json#/properties/r_barrier")                     |
+| [l_barrier](#l_barrier)                     | `any`     | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-l_barrier.md "spec/segment_lane_tod.schema.json#/properties/l_barrier")                     |
+| [width](#width)                             | `number`  | Optional | cannot be null | [segment_lane_tod](segment_lane_tod-properties-width.md "spec/segment_lane_tod.schema.json#/properties/width")                             |
 
 ## segment_lane_tod_id
 
@@ -39,7 +39,7 @@ Primary key.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [segment_lane_tod](segment_lane_tod-properties-segment_lane_tod_id.md "undefined#/properties/segment_lane_tod_id")
+-   defined in: [segment_lane_tod](segment_lane_tod-properties-segment_lane_tod_id.md "spec/segment_lane_tod.schema.json#/properties/segment_lane_tod_id")
 
 ### segment_lane_tod_id Type
 
@@ -55,7 +55,7 @@ Required. Foreign key, segment_lane table
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [segment_lane_tod](segment_lane_tod-properties-segment_lane_id.md "undefined#/properties/segment_lane_id")
+-   defined in: [segment_lane_tod](segment_lane_tod-properties-segment_lane_id.md "spec/segment_lane_tod.schema.json#/properties/segment_lane_id")
 
 ### segment_lane_id Type
 
@@ -71,7 +71,7 @@ Conditionally required (either timeday_id or time_day). Foreign key to time_set_
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [segment_lane_tod](segment_lane_tod-properties-timeday_id.md "undefined#/properties/timeday_id")
+-   defined in: [segment_lane_tod](segment_lane_tod-properties-timeday_id.md "spec/segment_lane_tod.schema.json#/properties/timeday_id")
 
 ### timeday_id Type
 
@@ -87,7 +87,7 @@ Conditionally required (either timeday_id or time_day). XXXXXXXX_HHMM_HHMM, wher
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [segment_lane_tod](segment_lane_tod-properties-time_day.md "undefined#/properties/time_day")
+-   defined in: [segment_lane_tod](segment_lane_tod-properties-time_day.md "spec/segment_lane_tod.schema.json#/properties/time_day")
 
 ### time_day Type
 
@@ -103,7 +103,7 @@ Required. Lane number identified as offset to the right from the centerline. i.e
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [segment_lane_tod](segment_lane_tod-properties-lane_num.md "undefined#/properties/lane_num")
+-   defined in: [segment_lane_tod](segment_lane_tod-properties-lane_num.md "spec/segment_lane_tod.schema.json#/properties/lane_num")
 
 ### lane_num Type
 
@@ -125,7 +125,7 @@ Optional. Set of allowed uses; comma-separated. Foreign key to use_definition or
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [segment_lane_tod](segment_lane_tod-properties-allowed_uses.md "undefined#/properties/allowed_uses")
+-   defined in: [segment_lane_tod](segment_lane_tod-properties-allowed_uses.md "spec/segment_lane_tod.schema.json#/properties/allowed_uses")
 
 ### allowed_uses Type
 
@@ -145,7 +145,7 @@ Optional. Whether a barrier exists to prevent vehicles from changing lanes to th
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [segment_lane_tod](segment_lane_tod-properties-r_barrier.md "undefined#/properties/r_barrier")
+-   defined in: [segment_lane_tod](segment_lane_tod-properties-r_barrier.md "spec/segment_lane_tod.schema.json#/properties/r_barrier")
 
 ### r_barrier Type
 
@@ -175,7 +175,7 @@ Optional. Whether a barrier exists to prevent vehicles from changing lanes to th
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [segment_lane_tod](segment_lane_tod-properties-l_barrier.md "undefined#/properties/l_barrier")
+-   defined in: [segment_lane_tod](segment_lane_tod-properties-l_barrier.md "spec/segment_lane_tod.schema.json#/properties/l_barrier")
 
 ### l_barrier Type
 
@@ -201,7 +201,7 @@ Optional. Width of the lane, feet.
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [segment_lane_tod](segment_lane_tod-properties-width.md "undefined#/properties/width")
+-   defined in: [segment_lane_tod](segment_lane_tod-properties-width.md "spec/segment_lane_tod.schema.json#/properties/width")
 
 ### width Type
 

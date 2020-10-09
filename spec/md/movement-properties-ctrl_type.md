@@ -1,7 +1,7 @@
 # Untitled any in movement Schema
 
 ```txt
-undefined#/properties/ctrl_type
+spec/movement.schema.json#/properties/ctrl_type
 ```
 
 Optional. .

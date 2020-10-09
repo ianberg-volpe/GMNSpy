@@ -1,7 +1,7 @@
 # Untitled integer in lane Schema
 
 ```txt
-undefined#/properties/lane_num
+spec/lane.schema.json#/properties/lane_num
 ```
 
 Required. e.g., -1, 1, 2 (use left-to-right numbering).

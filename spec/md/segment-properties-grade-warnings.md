@@ -1,7 +1,7 @@
 # Untitled undefined type in segment Schema
 
 ```txt
-undefined#/properties/grade/warnings
+spec/segment.schema.json#/properties/grade/warnings
 ```
 
 

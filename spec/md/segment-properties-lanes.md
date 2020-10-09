@@ -1,7 +1,7 @@
 # Untitled integer in segment Schema
 
 ```txt
-undefined#/properties/lanes
+spec/segment.schema.json#/properties/lanes
 ```
 
 Optional. Number of lanes in the direction of travel (must be consistent with link lanes + lanes added).

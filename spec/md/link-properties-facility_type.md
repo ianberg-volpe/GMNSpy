@@ -1,7 +1,7 @@
 # Untitled string in link Schema
 
 ```txt
-undefined#/properties/facility_type
+spec/link.schema.json#/properties/facility_type
 ```
 
 Facility type (e.g., freeway, arterial, etc.)

@@ -1,7 +1,7 @@
 # Untitled string in segment Schema
 
 ```txt
-undefined#/properties/ped_facility
+spec/segment.schema.json#/properties/ped_facility
 ```
 
 Optional. Type of pedestrian accommodation:unknown,none,shoulder,sidewalk,offstreet_path.

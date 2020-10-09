@@ -1,7 +1,7 @@
 # Untitled any in zone Schema
 
 ```txt
-undefined#/properties/zone_id
+spec/zone.schema.json#/properties/zone_id
 ```
 
 Primary key.

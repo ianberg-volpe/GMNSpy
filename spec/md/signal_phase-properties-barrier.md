@@ -1,7 +1,7 @@
 # Untitled integer in signal_phase Schema
 
 ```txt
-undefined#/properties/barrier
+spec/signal_phase.schema.json#/properties/barrier
 ```
 
 Required. Set of phases that can operate other.

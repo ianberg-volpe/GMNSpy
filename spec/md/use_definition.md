@@ -1,10 +1,10 @@
 # use_definition Schema
 
 ```txt
-undefined
+spec/use_definition.schema.json
 ```
 
-
+The Use_Definition file defines the characteristics of each vehicle type or non-travel purpose (e.g., a shoulder or parking lane). A two-way left turn lane (TWLTL) is also a use.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                |
@@ -17,13 +17,13 @@ unknown ([use_definition](use_definition.md))
 
 # use_definition Properties
 
-| Property                                    | Type     | Required | Nullable       | Defined by                                                                                                     |
-| :------------------------------------------ | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------- |
-| [use](#use)                                 | `string` | Optional | cannot be null | [use_definition](use_definition-properties-use.md "undefined#/properties/use")                                 |
-| [persons_per_vehicle](#persons_per_vehicle) | `number` | Optional | cannot be null | [use_definition](use_definition-properties-persons_per_vehicle.md "undefined#/properties/persons_per_vehicle") |
-| [pce](#pce)                                 | `number` | Optional | cannot be null | [use_definition](use_definition-properties-pce.md "undefined#/properties/pce")                                 |
-| [special_conditions](#special_conditions)   | `string` | Optional | cannot be null | [use_definition](use_definition-properties-special_conditions.md "undefined#/properties/special_conditions")   |
-| [description](#description)                 | `string` | Optional | cannot be null | [use_definition](use_definition-properties-description.md "undefined#/properties/description")                 |
+| Property                                    | Type     | Required | Nullable       | Defined by                                                                                                                           |
+| :------------------------------------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
+| [use](#use)                                 | `string` | Optional | cannot be null | [use_definition](use_definition-properties-use.md "spec/use_definition.schema.json#/properties/use")                                 |
+| [persons_per_vehicle](#persons_per_vehicle) | `number` | Optional | cannot be null | [use_definition](use_definition-properties-persons_per_vehicle.md "spec/use_definition.schema.json#/properties/persons_per_vehicle") |
+| [pce](#pce)                                 | `number` | Optional | cannot be null | [use_definition](use_definition-properties-pce.md "spec/use_definition.schema.json#/properties/pce")                                 |
+| [special_conditions](#special_conditions)   | `string` | Optional | cannot be null | [use_definition](use_definition-properties-special_conditions.md "spec/use_definition.schema.json#/properties/special_conditions")   |
+| [description](#description)                 | `string` | Optional | cannot be null | [use_definition](use_definition-properties-description.md "spec/use_definition.schema.json#/properties/description")                 |
 
 ## use
 
@@ -35,7 +35,7 @@ Primary key
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [use_definition](use_definition-properties-use.md "undefined#/properties/use")
+-   defined in: [use_definition](use_definition-properties-use.md "spec/use_definition.schema.json#/properties/use")
 
 ### use Type
 
@@ -51,7 +51,7 @@ Required.
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [use_definition](use_definition-properties-persons_per_vehicle.md "undefined#/properties/persons_per_vehicle")
+-   defined in: [use_definition](use_definition-properties-persons_per_vehicle.md "spec/use_definition.schema.json#/properties/persons_per_vehicle")
 
 ### persons_per_vehicle Type
 
@@ -71,7 +71,7 @@ Required. Passenger car equivelent.
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [use_definition](use_definition-properties-pce.md "undefined#/properties/pce")
+-   defined in: [use_definition](use_definition-properties-pce.md "spec/use_definition.schema.json#/properties/pce")
 
 ### pce Type
 
@@ -91,7 +91,7 @@ Optional.
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [use_definition](use_definition-properties-special_conditions.md "undefined#/properties/special_conditions")
+-   defined in: [use_definition](use_definition-properties-special_conditions.md "spec/use_definition.schema.json#/properties/special_conditions")
 
 ### special_conditions Type
 
@@ -107,7 +107,7 @@ Optional
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [use_definition](use_definition-properties-description.md "undefined#/properties/description")
+-   defined in: [use_definition](use_definition-properties-description.md "spec/use_definition.schema.json#/properties/description")
 
 ### description Type
 

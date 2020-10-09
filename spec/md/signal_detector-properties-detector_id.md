@@ -1,7 +1,7 @@
 # Untitled any in signal_detector Schema
 
 ```txt
-undefined#/properties/detector_id
+spec/signal_detector.schema.json#/properties/detector_id
 ```
 
 Primary key.

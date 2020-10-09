@@ -1,7 +1,7 @@
 # Untitled any in link Schema
 
 ```txt
-undefined#/properties/geometry_id
+spec/link.schema.json#/properties/geometry_id
 ```
 
 Optional. Foreign key (Link_Geometry table).

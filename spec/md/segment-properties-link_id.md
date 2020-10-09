@@ -1,7 +1,7 @@
 # Untitled any in segment Schema
 
 ```txt
-undefined#/properties/link_id
+spec/segment.schema.json#/properties/link_id
 ```
 
 Required. Foreign key to road_links. The link that the segment is located on.

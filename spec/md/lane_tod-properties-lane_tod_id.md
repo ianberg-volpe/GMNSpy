@@ -1,7 +1,7 @@
 # Untitled any in lane_tod Schema
 
 ```txt
-undefined#/properties/lane_tod_id
+spec/lane_tod.schema.json#/properties/lane_tod_id
 ```
 
 Primary key.

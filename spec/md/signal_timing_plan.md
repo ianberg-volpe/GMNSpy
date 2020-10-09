@@ -1,10 +1,10 @@
 # signal_timing_plan Schema
 
 ```txt
-undefined
+spec/signal_timing_plan.schema.json
 ```
 
-
+For signalized nodes, establishes timing plans and coordination.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                        |
@@ -17,17 +17,17 @@ unknown ([signal_timing_plan](signal_timing_plan.md))
 
 # signal_timing_plan Properties
 
-| Property                          | Type      | Required | Nullable       | Defined by                                                                                                   |
-| :-------------------------------- | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------- |
-| [timing_plan_id](#timing_plan_id) | `any`     | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-timing_plan_id.md "undefined#/properties/timing_plan_id") |
-| [controller_id](#controller_id)   | `any`     | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-controller_id.md "undefined#/properties/controller_id")   |
-| [timeday_id](#timeday_id)         | `any`     | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-timeday_id.md "undefined#/properties/timeday_id")         |
-| [time_day](#time_day)             | `any`     | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-time_day.md "undefined#/properties/time_day")             |
-| [cycle_length](#cycle_length)     | `integer` | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-cycle_length.md "undefined#/properties/cycle_length")     |
-| [coord_contr_id](#coord_contr_id) | `any`     | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-coord_contr_id.md "undefined#/properties/coord_contr_id") |
-| [coord_phase](#coord_phase)       | `integer` | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-coord_phase.md "undefined#/properties/coord_phase")       |
-| [coord_ref_to](#coord_ref_to)     | `string`  | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-coord_ref_to.md "undefined#/properties/coord_ref_to")     |
-| [offset](#offset)                 | `integer` | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-offset.md "undefined#/properties/offset")                 |
+| Property                          | Type      | Required | Nullable       | Defined by                                                                                                                             |
+| :-------------------------------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| [timing_plan_id](#timing_plan_id) | `any`     | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-timing_plan_id.md "spec/signal_timing_plan.schema.json#/properties/timing_plan_id") |
+| [controller_id](#controller_id)   | `any`     | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-controller_id.md "spec/signal_timing_plan.schema.json#/properties/controller_id")   |
+| [timeday_id](#timeday_id)         | `any`     | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-timeday_id.md "spec/signal_timing_plan.schema.json#/properties/timeday_id")         |
+| [time_day](#time_day)             | `any`     | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-time_day.md "spec/signal_timing_plan.schema.json#/properties/time_day")             |
+| [cycle_length](#cycle_length)     | `integer` | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-cycle_length.md "spec/signal_timing_plan.schema.json#/properties/cycle_length")     |
+| [coord_contr_id](#coord_contr_id) | `any`     | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-coord_contr_id.md "spec/signal_timing_plan.schema.json#/properties/coord_contr_id") |
+| [coord_phase](#coord_phase)       | `integer` | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-coord_phase.md "spec/signal_timing_plan.schema.json#/properties/coord_phase")       |
+| [coord_ref_to](#coord_ref_to)     | `string`  | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-coord_ref_to.md "spec/signal_timing_plan.schema.json#/properties/coord_ref_to")     |
+| [offset](#offset)                 | `integer` | Optional | cannot be null | [signal_timing_plan](signal_timing_plan-properties-offset.md "spec/signal_timing_plan.schema.json#/properties/offset")                 |
 
 ## timing_plan_id
 
@@ -39,7 +39,7 @@ Primary key.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [signal_timing_plan](signal_timing_plan-properties-timing_plan_id.md "undefined#/properties/timing_plan_id")
+-   defined in: [signal_timing_plan](signal_timing_plan-properties-timing_plan_id.md "spec/signal_timing_plan.schema.json#/properties/timing_plan_id")
 
 ### timing_plan_id Type
 
@@ -55,7 +55,7 @@ Required. Foreign key (signal_controller table).
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [signal_timing_plan](signal_timing_plan-properties-controller_id.md "undefined#/properties/controller_id")
+-   defined in: [signal_timing_plan](signal_timing_plan-properties-controller_id.md "spec/signal_timing_plan.schema.json#/properties/controller_id")
 
 ### controller_id Type
 
@@ -71,7 +71,7 @@ Conditionally required (either timeday_id or time_day). Foreign key to time_set_
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [signal_timing_plan](signal_timing_plan-properties-timeday_id.md "undefined#/properties/timeday_id")
+-   defined in: [signal_timing_plan](signal_timing_plan-properties-timeday_id.md "spec/signal_timing_plan.schema.json#/properties/timeday_id")
 
 ### timeday_id Type
 
@@ -87,7 +87,7 @@ Conditionally required (either timeday_id or time_day). XXXXXXXX_HHMM_HHMM, wher
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [signal_timing_plan](signal_timing_plan-properties-time_day.md "undefined#/properties/time_day")
+-   defined in: [signal_timing_plan](signal_timing_plan-properties-time_day.md "spec/signal_timing_plan.schema.json#/properties/time_day")
 
 ### time_day Type
 
@@ -103,7 +103,7 @@ Required. Cycle length in seconds.
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [signal_timing_plan](signal_timing_plan-properties-cycle_length.md "undefined#/properties/cycle_length")
+-   defined in: [signal_timing_plan](signal_timing_plan-properties-cycle_length.md "spec/signal_timing_plan.schema.json#/properties/cycle_length")
 
 ### cycle_length Type
 
@@ -125,7 +125,7 @@ Optional. For coordinated signals, the `master` signal controller for coordinati
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [signal_timing_plan](signal_timing_plan-properties-coord_contr_id.md "undefined#/properties/coord_contr_id")
+-   defined in: [signal_timing_plan](signal_timing_plan-properties-coord_contr_id.md "spec/signal_timing_plan.schema.json#/properties/coord_contr_id")
 
 ### coord_contr_id Type
 
@@ -141,7 +141,7 @@ Optional. For coordinated signals, the phase at which coordination starts (time 
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [signal_timing_plan](signal_timing_plan-properties-coord_phase.md "undefined#/properties/coord_phase")
+-   defined in: [signal_timing_plan](signal_timing_plan-properties-coord_phase.md "spec/signal_timing_plan.schema.json#/properties/coord_phase")
 
 ### coord_phase Type
 
@@ -163,7 +163,7 @@ Optional. For coordinated signals, the part of the phase where coordination star
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [signal_timing_plan](signal_timing_plan-properties-coord_ref_to.md "undefined#/properties/coord_ref_to")
+-   defined in: [signal_timing_plan](signal_timing_plan-properties-coord_ref_to.md "spec/signal_timing_plan.schema.json#/properties/coord_ref_to")
 
 ### coord_ref_to Type
 
@@ -189,7 +189,7 @@ Optional. Offset in seconds.
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [signal_timing_plan](signal_timing_plan-properties-offset.md "undefined#/properties/offset")
+-   defined in: [signal_timing_plan](signal_timing_plan-properties-offset.md "spec/signal_timing_plan.schema.json#/properties/offset")
 
 ### offset Type
 

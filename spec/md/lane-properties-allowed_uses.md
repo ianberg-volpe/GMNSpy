@@ -1,7 +1,7 @@
 # Untitled string in lane Schema
 
 ```txt
-undefined#/properties/allowed_uses
+spec/lane.schema.json#/properties/allowed_uses
 ```
 
 Required. Set of allowed uses from Use_set: shoulder, parking, walk, all, bike, auto, hov2, hov3, truck, bus, etc.

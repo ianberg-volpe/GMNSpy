@@ -1,7 +1,7 @@
 # Untitled any in signal_timing_plan Schema
 
 ```txt
-undefined#/properties/time_day
+spec/signal_timing_plan.schema.json#/properties/time_day
 ```
 
 Conditionally required (either timeday_id or time_day). XXXXXXXX_HHMM_HHMM, where XXXXXXXX is a bitmap of days of the week, Sunday-Saturday, Holiday. The HHMM are the start and end times.

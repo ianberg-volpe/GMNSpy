@@ -1,7 +1,7 @@
 # Untitled any in segment_lane Schema
 
 ```txt
-undefined#/properties/segment_id
+spec/segment_lane.schema.json#/properties/segment_id
 ```
 
 Required. Foreign key to the associated segment.

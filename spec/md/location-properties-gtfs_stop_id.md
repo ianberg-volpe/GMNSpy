@@ -1,7 +1,7 @@
 # Untitled string in location Schema
 
 ```txt
-undefined#/properties/gtfs_stop_id
+spec/location.schema.json#/properties/gtfs_stop_id
 ```
 
 Optional. Foreign Key to GTFS data. For bus stops and transit station entrances, provides a link to the General Transit Feed Specification.

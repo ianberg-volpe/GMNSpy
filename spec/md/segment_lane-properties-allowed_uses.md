@@ -1,7 +1,7 @@
 # Untitled string in segment_lane Schema
 
 ```txt
-undefined#/properties/allowed_uses
+spec/segment_lane.schema.json#/properties/allowed_uses
 ```
 
 Optional. Set of allowed uses; comma-separated. Foreign key for use group.

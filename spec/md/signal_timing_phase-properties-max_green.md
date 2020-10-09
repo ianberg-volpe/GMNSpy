@@ -1,7 +1,7 @@
 # Untitled integer in signal_timing_phase Schema
 
 ```txt
-undefined#/properties/max_green
+spec/signal_timing_phase.schema.json#/properties/max_green
 ```
 
 Optional.The maximum green time in seconds for an actuated signal; the default is minimum green plus one extension

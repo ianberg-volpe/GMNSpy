@@ -1,7 +1,7 @@
 # Untitled any in link_tod Schema
 
 ```txt
-undefined#/properties/link_id
+spec/link_tod.schema.json#/properties/link_id
 ```
 
 Required. Foreign key, link table

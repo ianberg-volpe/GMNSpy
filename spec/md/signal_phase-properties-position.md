@@ -1,7 +1,7 @@
 # Untitled integer in signal_phase Schema
 
 ```txt
-undefined#/properties/position
+spec/signal_phase.schema.json#/properties/position
 ```
 
 Required. Position.

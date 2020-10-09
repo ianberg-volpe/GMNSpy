@@ -1,7 +1,7 @@
 # Untitled undefined type in location Schema
 
 ```txt
-undefined#/properties
+spec/location.schema.json#/properties
 ```
 
 

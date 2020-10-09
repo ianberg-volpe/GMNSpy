@@ -1,7 +1,7 @@
 # Untitled any in zone Schema
 
 ```txt
-undefined#/properties/name
+spec/zone.schema.json#/properties/name
 ```
 
 Optional.

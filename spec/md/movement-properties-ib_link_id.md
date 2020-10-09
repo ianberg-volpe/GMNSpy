@@ -1,7 +1,7 @@
 # Untitled any in movement Schema
 
 ```txt
-undefined#/properties/ib_link_id
+spec/movement.schema.json#/properties/ib_link_id
 ```
 
 Inbound link id.

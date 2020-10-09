@@ -1,7 +1,7 @@
 # Untitled string in use_definition Schema
 
 ```txt
-undefined#/properties/description
+spec/use_definition.schema.json#/properties/description
 ```
 
 Optional 

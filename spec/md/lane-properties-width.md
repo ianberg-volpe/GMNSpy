@@ -1,7 +1,7 @@
 # Untitled number in lane Schema
 
 ```txt
-undefined#/properties/width
+spec/lane.schema.json#/properties/width
 ```
 
 Optional. Width of the lane, feet.

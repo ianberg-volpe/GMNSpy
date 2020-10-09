@@ -1,7 +1,7 @@
 # Untitled string in link Schema
 
 ```txt
-undefined#/properties/allowed_uses
+spec/link.schema.json#/properties/allowed_uses
 ```
 
 Optional. Set of allowed uses: shoulder, parking, walk, all, bike, auto, hov2, hov3, truck, bus, etc. e.g. [auto,bike]

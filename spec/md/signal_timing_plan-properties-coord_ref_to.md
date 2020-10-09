@@ -1,7 +1,7 @@
 # Untitled string in signal_timing_plan Schema
 
 ```txt
-undefined#/properties/coord_ref_to
+spec/signal_timing_plan.schema.json#/properties/coord_ref_to
 ```
 
 Optional. For coordinated signals, the part of the phase where coordination starts: begin_of_green, begin_of_yellow, begin_of_red.

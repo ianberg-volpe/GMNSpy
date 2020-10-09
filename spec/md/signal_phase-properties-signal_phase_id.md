@@ -1,7 +1,7 @@
 # Untitled any in signal_phase Schema
 
 ```txt
-undefined#/properties/signal_phase_id
+spec/signal_phase.schema.json#/properties/signal_phase_id
 ```
 
 Primary key.

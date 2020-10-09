@@ -1,7 +1,7 @@
 # Untitled string in signal_detector Schema
 
 ```txt
-undefined#/properties/det_type
+spec/signal_detector.schema.json#/properties/det_type
 ```
 
 Optional. Type of detector.

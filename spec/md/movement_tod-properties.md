@@ -1,7 +1,7 @@
 # Untitled undefined type in movement_tod Schema
 
 ```txt
-undefined#/properties
+spec/movement_tod.schema.json#/properties
 ```
 
 

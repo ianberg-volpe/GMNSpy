@@ -1,7 +1,7 @@
 # Untitled number in location Schema
 
 ```txt
-undefined#/properties/y_coord
+spec/location.schema.json#/properties/y_coord
 ```
 
 Optional. Either provided, or derived from Link, Ref_Node and LR.

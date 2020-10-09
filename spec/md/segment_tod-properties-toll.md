@@ -1,7 +1,7 @@
 # Untitled integer in segment_tod Schema
 
 ```txt
-undefined#/properties/toll
+spec/segment_tod.schema.json#/properties/toll
 ```
 
 Optional. Toll in cents

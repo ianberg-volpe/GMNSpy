@@ -1,7 +1,7 @@
 # Untitled undefined type in link_tod Schema
 
 ```txt
-undefined#/properties
+spec/link_tod.schema.json#/properties
 ```
 
 

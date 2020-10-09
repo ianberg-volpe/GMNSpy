@@ -1,7 +1,7 @@
 # Untitled any in movement Schema
 
 ```txt
-undefined#/properties/node_id
+spec/movement.schema.json#/properties/node_id
 ```
 
 The node representing the junction.

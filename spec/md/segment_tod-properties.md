@@ -1,7 +1,7 @@
 # Untitled undefined type in segment_tod Schema
 
 ```txt
-undefined#/properties
+spec/segment_tod.schema.json#/properties
 ```
 
 

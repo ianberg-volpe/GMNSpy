@@ -1,7 +1,7 @@
 # Untitled Any in link_tod Schema
 
 ```txt
-undefined#/properties/allowed_uses
+spec/link_tod.schema.json#/properties/allowed_uses
 ```
 
 Use_Set. Optional.

@@ -1,7 +1,7 @@
 # Untitled string in node Schema
 
 ```txt
-undefined#/properties/ctrl_type
+spec/node.schema.json#/properties/ctrl_type
 ```
 
 Optional. Intersection control type - one of ControlType_Set.

@@ -1,7 +1,7 @@
 # Untitled undefined type in link_tod Schema
 
 ```txt
-undefined#/properties/free_speed/warnings
+spec/link_tod.schema.json#/properties/free_speed/warnings
 ```
 
 

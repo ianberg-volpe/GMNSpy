@@ -1,7 +1,7 @@
 # Untitled integer in link_tod Schema
 
 ```txt
-undefined#/properties/capacity
+spec/link_tod.schema.json#/properties/capacity
 ```
 
 Optional. Capacity (veh / hr / lane)

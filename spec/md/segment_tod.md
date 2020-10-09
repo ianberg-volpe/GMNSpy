@@ -1,10 +1,10 @@
 # segment_tod Schema
 
 ```txt
-undefined
+spec/segment_tod.schema.json
 ```
 
-
+An optional file that handles day-of-week and time-of-day restrictions on segments. It is used for part-time changes in segment capacity and number of lanes.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                          |
@@ -17,22 +17,22 @@ unknown ([segment_tod](segment_tod.md))
 
 # segment_tod Properties
 
-| Property                          | Type      | Required | Nullable       | Defined by                                                                                     |
-| :-------------------------------- | --------- | -------- | -------------- | :--------------------------------------------------------------------------------------------- |
-| [segment_tod_id](#segment_tod_id) | `any`     | Optional | cannot be null | [segment_tod](segment_tod-properties-segment_tod_id.md "undefined#/properties/segment_tod_id") |
-| [segment_id](#segment_id)         | `any`     | Optional | cannot be null | [segment_tod](segment_tod-properties-segment_id.md "undefined#/properties/segment_id")         |
-| [timeday_id](#timeday_id)         | `any`     | Optional | cannot be null | [segment_tod](segment_tod-properties-timeday_id.md "undefined#/properties/timeday_id")         |
-| [time_day](#time_day)             | `any`     | Optional | cannot be null | [segment_tod](segment_tod-properties-time_day.md "undefined#/properties/time_day")             |
-| [capacity](#capacity)             | `integer` | Optional | cannot be null | [segment_tod](segment_tod-properties-capacity.md "undefined#/properties/capacity")             |
-| [free_speed](#free_speed)         | `integer` | Optional | cannot be null | [segment_tod](segment_tod-properties-free_speed.md "undefined#/properties/free_speed")         |
-| [lanes](#lanes)                   | `integer` | Optional | cannot be null | [segment_tod](segment_tod-properties-lanes.md "undefined#/properties/lanes")                   |
-| [l_lanes_added](#l_lanes_added)   | `integer` | Optional | cannot be null | [segment_tod](segment_tod-properties-l_lanes_added.md "undefined#/properties/l_lanes_added")   |
-| [r_lanes_added](#r_lanes_added)   | `integer` | Optional | cannot be null | [segment_tod](segment_tod-properties-r_lanes_added.md "undefined#/properties/r_lanes_added")   |
-| [bike_facility](#bike_facility)   | `string`  | Optional | cannot be null | [segment_tod](segment_tod-properties-bike_facility.md "undefined#/properties/bike_facility")   |
-| [ped_facility](#ped_facility)     | `string`  | Optional | cannot be null | [segment_tod](segment_tod-properties-ped_facility.md "undefined#/properties/ped_facility")     |
-| [parking](#parking)               | `string`  | Optional | cannot be null | [segment_tod](segment_tod-properties-parking.md "undefined#/properties/parking")               |
-| [toll](#toll)                     | `integer` | Optional | cannot be null | [segment_tod](segment_tod-properties-toll.md "undefined#/properties/toll")                     |
-| [allowed_uses](#allowed_uses)     | `string`  | Optional | cannot be null | [segment_tod](segment_tod-properties-allowed_uses.md "undefined#/properties/allowed_uses")     |
+| Property                          | Type      | Required | Nullable       | Defined by                                                                                                        |
+| :-------------------------------- | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------- |
+| [segment_tod_id](#segment_tod_id) | `any`     | Optional | cannot be null | [segment_tod](segment_tod-properties-segment_tod_id.md "spec/segment_tod.schema.json#/properties/segment_tod_id") |
+| [segment_id](#segment_id)         | `any`     | Optional | cannot be null | [segment_tod](segment_tod-properties-segment_id.md "spec/segment_tod.schema.json#/properties/segment_id")         |
+| [timeday_id](#timeday_id)         | `any`     | Optional | cannot be null | [segment_tod](segment_tod-properties-timeday_id.md "spec/segment_tod.schema.json#/properties/timeday_id")         |
+| [time_day](#time_day)             | `any`     | Optional | cannot be null | [segment_tod](segment_tod-properties-time_day.md "spec/segment_tod.schema.json#/properties/time_day")             |
+| [capacity](#capacity)             | `integer` | Optional | cannot be null | [segment_tod](segment_tod-properties-capacity.md "spec/segment_tod.schema.json#/properties/capacity")             |
+| [free_speed](#free_speed)         | `integer` | Optional | cannot be null | [segment_tod](segment_tod-properties-free_speed.md "spec/segment_tod.schema.json#/properties/free_speed")         |
+| [lanes](#lanes)                   | `integer` | Optional | cannot be null | [segment_tod](segment_tod-properties-lanes.md "spec/segment_tod.schema.json#/properties/lanes")                   |
+| [l_lanes_added](#l_lanes_added)   | `integer` | Optional | cannot be null | [segment_tod](segment_tod-properties-l_lanes_added.md "spec/segment_tod.schema.json#/properties/l_lanes_added")   |
+| [r_lanes_added](#r_lanes_added)   | `integer` | Optional | cannot be null | [segment_tod](segment_tod-properties-r_lanes_added.md "spec/segment_tod.schema.json#/properties/r_lanes_added")   |
+| [bike_facility](#bike_facility)   | `string`  | Optional | cannot be null | [segment_tod](segment_tod-properties-bike_facility.md "spec/segment_tod.schema.json#/properties/bike_facility")   |
+| [ped_facility](#ped_facility)     | `string`  | Optional | cannot be null | [segment_tod](segment_tod-properties-ped_facility.md "spec/segment_tod.schema.json#/properties/ped_facility")     |
+| [parking](#parking)               | `string`  | Optional | cannot be null | [segment_tod](segment_tod-properties-parking.md "spec/segment_tod.schema.json#/properties/parking")               |
+| [toll](#toll)                     | `integer` | Optional | cannot be null | [segment_tod](segment_tod-properties-toll.md "spec/segment_tod.schema.json#/properties/toll")                     |
+| [allowed_uses](#allowed_uses)     | `string`  | Optional | cannot be null | [segment_tod](segment_tod-properties-allowed_uses.md "spec/segment_tod.schema.json#/properties/allowed_uses")     |
 
 ## segment_tod_id
 
@@ -44,7 +44,7 @@ Primary key.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-segment_tod_id.md "undefined#/properties/segment_tod_id")
+-   defined in: [segment_tod](segment_tod-properties-segment_tod_id.md "spec/segment_tod.schema.json#/properties/segment_tod_id")
 
 ### segment_tod_id Type
 
@@ -60,7 +60,7 @@ Foreign key to segment table.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-segment_id.md "undefined#/properties/segment_id")
+-   defined in: [segment_tod](segment_tod-properties-segment_id.md "spec/segment_tod.schema.json#/properties/segment_id")
 
 ### segment_id Type
 
@@ -76,7 +76,7 @@ Conditionally required (either timeday_id or time_day). Foreign key to time_set_
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-timeday_id.md "undefined#/properties/timeday_id")
+-   defined in: [segment_tod](segment_tod-properties-timeday_id.md "spec/segment_tod.schema.json#/properties/timeday_id")
 
 ### timeday_id Type
 
@@ -92,7 +92,7 @@ Conditionally required (either timeday_id or time_day). XXXXXXXX_HHMM_HHMM, wher
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-time_day.md "undefined#/properties/time_day")
+-   defined in: [segment_tod](segment_tod-properties-time_day.md "spec/segment_tod.schema.json#/properties/time_day")
 
 ### time_day Type
 
@@ -108,7 +108,7 @@ Optional. Capacity (veh/hr/ln)
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-capacity.md "undefined#/properties/capacity")
+-   defined in: [segment_tod](segment_tod-properties-capacity.md "spec/segment_tod.schema.json#/properties/capacity")
 
 ### capacity Type
 
@@ -128,7 +128,7 @@ Optional. Free flow speed (mph)
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-free_speed.md "undefined#/properties/free_speed")
+-   defined in: [segment_tod](segment_tod-properties-free_speed.md "spec/segment_tod.schema.json#/properties/free_speed")
 
 ### free_speed Type
 
@@ -148,7 +148,7 @@ Optional. Number of lanes in the direction of travel (must be consistent with li
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-lanes.md "undefined#/properties/lanes")
+-   defined in: [segment_tod](segment_tod-properties-lanes.md "spec/segment_tod.schema.json#/properties/lanes")
 
 ### lanes Type
 
@@ -164,7 +164,7 @@ Optional. # of lanes added on the left of the road link (negative indicates a la
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-l_lanes_added.md "undefined#/properties/l_lanes_added")
+-   defined in: [segment_tod](segment_tod-properties-l_lanes_added.md "spec/segment_tod.schema.json#/properties/l_lanes_added")
 
 ### l_lanes_added Type
 
@@ -180,7 +180,7 @@ Optional. # of lanes added on the right of the road link (negative indicates a l
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-r_lanes_added.md "undefined#/properties/r_lanes_added")
+-   defined in: [segment_tod](segment_tod-properties-r_lanes_added.md "spec/segment_tod.schema.json#/properties/r_lanes_added")
 
 ### r_lanes_added Type
 
@@ -196,7 +196,7 @@ Optional. Type of bicycle accommodation: unknown, none,wcl, bikelane,cycletrack,
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-bike_facility.md "undefined#/properties/bike_facility")
+-   defined in: [segment_tod](segment_tod-properties-bike_facility.md "spec/segment_tod.schema.json#/properties/bike_facility")
 
 ### bike_facility Type
 
@@ -226,7 +226,7 @@ Optional. Type of pedestrian accommodation: unknown,none,shoulder,sidewalk,offst
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-ped_facility.md "undefined#/properties/ped_facility")
+-   defined in: [segment_tod](segment_tod-properties-ped_facility.md "spec/segment_tod.schema.json#/properties/ped_facility")
 
 ### ped_facility Type
 
@@ -254,7 +254,7 @@ Optional. Type of parking: unknown,none,shoulder,sidewalk,offstreet_path.
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-parking.md "undefined#/properties/parking")
+-   defined in: [segment_tod](segment_tod-properties-parking.md "spec/segment_tod.schema.json#/properties/parking")
 
 ### parking Type
 
@@ -282,7 +282,7 @@ Optional. Toll in cents
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-toll.md "undefined#/properties/toll")
+-   defined in: [segment_tod](segment_tod-properties-toll.md "spec/segment_tod.schema.json#/properties/toll")
 
 ### toll Type
 
@@ -298,7 +298,7 @@ Optional. Set of allowed uses; comma-separated. Foreign key to use_definition or
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [segment_tod](segment_tod-properties-allowed_uses.md "undefined#/properties/allowed_uses")
+-   defined in: [segment_tod](segment_tod-properties-allowed_uses.md "spec/segment_tod.schema.json#/properties/allowed_uses")
 
 ### allowed_uses Type
 

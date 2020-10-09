@@ -1,7 +1,7 @@
 # Untitled any in segment Schema
 
 ```txt
-undefined#/properties/segment_id
+spec/segment.schema.json#/properties/segment_id
 ```
 
 Primary key.

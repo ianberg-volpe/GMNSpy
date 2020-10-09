@@ -1,7 +1,7 @@
 # Untitled undefined type in link Schema
 
 ```txt
-undefined#/properties/grade/warnings
+spec/link.schema.json#/properties/grade/warnings
 ```
 
 

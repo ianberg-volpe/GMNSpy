@@ -1,7 +1,7 @@
 # Untitled number in signal_detector Schema
 
 ```txt
-undefined#/properties/det_zone_lr
+spec/signal_detector.schema.json#/properties/det_zone_lr
 ```
 
 Required. Distance from from reference node to detector.

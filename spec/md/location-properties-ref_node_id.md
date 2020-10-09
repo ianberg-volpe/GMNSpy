@@ -1,7 +1,7 @@
 # Untitled any in location Schema
 
 ```txt
-undefined#/properties/ref_node_id
+spec/location.schema.json#/properties/ref_node_id
 ```
 
 Required. The From node of the link. Foreign Key from Node.

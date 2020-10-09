@@ -1,7 +1,7 @@
 # Untitled any in location Schema
 
 ```txt
-undefined#/properties/zone_id
+spec/location.schema.json#/properties/zone_id
 ```
 
 Optional. Foreign Key, Associated zone

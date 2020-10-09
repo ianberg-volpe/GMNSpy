@@ -1,7 +1,7 @@
 # Untitled string in zone Schema
 
 ```txt
-undefined#/properties/super_zone
+spec/zone.schema.json#/properties/super_zone
 ```
 
 Optional. If there is a hierarchy of zones (e.g., parcels and TAZs), indicates the zone of next higher level.

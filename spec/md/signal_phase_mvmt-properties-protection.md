@@ -1,7 +1,7 @@
 # Untitled any in signal_phase_mvmt Schema
 
 ```txt
-undefined#/properties/protection
+spec/signal_phase_mvmt.schema.json#/properties/protection
 ```
 
 Optional. Indicates whether the phase is protected, permitted, or right turn on red.

@@ -1,7 +1,7 @@
 # Untitled any in signal_timing_phase Schema
 
 ```txt
-undefined#/properties/timing_phase_id
+spec/signal_timing_phase.schema.json#/properties/timing_phase_id
 ```
 
 Primary key.

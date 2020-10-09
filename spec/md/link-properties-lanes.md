@@ -1,7 +1,7 @@
 # Untitled integer in link Schema
 
 ```txt
-undefined#/properties/lanes
+spec/link.schema.json#/properties/lanes
 ```
 
 Optional. Number of permanent lanes (not including turn p

@@ -1,7 +1,7 @@
 # Untitled undefined type in zone Schema
 
 ```txt
-undefined#/properties
+spec/zone.schema.json#/properties
 ```
 
 

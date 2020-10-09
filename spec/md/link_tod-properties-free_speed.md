@@ -1,7 +1,7 @@
 # Untitled integer in link_tod Schema
 
 ```txt
-undefined#/properties/free_speed
+spec/link_tod.schema.json#/properties/free_speed
 ```
 
 Optional. Free flow speed mph

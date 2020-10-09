@@ -1,7 +1,7 @@
 # Untitled any in zone Schema
 
 ```txt
-undefined#/properties/boundary
+spec/zone.schema.json#/properties/boundary
 ```
 
 Optional. The polygon geometry of the zone in WKT or Polygon.

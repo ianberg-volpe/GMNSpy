@@ -1,10 +1,10 @@
 # movement_tod Schema
 
 ```txt
-undefined
+spec/movement_tod.schema.json
 ```
 
-
+Handles day-of-week and time-of-day restrictions on movements.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                            |
@@ -17,22 +17,22 @@ unknown ([movement_tod](movement_tod.md))
 
 # movement_tod Properties
 
-| Property                        | Type      | Required | Nullable       | Defined by                                                                                     |
-| :------------------------------ | --------- | -------- | -------------- | :--------------------------------------------------------------------------------------------- |
-| [mvmt_tod_id](#mvmt_tod_id)     | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-mvmt_tod_id.md "undefined#/properties/mvmt_tod_id")     |
-| [mvmt_id](#mvmt_id)             | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-mvmt_id.md "undefined#/properties/mvmt_id")             |
-| [time_day](#time_day)           | `string`  | Optional | cannot be null | [movement_tod](movement_tod-properties-time_day.md "undefined#/properties/time_day")           |
-| [timeday_id](#timeday_id)       | `string`  | Optional | cannot be null | [movement_tod](movement_tod-properties-timeday_id.md "undefined#/properties/timeday_id")       |
-| [ib_link_id](#ib_link_id)       | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-ib_link_id.md "undefined#/properties/ib_link_id")       |
-| [start_ib_lane](#start_ib_lane) | `integer` | Optional | cannot be null | [movement_tod](movement_tod-properties-start_ib_lane.md "undefined#/properties/start_ib_lane") |
-| [end_ib_lane](#end_ib_lane)     | `integer` | Optional | cannot be null | [movement_tod](movement_tod-properties-end_ib_lane.md "undefined#/properties/end_ib_lane")     |
-| [ob_link_id](#ob_link_id)       | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-ob_link_id.md "undefined#/properties/ob_link_id")       |
-| [start_ob_lane](#start_ob_lane) | `integer` | Optional | cannot be null | [movement_tod](movement_tod-properties-start_ob_lane.md "undefined#/properties/start_ob_lane") |
-| [end_ob_lane](#end_ob_lane)     | `integer` | Optional | cannot be null | [movement_tod](movement_tod-properties-end_ob_lane.md "undefined#/properties/end_ob_lane")     |
-| [type](#type)                   | `string`  | Optional | cannot be null | [movement_tod](movement_tod-properties-type.md "undefined#/properties/type")                   |
-| [penalty](#penalty)             | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-penalty.md "undefined#/properties/penalty")             |
-| [capacity](#capacity)           | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-capacity.md "undefined#/properties/capacity")           |
-| [ctrl_type](#ctrl_type)         | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-ctrl_type.md "undefined#/properties/ctrl_type")         |
+| Property                        | Type      | Required | Nullable       | Defined by                                                                                                         |
+| :------------------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------- |
+| [mvmt_tod_id](#mvmt_tod_id)     | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-mvmt_tod_id.md "spec/movement_tod.schema.json#/properties/mvmt_tod_id")     |
+| [mvmt_id](#mvmt_id)             | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-mvmt_id.md "spec/movement_tod.schema.json#/properties/mvmt_id")             |
+| [time_day](#time_day)           | `string`  | Optional | cannot be null | [movement_tod](movement_tod-properties-time_day.md "spec/movement_tod.schema.json#/properties/time_day")           |
+| [timeday_id](#timeday_id)       | `string`  | Optional | cannot be null | [movement_tod](movement_tod-properties-timeday_id.md "spec/movement_tod.schema.json#/properties/timeday_id")       |
+| [ib_link_id](#ib_link_id)       | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-ib_link_id.md "spec/movement_tod.schema.json#/properties/ib_link_id")       |
+| [start_ib_lane](#start_ib_lane) | `integer` | Optional | cannot be null | [movement_tod](movement_tod-properties-start_ib_lane.md "spec/movement_tod.schema.json#/properties/start_ib_lane") |
+| [end_ib_lane](#end_ib_lane)     | `integer` | Optional | cannot be null | [movement_tod](movement_tod-properties-end_ib_lane.md "spec/movement_tod.schema.json#/properties/end_ib_lane")     |
+| [ob_link_id](#ob_link_id)       | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-ob_link_id.md "spec/movement_tod.schema.json#/properties/ob_link_id")       |
+| [start_ob_lane](#start_ob_lane) | `integer` | Optional | cannot be null | [movement_tod](movement_tod-properties-start_ob_lane.md "spec/movement_tod.schema.json#/properties/start_ob_lane") |
+| [end_ob_lane](#end_ob_lane)     | `integer` | Optional | cannot be null | [movement_tod](movement_tod-properties-end_ob_lane.md "spec/movement_tod.schema.json#/properties/end_ob_lane")     |
+| [type](#type)                   | `string`  | Optional | cannot be null | [movement_tod](movement_tod-properties-type.md "spec/movement_tod.schema.json#/properties/type")                   |
+| [penalty](#penalty)             | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-penalty.md "spec/movement_tod.schema.json#/properties/penalty")             |
+| [capacity](#capacity)           | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-capacity.md "spec/movement_tod.schema.json#/properties/capacity")           |
+| [ctrl_type](#ctrl_type)         | `any`     | Optional | cannot be null | [movement_tod](movement_tod-properties-ctrl_type.md "spec/movement_tod.schema.json#/properties/ctrl_type")         |
 
 ## mvmt_tod_id
 
@@ -44,7 +44,7 @@ Primary key.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-mvmt_tod_id.md "undefined#/properties/mvmt_tod_id")
+-   defined in: [movement_tod](movement_tod-properties-mvmt_tod_id.md "spec/movement_tod.schema.json#/properties/mvmt_tod_id")
 
 ### mvmt_tod_id Type
 
@@ -60,7 +60,7 @@ The referenced movement.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-mvmt_id.md "undefined#/properties/mvmt_id")
+-   defined in: [movement_tod](movement_tod-properties-mvmt_id.md "spec/movement_tod.schema.json#/properties/mvmt_id")
 
 ### mvmt_id Type
 
@@ -76,7 +76,7 @@ Time of day in XXXXXXXX_HHMM_HHMM format, where XXXXXXXX is a bitmap of days of 
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-time_day.md "undefined#/properties/time_day")
+-   defined in: [movement_tod](movement_tod-properties-time_day.md "spec/movement_tod.schema.json#/properties/time_day")
 
 ### time_day Type
 
@@ -92,7 +92,7 @@ Time of day set. Used if times-of-day are defined on the time_set_definitions ta
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-timeday_id.md "undefined#/properties/timeday_id")
+-   defined in: [movement_tod](movement_tod-properties-timeday_id.md "spec/movement_tod.schema.json#/properties/timeday_id")
 
 ### timeday_id Type
 
@@ -108,7 +108,7 @@ Inbound link id.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-ib_link_id.md "undefined#/properties/ib_link_id")
+-   defined in: [movement_tod](movement_tod-properties-ib_link_id.md "spec/movement_tod.schema.json#/properties/ib_link_id")
 
 ### ib_link_id Type
 
@@ -124,7 +124,7 @@ Innermost lane number the movement applies to at the inbound end.
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-start_ib_lane.md "undefined#/properties/start_ib_lane")
+-   defined in: [movement_tod](movement_tod-properties-start_ib_lane.md "spec/movement_tod.schema.json#/properties/start_ib_lane")
 
 ### start_ib_lane Type
 
@@ -140,7 +140,7 @@ Outermost lane number the movement applies to at the inbound end. Blank indicate
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-end_ib_lane.md "undefined#/properties/end_ib_lane")
+-   defined in: [movement_tod](movement_tod-properties-end_ib_lane.md "spec/movement_tod.schema.json#/properties/end_ib_lane")
 
 ### end_ib_lane Type
 
@@ -156,7 +156,7 @@ Outbound link id.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-ob_link_id.md "undefined#/properties/ob_link_id")
+-   defined in: [movement_tod](movement_tod-properties-ob_link_id.md "spec/movement_tod.schema.json#/properties/ob_link_id")
 
 ### ob_link_id Type
 
@@ -172,7 +172,7 @@ Innermost lane number the movement applies to at the outbound end.
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-start_ob_lane.md "undefined#/properties/start_ob_lane")
+-   defined in: [movement_tod](movement_tod-properties-start_ob_lane.md "spec/movement_tod.schema.json#/properties/start_ob_lane")
 
 ### start_ob_lane Type
 
@@ -188,7 +188,7 @@ Outermost lane number the movement applies to at the outbound end. Blank indicat
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-end_ob_lane.md "undefined#/properties/end_ob_lane")
+-   defined in: [movement_tod](movement_tod-properties-end_ob_lane.md "spec/movement_tod.schema.json#/properties/end_ob_lane")
 
 ### end_ob_lane Type
 
@@ -204,7 +204,7 @@ Optional. Describes the type of movement (left, right, thru, etc.).
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-type.md "undefined#/properties/type")
+-   defined in: [movement_tod](movement_tod-properties-type.md "spec/movement_tod.schema.json#/properties/type")
 
 ### type Type
 
@@ -232,7 +232,7 @@ Turn penalty (seconds)
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-penalty.md "undefined#/properties/penalty")
+-   defined in: [movement_tod](movement_tod-properties-penalty.md "spec/movement_tod.schema.json#/properties/penalty")
 
 ### penalty Type
 
@@ -248,7 +248,7 @@ Capacity in vehicles per hour.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-capacity.md "undefined#/properties/capacity")
+-   defined in: [movement_tod](movement_tod-properties-capacity.md "spec/movement_tod.schema.json#/properties/capacity")
 
 ### capacity Type
 
@@ -264,7 +264,7 @@ Optional. .
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [movement_tod](movement_tod-properties-ctrl_type.md "undefined#/properties/ctrl_type")
+-   defined in: [movement_tod](movement_tod-properties-ctrl_type.md "spec/movement_tod.schema.json#/properties/ctrl_type")
 
 ### ctrl_type Type
 

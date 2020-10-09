@@ -1,7 +1,7 @@
 # Untitled any in signal_phase Schema
 
 ```txt
-undefined#/properties/timing_plan_id
+spec/signal_phase.schema.json#/properties/timing_plan_id
 ```
 
 Required. Foreign key (Signal_timing_plan table).

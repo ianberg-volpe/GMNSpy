@@ -1,7 +1,7 @@
 # Untitled string in segment_tod Schema
 
 ```txt
-undefined#/properties/parking
+spec/segment_tod.schema.json#/properties/parking
 ```
 
 Optional. Type of parking: unknown,none,shoulder,sidewalk,offstreet_path.

@@ -1,7 +1,7 @@
 # Untitled number in segment Schema
 
 ```txt
-undefined#/properties/row_width
+spec/segment.schema.json#/properties/row_width
 ```
 
 Optional. Width (feet) of the entire right-of-way (both directions).

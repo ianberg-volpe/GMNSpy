@@ -1,7 +1,7 @@
 # Untitled number in segment Schema
 
 ```txt
-undefined#/properties/start_lr
+spec/segment.schema.json#/properties/start_lr
 ```
 
 Required. Distance from `ref_node_id`.

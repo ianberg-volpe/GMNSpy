@@ -1,7 +1,7 @@
 # Untitled any in link_tod Schema
 
 ```txt
-undefined#/properties/timeday_id
+spec/link_tod.schema.json#/properties/timeday_id
 ```
 
 Conditionally required (either timeday_id or time_day). Foreign key to time_set_definitions.

@@ -1,7 +1,7 @@
 # Untitled undefined type in segment Schema
 
 ```txt
-undefined#/properties/row_width/warnings
+spec/segment.schema.json#/properties/row_width/warnings
 ```
 
 

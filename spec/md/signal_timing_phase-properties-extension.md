@@ -1,7 +1,7 @@
 # Untitled integer in signal_timing_phase Schema
 
 ```txt
-undefined#/properties/extension
+spec/signal_timing_phase.schema.json#/properties/extension
 ```
 
 Optional. The number of seconds the green time is extended each time vehicles are detected.

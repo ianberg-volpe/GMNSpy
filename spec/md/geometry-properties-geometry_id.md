@@ -1,7 +1,7 @@
 # Untitled any in geometry Schema
 
 ```txt
-undefined#/properties/geometry_id
+spec/geometry.schema.json#/properties/geometry_id
 ```
 
 Primary key â€“ could be SharedStreets Geometry ID

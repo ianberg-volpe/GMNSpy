@@ -1,7 +1,7 @@
 # Untitled any in node Schema
 
 ```txt
-undefined#/properties/zone_id
+spec/node.schema.json#/properties/zone_id
 ```
 
 Optional. Could be a Transportation Analysis Zone (TAZ) or city, or census tract, or census block.

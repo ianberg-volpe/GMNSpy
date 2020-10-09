@@ -1,7 +1,7 @@
 # Untitled any in time_set_definitions Schema
 
 ```txt
-undefined#/properties/timeday_id
+spec/time_set_definitions.schema.json#/properties/timeday_id
 ```
 
 Primary key.Primary key, similar to `service_id` in GTFS. Unique name of the time of day. Preferable legible rather than a number.

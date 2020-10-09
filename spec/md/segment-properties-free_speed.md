@@ -1,7 +1,7 @@
 # Untitled integer in segment Schema
 
 ```txt
-undefined#/properties/free_speed
+spec/segment.schema.json#/properties/free_speed
 ```
 
 Optional. Free flow speed (mph)

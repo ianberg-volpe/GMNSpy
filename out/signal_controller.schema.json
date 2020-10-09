@@ -1,1 +1,1 @@
-{"primaryKey":"controller_id","missingValues":["NaN",""],"title":"signal_controller","properties":{"controller_id":{"type":"any","description":"Primary key.","required":true}}}
+{"primaryKey":"controller_id","missingValues":["NaN",""],"title":"signal_controller","properties":{"controller_id":{"type":"any","description":"Primary key.","required":true}},"description":"The signal controller is associated with an intersection or a cluster of intersections.","$id":"spec/signal_controller.schema.json"}

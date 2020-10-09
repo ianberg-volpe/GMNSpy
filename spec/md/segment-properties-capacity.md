@@ -1,7 +1,7 @@
 # Untitled integer in segment Schema
 
 ```txt
-undefined#/properties/capacity
+spec/segment.schema.json#/properties/capacity
 ```
 
 Optional. Capacity (veh/hr/ln)

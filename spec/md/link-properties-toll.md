@@ -1,7 +1,7 @@
 # Untitled integer in link Schema
 
 ```txt
-undefined#/properties/toll
+spec/link.schema.json#/properties/toll
 ```
 
 Optional.  Toll on the link, in cents.

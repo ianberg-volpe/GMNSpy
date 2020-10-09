@@ -1,7 +1,7 @@
 # Untitled integer in movement Schema
 
 ```txt
-undefined#/properties/start_ob_lane
+spec/movement.schema.json#/properties/start_ob_lane
 ```
 
 Innermost lane number the movement applies to at the outbound end.

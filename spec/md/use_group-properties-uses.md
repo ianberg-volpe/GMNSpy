@@ -1,7 +1,7 @@
 # Untitled string in use_group Schema
 
 ```txt
-undefined#/properties/uses
+spec/use_group.schema.json#/properties/uses
 ```
 
 Comma-separated list of uses.

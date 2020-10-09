@@ -1,7 +1,7 @@
 # Untitled string in movement_tod Schema
 
 ```txt
-undefined#/properties/timeday_id
+spec/movement_tod.schema.json#/properties/timeday_id
 ```
 
 Time of day set. Used if times-of-day are defined on the time_set_definitions table

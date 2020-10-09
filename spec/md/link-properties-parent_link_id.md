@@ -1,7 +1,7 @@
 # Untitled any in link Schema
 
 ```txt
-undefined#/properties/parent_link_id
+spec/link.schema.json#/properties/parent_link_id
 ```
 
 Optional. The parent of this link. For example,for a sidewalk, this is the adjacent road.

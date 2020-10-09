@@ -1,7 +1,7 @@
 # Untitled string in use_group Schema
 
 ```txt
-undefined#/properties/use_group
+spec/use_group.schema.json#/properties/use_group
 ```
 
 Primary key.

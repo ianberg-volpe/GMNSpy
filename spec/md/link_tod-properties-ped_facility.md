@@ -1,7 +1,7 @@
 # Untitled string in link_tod Schema
 
 ```txt
-undefined#/properties/ped_facility
+spec/link_tod.schema.json#/properties/ped_facility
 ```
 
 Optional. Type of pedestrian accommodation: unknown, none, shoulder, sidewalk, offstreet path

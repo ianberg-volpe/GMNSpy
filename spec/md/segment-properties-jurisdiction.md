@@ -1,7 +1,7 @@
 # Untitled string in segment Schema
 
 ```txt
-undefined#/properties/jurisdiction
+spec/segment.schema.json#/properties/jurisdiction
 ```
 
 Optional. Optional.  Owner/operator of the link.

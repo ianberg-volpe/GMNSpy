@@ -1,7 +1,7 @@
 # Untitled integer in segment_lane_tod Schema
 
 ```txt
-undefined#/properties/lane_num
+spec/segment_lane_tod.schema.json#/properties/lane_num
 ```
 
 Required. Lane number identified as offset to the right from the centerline. i.e. -1, 1, 2 (use left-to-rightnumbering).

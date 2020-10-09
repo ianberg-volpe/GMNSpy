@@ -1,7 +1,7 @@
 # Untitled time in time_set_definitions Schema
 
 ```txt
-undefined#/properties/start_time
+spec/time_set_definitions.schema.json#/properties/start_time
 ```
 
 Required. Start time in HH:MM format.

@@ -1,10 +1,10 @@
 # link_tod Schema
 
 ```txt
-undefined
+spec/link_tod.schema.json
 ```
 
-
+Handles day-of-week and time-of-day restrictions on links
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                    |
@@ -17,20 +17,20 @@ unknown ([link_tod](link_tod.md))
 
 # link_tod Properties
 
-| Property                        | Type      | Required | Nullable       | Defined by                                                                             |
-| :------------------------------ | --------- | -------- | -------------- | :------------------------------------------------------------------------------------- |
-| [link_tod_id](#link_tod_id)     | `any`     | Optional | cannot be null | [link_tod](link_tod-properties-link_tod_id.md "undefined#/properties/link_tod_id")     |
-| [link_id](#link_id)             | `any`     | Optional | cannot be null | [link_tod](link_tod-properties-link_id.md "undefined#/properties/link_id")             |
-| [timeday_id](#timeday_id)       | `any`     | Optional | cannot be null | [link_tod](link_tod-properties-timeday_id.md "undefined#/properties/timeday_id")       |
-| [time_day](#time_day)           | `any`     | Optional | cannot be null | [link_tod](link_tod-properties-time_day.md "undefined#/properties/time_day")           |
-| [capacity](#capacity)           | `integer` | Optional | cannot be null | [link_tod](link_tod-properties-capacity.md "undefined#/properties/capacity")           |
-| [free_speed](#free_speed)       | `integer` | Optional | cannot be null | [link_tod](link_tod-properties-free_speed.md "undefined#/properties/free_speed")       |
-| [lanes](#lanes)                 | `integer` | Optional | cannot be null | [link_tod](link_tod-properties-lanes.md "undefined#/properties/lanes")                 |
-| [bike_facility](#bike_facility) | `string`  | Optional | cannot be null | [link_tod](link_tod-properties-bike_facility.md "undefined#/properties/bike_facility") |
-| [ped_facility](#ped_facility)   | `string`  | Optional | cannot be null | [link_tod](link_tod-properties-ped_facility.md "undefined#/properties/ped_facility")   |
-| [parking](#parking)             | `string`  | Optional | cannot be null | [link_tod](link_tod-properties-parking.md "undefined#/properties/parking")             |
-| [allowed_uses](#allowed_uses)   | `Any`     | Optional | cannot be null | [link_tod](link_tod-properties-allowed_uses.md "undefined#/properties/allowed_uses")   |
-| [toll](#toll)                   | `integer` | Optional | cannot be null | [link_tod](link_tod-properties-toll.md "undefined#/properties/toll")                   |
+| Property                        | Type      | Required | Nullable       | Defined by                                                                                             |
+| :------------------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------- |
+| [link_tod_id](#link_tod_id)     | `any`     | Optional | cannot be null | [link_tod](link_tod-properties-link_tod_id.md "spec/link_tod.schema.json#/properties/link_tod_id")     |
+| [link_id](#link_id)             | `any`     | Optional | cannot be null | [link_tod](link_tod-properties-link_id.md "spec/link_tod.schema.json#/properties/link_id")             |
+| [timeday_id](#timeday_id)       | `any`     | Optional | cannot be null | [link_tod](link_tod-properties-timeday_id.md "spec/link_tod.schema.json#/properties/timeday_id")       |
+| [time_day](#time_day)           | `any`     | Optional | cannot be null | [link_tod](link_tod-properties-time_day.md "spec/link_tod.schema.json#/properties/time_day")           |
+| [capacity](#capacity)           | `integer` | Optional | cannot be null | [link_tod](link_tod-properties-capacity.md "spec/link_tod.schema.json#/properties/capacity")           |
+| [free_speed](#free_speed)       | `integer` | Optional | cannot be null | [link_tod](link_tod-properties-free_speed.md "spec/link_tod.schema.json#/properties/free_speed")       |
+| [lanes](#lanes)                 | `integer` | Optional | cannot be null | [link_tod](link_tod-properties-lanes.md "spec/link_tod.schema.json#/properties/lanes")                 |
+| [bike_facility](#bike_facility) | `string`  | Optional | cannot be null | [link_tod](link_tod-properties-bike_facility.md "spec/link_tod.schema.json#/properties/bike_facility") |
+| [ped_facility](#ped_facility)   | `string`  | Optional | cannot be null | [link_tod](link_tod-properties-ped_facility.md "spec/link_tod.schema.json#/properties/ped_facility")   |
+| [parking](#parking)             | `string`  | Optional | cannot be null | [link_tod](link_tod-properties-parking.md "spec/link_tod.schema.json#/properties/parking")             |
+| [allowed_uses](#allowed_uses)   | `Any`     | Optional | cannot be null | [link_tod](link_tod-properties-allowed_uses.md "spec/link_tod.schema.json#/properties/allowed_uses")   |
+| [toll](#toll)                   | `integer` | Optional | cannot be null | [link_tod](link_tod-properties-toll.md "spec/link_tod.schema.json#/properties/toll")                   |
 
 ## link_tod_id
 
@@ -42,7 +42,7 @@ Primary key
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [link_tod](link_tod-properties-link_tod_id.md "undefined#/properties/link_tod_id")
+-   defined in: [link_tod](link_tod-properties-link_tod_id.md "spec/link_tod.schema.json#/properties/link_tod_id")
 
 ### link_tod_id Type
 
@@ -58,7 +58,7 @@ Required. Foreign key, link table
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [link_tod](link_tod-properties-link_id.md "undefined#/properties/link_id")
+-   defined in: [link_tod](link_tod-properties-link_id.md "spec/link_tod.schema.json#/properties/link_id")
 
 ### link_id Type
 
@@ -74,7 +74,7 @@ Conditionally required (either timeday_id or time_day). Foreign key to time_set_
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [link_tod](link_tod-properties-timeday_id.md "undefined#/properties/timeday_id")
+-   defined in: [link_tod](link_tod-properties-timeday_id.md "spec/link_tod.schema.json#/properties/timeday_id")
 
 ### timeday_id Type
 
@@ -90,7 +90,7 @@ Conditionally required (either timeday_id or time_day). XXXXXXXX_HHMM_HHMM, wher
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [link_tod](link_tod-properties-time_day.md "undefined#/properties/time_day")
+-   defined in: [link_tod](link_tod-properties-time_day.md "spec/link_tod.schema.json#/properties/time_day")
 
 ### time_day Type
 
@@ -106,7 +106,7 @@ Optional. Capacity (veh / hr / lane)
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [link_tod](link_tod-properties-capacity.md "undefined#/properties/capacity")
+-   defined in: [link_tod](link_tod-properties-capacity.md "spec/link_tod.schema.json#/properties/capacity")
 
 ### capacity Type
 
@@ -126,7 +126,7 @@ Optional. Free flow speed mph
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [link_tod](link_tod-properties-free_speed.md "undefined#/properties/free_speed")
+-   defined in: [link_tod](link_tod-properties-free_speed.md "spec/link_tod.schema.json#/properties/free_speed")
 
 ### free_speed Type
 
@@ -150,7 +150,7 @@ It does not include bike lanes, shoulders or parking lanes.
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [link_tod](link_tod-properties-lanes.md "undefined#/properties/lanes")
+-   defined in: [link_tod](link_tod-properties-lanes.md "spec/link_tod.schema.json#/properties/lanes")
 
 ### lanes Type
 
@@ -170,7 +170,7 @@ Optional. Type of bicycle accommodation: unknown, none, WCL, sharrow, bikelane, 
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [link_tod](link_tod-properties-bike_facility.md "undefined#/properties/bike_facility")
+-   defined in: [link_tod](link_tod-properties-bike_facility.md "spec/link_tod.schema.json#/properties/bike_facility")
 
 ### bike_facility Type
 
@@ -200,7 +200,7 @@ Optional. Type of pedestrian accommodation: unknown, none, shoulder, sidewalk, o
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [link_tod](link_tod-properties-ped_facility.md "undefined#/properties/ped_facility")
+-   defined in: [link_tod](link_tod-properties-ped_facility.md "spec/link_tod.schema.json#/properties/ped_facility")
 
 ### ped_facility Type
 
@@ -228,7 +228,7 @@ Optional. Type of parking: unknown, none, parallel, angle, other
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [link_tod](link_tod-properties-parking.md "undefined#/properties/parking")
+-   defined in: [link_tod](link_tod-properties-parking.md "spec/link_tod.schema.json#/properties/parking")
 
 ### parking Type
 
@@ -256,7 +256,7 @@ Use_Set. Optional.
 -   is optional
 -   Type: `Any`
 -   cannot be null
--   defined in: [link_tod](link_tod-properties-allowed_uses.md "undefined#/properties/allowed_uses")
+-   defined in: [link_tod](link_tod-properties-allowed_uses.md "spec/link_tod.schema.json#/properties/allowed_uses")
 
 ### allowed_uses Type
 
@@ -272,7 +272,7 @@ toll in cents.
 -   is optional
 -   Type: `integer`
 -   cannot be null
--   defined in: [link_tod](link_tod-properties-toll.md "undefined#/properties/toll")
+-   defined in: [link_tod](link_tod-properties-toll.md "spec/link_tod.schema.json#/properties/toll")
 
 ### toll Type
 

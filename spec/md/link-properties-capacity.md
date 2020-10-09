@@ -1,7 +1,7 @@
 # Untitled integer in link Schema
 
 ```txt
-undefined#/properties/capacity
+spec/link.schema.json#/properties/capacity
 ```
 
 Optional. Capacity (veh / hr / lane)

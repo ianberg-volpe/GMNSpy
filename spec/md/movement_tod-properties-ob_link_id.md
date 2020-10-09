@@ -1,7 +1,7 @@
 # Untitled any in movement_tod Schema
 
 ```txt
-undefined#/properties/ob_link_id
+spec/movement_tod.schema.json#/properties/ob_link_id
 ```
 
 Outbound link id.

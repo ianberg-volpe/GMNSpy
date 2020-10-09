@@ -1,7 +1,7 @@
 # Untitled string in link Schema
 
 ```txt
-undefined#/properties/bike_facility
+spec/link.schema.json#/properties/bike_facility
 ```
 
 Optional. Type of bicycle accommodation: unknown, none, wcl, sharrow, bikelane, cycletrack, offstreet path

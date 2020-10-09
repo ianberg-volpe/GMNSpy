@@ -1,7 +1,7 @@
 # Untitled any in movement_tod Schema
 
 ```txt
-undefined#/properties/mvmt_id
+spec/movement_tod.schema.json#/properties/mvmt_id
 ```
 
 The referenced movement.

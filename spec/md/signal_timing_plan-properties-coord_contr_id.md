@@ -1,7 +1,7 @@
 # Untitled any in signal_timing_plan Schema
 
 ```txt
-undefined#/properties/coord_contr_id
+spec/signal_timing_plan.schema.json#/properties/coord_contr_id
 ```
 
 Optional. For coordinated signals, the `master` signal controller for coordination.

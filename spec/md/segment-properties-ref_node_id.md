@@ -1,7 +1,7 @@
 # Untitled any in segment Schema
 
 ```txt
-undefined#/properties/ref_node_id
+spec/segment.schema.json#/properties/ref_node_id
 ```
 
 Required. Foreign key to node where distance is 0.

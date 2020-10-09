@@ -1,7 +1,7 @@
 # Untitled integer in link Schema
 
 ```txt
-undefined#/properties/free_speed
+spec/link.schema.json#/properties/free_speed
 ```
 
 Optional. Free flow speed mph

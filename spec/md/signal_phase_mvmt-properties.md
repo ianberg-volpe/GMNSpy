@@ -1,7 +1,7 @@
 # Untitled undefined type in signal_phase_mvmt Schema
 
 ```txt
-undefined#/properties
+spec/signal_phase_mvmt.schema.json#/properties
 ```
 
 

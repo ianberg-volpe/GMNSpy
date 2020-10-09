@@ -1,7 +1,7 @@
 # Untitled number in segment Schema
 
 ```txt
-undefined#/properties/grade
+spec/segment.schema.json#/properties/grade
 ```
 
 % grade, negative is downhill

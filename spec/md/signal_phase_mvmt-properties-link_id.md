@@ -1,7 +1,7 @@
 # Untitled any in signal_phase_mvmt Schema
 
 ```txt
-undefined#/properties/link_id
+spec/signal_phase_mvmt.schema.json#/properties/link_id
 ```
 
 Foreign key. Either Movement_ID (for phases used by vehicles), or Link_id (for phases used by pedestrians) is required.

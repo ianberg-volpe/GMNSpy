@@ -1,7 +1,7 @@
 # Untitled integer in signal_timing_plan Schema
 
 ```txt
-undefined#/properties/cycle_length
+spec/signal_timing_plan.schema.json#/properties/cycle_length
 ```
 
 Required. Cycle length in seconds.

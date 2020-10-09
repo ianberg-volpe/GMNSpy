@@ -1,7 +1,7 @@
 # Untitled string in link Schema
 
 ```txt
-undefined#/properties/name
+spec/link.schema.json#/properties/name
 ```
 
 Optional. Street or Path Name

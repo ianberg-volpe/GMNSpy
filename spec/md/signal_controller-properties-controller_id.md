@@ -1,7 +1,7 @@
 # Untitled any in signal_controller Schema
 
 ```txt
-undefined#/properties/controller_id
+spec/signal_controller.schema.json#/properties/controller_id
 ```
 
 Primary key.

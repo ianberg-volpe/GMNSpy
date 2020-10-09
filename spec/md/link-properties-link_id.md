@@ -1,7 +1,7 @@
 # Untitled any in link Schema
 
 ```txt
-undefined#/properties/link_id
+spec/link.schema.json#/properties/link_id
 ```
 
 Primary key â€“ could be SharedStreets Reference ID

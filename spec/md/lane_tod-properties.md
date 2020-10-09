@@ -1,7 +1,7 @@
 # Untitled undefined type in lane_tod Schema
 
 ```txt
-undefined#/properties
+spec/lane_tod.schema.json#/properties
 ```
 
 

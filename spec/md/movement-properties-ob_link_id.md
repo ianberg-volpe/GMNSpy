@@ -1,7 +1,7 @@
 # Untitled any in movement Schema
 
 ```txt
-undefined#/properties/ob_link_id
+spec/movement.schema.json#/properties/ob_link_id
 ```
 
 Outbound link id.

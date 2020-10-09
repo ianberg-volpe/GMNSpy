@@ -1,7 +1,7 @@
 # Untitled any in signal_timing_phase Schema
 
 ```txt
-undefined#/properties/timing_plan_id
+spec/signal_timing_phase.schema.json#/properties/timing_plan_id
 ```
 
 

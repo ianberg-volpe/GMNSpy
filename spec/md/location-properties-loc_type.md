@@ -1,7 +1,7 @@
 # Untitled string in location Schema
 
 ```txt
-undefined#/properties/loc_type
+spec/location.schema.json#/properties/loc_type
 ```
 
 Optional. What it represents (driveway, bus stop, etc.) OpenStreetMap map feature names are recommended.

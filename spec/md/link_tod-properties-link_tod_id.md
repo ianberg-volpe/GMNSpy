@@ -1,7 +1,7 @@
 # Untitled any in link_tod Schema
 
 ```txt
-undefined#/properties/link_tod_id
+spec/link_tod.schema.json#/properties/link_tod_id
 ```
 
 Primary key

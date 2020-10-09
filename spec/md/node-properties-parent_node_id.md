@@ -1,7 +1,7 @@
 # Untitled any in node Schema
 
 ```txt
-undefined#/properties/parent_node_id
+spec/node.schema.json#/properties/parent_node_id
 ```
 
 Optional. Associated node. For example, if this node is a sidewalk, a parent_nodek_id could represent the intersection  it is associated with.

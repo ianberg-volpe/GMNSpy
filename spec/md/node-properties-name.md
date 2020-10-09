@@ -1,7 +1,7 @@
 # Untitled string in node Schema
 
 ```txt
-undefined#/properties/name
+spec/node.schema.json#/properties/name
 ```
 
 

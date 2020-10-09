@@ -1,7 +1,7 @@
 # Untitled string in use_definition Schema
 
 ```txt
-undefined#/properties/use
+spec/use_definition.schema.json#/properties/use
 ```
 
 Primary key

@@ -1,7 +1,7 @@
 # Untitled integer in segment_tod Schema
 
 ```txt
-undefined#/properties/l_lanes_added
+spec/segment_tod.schema.json#/properties/l_lanes_added
 ```
 
 Optional. # of lanes added on the left of the road link (negative indicates a lane drop).

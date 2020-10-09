@@ -1,7 +1,7 @@
 # Untitled time in time_set_definitions Schema
 
 ```txt
-undefined#/properties/end_time
+spec/time_set_definitions.schema.json#/properties/end_time
 ```
 
 Required. End  time in HH:MM format.

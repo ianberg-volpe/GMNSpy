@@ -1,7 +1,7 @@
 # Untitled boolean in link Schema
 
 ```txt
-undefined#/properties/directed
+spec/link.schema.json#/properties/directed
 ```
 
 Required. Whether the link is directed (travel only occurs from the from_node to the to_node) or undirected.

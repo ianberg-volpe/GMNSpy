@@ -1,7 +1,7 @@
 # Untitled integer in signal_timing_phase Schema
 
 ```txt
-undefined#/properties/signal_phase_num
+spec/signal_timing_phase.schema.json#/properties/signal_phase_num
 ```
 
 Optional. Redundant with the record in the signal_phase table.

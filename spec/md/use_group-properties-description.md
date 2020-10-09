@@ -1,7 +1,7 @@
 # Untitled string in use_group Schema
 
 ```txt
-undefined#/properties/description
+spec/use_group.schema.json#/properties/description
 ```
 
 Optional.

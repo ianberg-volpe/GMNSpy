@@ -1,7 +1,7 @@
 # Untitled integer in signal_timing_plan Schema
 
 ```txt
-undefined#/properties/offset
+spec/signal_timing_plan.schema.json#/properties/offset
 ```
 
 Optional. Offset in seconds.

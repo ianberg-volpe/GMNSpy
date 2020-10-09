@@ -1,7 +1,7 @@
 # Untitled undefined type in segment_lane Schema
 
 ```txt
-undefined#/properties
+spec/segment_lane.schema.json#/properties
 ```
 
 

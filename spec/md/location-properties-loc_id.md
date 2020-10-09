@@ -1,7 +1,7 @@
 # Untitled any in location Schema
 
 ```txt
-undefined#/properties/loc_id
+spec/location.schema.json#/properties/loc_id
 ```
 
 Primary key. Location ID.

@@ -1,7 +1,7 @@
 # Untitled any in movement_tod Schema
 
 ```txt
-undefined#/properties/ctrl_type
+spec/movement_tod.schema.json#/properties/ctrl_type
 ```
 
 Optional. .

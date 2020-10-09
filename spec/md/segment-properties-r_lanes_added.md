@@ -1,7 +1,7 @@
 # Untitled integer in segment Schema
 
 ```txt
-undefined#/properties/r_lanes_added
+spec/segment.schema.json#/properties/r_lanes_added
 ```
 
 Optional. # of lanes added on the right of the road link (negative indicates a lane drop).

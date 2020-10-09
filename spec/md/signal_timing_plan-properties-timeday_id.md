@@ -1,7 +1,7 @@
 # Untitled any in signal_timing_plan Schema
 
 ```txt
-undefined#/properties/timeday_id
+spec/signal_timing_plan.schema.json#/properties/timeday_id
 ```
 
 Conditionally required (either timeday_id or time_day). Foreign key to time_set_definitions.

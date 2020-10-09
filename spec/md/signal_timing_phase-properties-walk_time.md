@@ -1,7 +1,7 @@
 # Untitled integer in signal_timing_phase Schema
 
 ```txt
-undefined#/properties/walk_time
+spec/signal_timing_phase.schema.json#/properties/walk_time
 ```
 
 Required if have ped phase. If a pedestrian phase exists, the walk time in seconds

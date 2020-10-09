@@ -1,7 +1,7 @@
 # Untitled any in link Schema
 
 ```txt
-undefined#/properties/geometry
+spec/link.schema.json#/properties/geometry
 ```
 
 Optional. Link geometry, specific format could be WKT, GeoJSON, etc.

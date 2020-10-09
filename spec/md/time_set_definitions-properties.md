@@ -1,7 +1,7 @@
 # Untitled undefined type in time_set_definitions Schema
 
 ```txt
-undefined#/properties
+spec/time_set_definitions.schema.json#/properties
 ```
 
 

@@ -1,10 +1,10 @@
 # geometry Schema
 
 ```txt
-undefined
+spec/geometry.schema.json
 ```
 
-
+The geometry is an optional file that contains geometry information (shapepoints) for a line object. It is similar to Geometries in the SharedStreets reference system. The specification also allows for geometry information to be stored directly on the link table.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                    |
@@ -17,10 +17,10 @@ unknown ([geometry](geometry.md))
 
 # geometry Properties
 
-| Property                    | Type  | Required | Nullable       | Defined by                                                                         |
-| :-------------------------- | ----- | -------- | -------------- | :--------------------------------------------------------------------------------- |
-| [geometry_id](#geometry_id) | `any` | Optional | cannot be null | [geometry](geometry-properties-geometry_id.md "undefined#/properties/geometry_id") |
-| [geometry](#geometry)       | `any` | Optional | cannot be null | [geometry](geometry-properties-geometry.md "undefined#/properties/geometry")       |
+| Property                    | Type  | Required | Nullable       | Defined by                                                                                         |
+| :-------------------------- | ----- | -------- | -------------- | :------------------------------------------------------------------------------------------------- |
+| [geometry_id](#geometry_id) | `any` | Optional | cannot be null | [geometry](geometry-properties-geometry_id.md "spec/geometry.schema.json#/properties/geometry_id") |
+| [geometry](#geometry)       | `any` | Optional | cannot be null | [geometry](geometry-properties-geometry.md "spec/geometry.schema.json#/properties/geometry")       |
 
 ## geometry_id
 
@@ -32,7 +32,7 @@ Primary key â€“ could be SharedStreets Geometry ID
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [geometry](geometry-properties-geometry_id.md "undefined#/properties/geometry_id")
+-   defined in: [geometry](geometry-properties-geometry_id.md "spec/geometry.schema.json#/properties/geometry_id")
 
 ### geometry_id Type
 
@@ -48,7 +48,7 @@ Optional. Link geometry, specific format could be WKT, GeoJSON, etc.
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [geometry](geometry-properties-geometry.md "undefined#/properties/geometry")
+-   defined in: [geometry](geometry-properties-geometry.md "spec/geometry.schema.json#/properties/geometry")
 
 ### geometry Type
 

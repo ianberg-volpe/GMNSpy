@@ -1,7 +1,7 @@
 # Untitled number in link Schema
 
 ```txt
-undefined#/properties/grade
+spec/link.schema.json#/properties/grade
 ```
 
 % grade, negative is downhill

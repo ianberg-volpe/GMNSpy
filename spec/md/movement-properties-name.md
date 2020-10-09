@@ -1,7 +1,7 @@
 # Untitled any in movement Schema
 
 ```txt
-undefined#/properties/name
+spec/movement.schema.json#/properties/name
 ```
 
 Optional.

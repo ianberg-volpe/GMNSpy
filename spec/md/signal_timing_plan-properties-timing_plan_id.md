@@ -1,7 +1,7 @@
 # Untitled any in signal_timing_plan Schema
 
 ```txt
-undefined#/properties/timing_plan_id
+spec/signal_timing_plan.schema.json#/properties/timing_plan_id
 ```
 
 Primary key.

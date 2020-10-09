@@ -1,7 +1,7 @@
 # Untitled any in signal_timing_plan Schema
 
 ```txt
-undefined#/properties/controller_id
+spec/signal_timing_plan.schema.json#/properties/controller_id
 ```
 
 Required. Foreign key (signal_controller table).

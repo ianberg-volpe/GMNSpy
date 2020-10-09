@@ -1,7 +1,7 @@
 # Untitled integer in signal_detector Schema
 
 ```txt
-undefined#/properties/end_lane
+spec/signal_detector.schema.json#/properties/end_lane
 ```
 
 Right-most lane covered by the detector (blank if only one lane).

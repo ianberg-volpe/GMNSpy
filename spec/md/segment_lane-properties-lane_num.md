@@ -1,7 +1,7 @@
 # Untitled integer in segment_lane Schema
 
 ```txt
-undefined#/properties/lane_num
+spec/segment_lane.schema.json#/properties/lane_num
 ```
 
 Required. -1, 1, 2 (use left-to-right numbering). 0 signifies a lane that is dropped on the segment.

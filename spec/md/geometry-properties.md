@@ -1,7 +1,7 @@
 # Untitled undefined type in geometry Schema
 
 ```txt
-undefined#/properties
+spec/geometry.schema.json#/properties
 ```
 
 

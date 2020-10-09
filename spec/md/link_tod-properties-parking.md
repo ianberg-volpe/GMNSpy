@@ -1,7 +1,7 @@
 # Untitled string in link_tod Schema
 
 ```txt
-undefined#/properties/parking
+spec/link_tod.schema.json#/properties/parking
 ```
 
 Optional. Type of parking: unknown, none, parallel, angle, other

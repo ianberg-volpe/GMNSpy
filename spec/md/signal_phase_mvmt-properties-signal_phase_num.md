@@ -1,7 +1,7 @@
 # Untitled integer in signal_phase_mvmt Schema
 
 ```txt
-undefined#/properties/signal_phase_num
+spec/signal_phase_mvmt.schema.json#/properties/signal_phase_num
 ```
 
 Redundant with field in the signal_phase table. ; each phase has one or more Movements associated with it.

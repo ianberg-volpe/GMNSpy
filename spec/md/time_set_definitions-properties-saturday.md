@@ -1,7 +1,7 @@
 # Untitled boolean in time_set_definitions Schema
 
 ```txt
-undefined#/properties/saturday
+spec/time_set_definitions.schema.json#/properties/saturday
 ```
 
 Required. Whether Saturdays are included.

@@ -1,7 +1,7 @@
 # Untitled undefined type in signal_detector Schema
 
 ```txt
-undefined#/properties
+spec/signal_detector.schema.json#/properties
 ```
 
 

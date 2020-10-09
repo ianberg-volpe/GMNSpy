@@ -1,7 +1,7 @@
 # Untitled any in movement Schema
 
 ```txt
-undefined#/properties/mvmt_id
+spec/movement.schema.json#/properties/mvmt_id
 ```
 
 Primary key.

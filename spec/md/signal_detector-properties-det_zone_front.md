@@ -1,7 +1,7 @@
 # Untitled number in signal_detector Schema
 
 ```txt
-undefined#/properties/det_zone_front
+spec/signal_detector.schema.json#/properties/det_zone_front
 ```
 
 Optional. Linear reference of front of detection zone.

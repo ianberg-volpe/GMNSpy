@@ -1,7 +1,7 @@
 # Untitled any in location Schema
 
 ```txt
-undefined#/properties/link_id
+spec/location.schema.json#/properties/link_id
 ```
 
 Required. Road Link ID. Foreign Key from Road_Link.

@@ -1,7 +1,7 @@
 # Untitled undefined type in node Schema
 
 ```txt
-undefined#/properties
+spec/node.schema.json#/properties
 ```
 
 

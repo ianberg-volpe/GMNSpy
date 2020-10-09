@@ -1,7 +1,7 @@
 # Untitled string in node Schema
 
 ```txt
-undefined#/properties/node_type
+spec/node.schema.json#/properties/node_type
 ```
 
 Optional. What it represents (intersection, transit station, park & ride).

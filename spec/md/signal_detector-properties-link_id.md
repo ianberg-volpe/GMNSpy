@@ -1,7 +1,7 @@
 # Untitled any in signal_detector Schema
 
 ```txt
-undefined#/properties/link_id
+spec/signal_detector.schema.json#/properties/link_id
 ```
 
 Foreign key. The link covered by the detector.

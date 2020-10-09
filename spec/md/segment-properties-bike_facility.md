@@ -1,7 +1,7 @@
 # Untitled string in segment Schema
 
 ```txt
-undefined#/properties/bike_facility
+spec/segment.schema.json#/properties/bike_facility
 ```
 
 Optional. Type of bicycle accommodation: unknown, none,wcl, bikelane,cycletrack,wide_shoulder, offstreet_path.

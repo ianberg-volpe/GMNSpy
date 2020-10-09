@@ -1,7 +1,7 @@
 # Untitled any in segment_tod Schema
 
 ```txt
-undefined#/properties/segment_id
+spec/segment_tod.schema.json#/properties/segment_id
 ```
 
 Foreign key to segment table.

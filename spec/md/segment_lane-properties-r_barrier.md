@@ -1,7 +1,7 @@
 # Untitled any in segment_lane Schema
 
 ```txt
-undefined#/properties/r_barrier
+spec/segment_lane.schema.json#/properties/r_barrier
 ```
 
 Optional. Whether a barrier exists to prevent vehicles from changing lanes to the right (default is none)

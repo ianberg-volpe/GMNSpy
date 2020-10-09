@@ -1,7 +1,7 @@
 # Untitled any in signal_phase_mvmt Schema
 
 ```txt
-undefined#/properties/signal_phase_id
+spec/signal_phase_mvmt.schema.json#/properties/signal_phase_id
 ```
 
 Required. Foreign key to signal_phase table.

@@ -1,7 +1,7 @@
 # Untitled any in segment_lane Schema
 
 ```txt
-undefined#/properties/parent_lane_id
+spec/segment_lane.schema.json#/properties/parent_lane_id
 ```
 
 Optional. If a lane drops or changes characteristics on the segment, the lane_id for that lane.

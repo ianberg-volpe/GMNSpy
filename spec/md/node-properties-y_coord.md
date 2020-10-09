@@ -1,7 +1,7 @@
 # Untitled number in node Schema
 
 ```txt
-undefined#/properties/y_coord
+spec/node.schema.json#/properties/y_coord
 ```
 
 Coordinate system specified in config file (latitude, UTM-northing etc.)

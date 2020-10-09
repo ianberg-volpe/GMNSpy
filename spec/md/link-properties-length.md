@@ -1,7 +1,7 @@
 # Untitled number in link Schema
 
 ```txt
-undefined#/properties/length
+spec/link.schema.json#/properties/length
 ```
 
 Optional. Length of the link in miles

@@ -1,10 +1,10 @@
 # time_set_definitions Schema
 
 ```txt
-undefined
+spec/time_set_definitions.schema.json
 ```
 
-
+The optional time_set_definitions file encodes a set of times-of-day and days-of-week into a timeday_id.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |
@@ -17,19 +17,19 @@ unknown ([time_set_definitions](time_set_definitions.md))
 
 # time_set_definitions Properties
 
-| Property                  | Type      | Required | Nullable       | Defined by                                                                                               |
-| :------------------------ | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------- |
-| [timeday_id](#timeday_id) | `any`     | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-timeday_id.md "undefined#/properties/timeday_id") |
-| [monday](#monday)         | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-monday.md "undefined#/properties/monday")         |
-| [tuesday](#tuesday)       | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-tuesday.md "undefined#/properties/tuesday")       |
-| [wednesday](#wednesday)   | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-wednesday.md "undefined#/properties/wednesday")   |
-| [thursday](#thursday)     | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-thursday.md "undefined#/properties/thursday")     |
-| [Friday](#Friday)         | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-friday.md "undefined#/properties/Friday")         |
-| [saturday](#saturday)     | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-saturday.md "undefined#/properties/saturday")     |
-| [sunday](#sunday)         | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-sunday.md "undefined#/properties/sunday")         |
-| [holiday](#holiday)       | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-holiday.md "undefined#/properties/holiday")       |
-| [start_time](#start_time) | `time`    | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-start_time.md "undefined#/properties/start_time") |
-| [end_time](#end_time)     | `time`    | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-end_time.md "undefined#/properties/end_time")     |
+| Property                  | Type      | Required | Nullable       | Defined by                                                                                                                           |
+| :------------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
+| [timeday_id](#timeday_id) | `any`     | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-timeday_id.md "spec/time_set_definitions.schema.json#/properties/timeday_id") |
+| [monday](#monday)         | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-monday.md "spec/time_set_definitions.schema.json#/properties/monday")         |
+| [tuesday](#tuesday)       | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-tuesday.md "spec/time_set_definitions.schema.json#/properties/tuesday")       |
+| [wednesday](#wednesday)   | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-wednesday.md "spec/time_set_definitions.schema.json#/properties/wednesday")   |
+| [thursday](#thursday)     | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-thursday.md "spec/time_set_definitions.schema.json#/properties/thursday")     |
+| [Friday](#Friday)         | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-friday.md "spec/time_set_definitions.schema.json#/properties/Friday")         |
+| [saturday](#saturday)     | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-saturday.md "spec/time_set_definitions.schema.json#/properties/saturday")     |
+| [sunday](#sunday)         | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-sunday.md "spec/time_set_definitions.schema.json#/properties/sunday")         |
+| [holiday](#holiday)       | `boolean` | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-holiday.md "spec/time_set_definitions.schema.json#/properties/holiday")       |
+| [start_time](#start_time) | `time`    | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-start_time.md "spec/time_set_definitions.schema.json#/properties/start_time") |
+| [end_time](#end_time)     | `time`    | Optional | cannot be null | [time_set_definitions](time_set_definitions-properties-end_time.md "spec/time_set_definitions.schema.json#/properties/end_time")     |
 
 ## timeday_id
 
@@ -41,7 +41,7 @@ Primary key.Primary key, similar to `service_id` in GTFS. Unique name of the tim
 -   is optional
 -   Type: `any`
 -   cannot be null
--   defined in: [time_set_definitions](time_set_definitions-properties-timeday_id.md "undefined#/properties/timeday_id")
+-   defined in: [time_set_definitions](time_set_definitions-properties-timeday_id.md "spec/time_set_definitions.schema.json#/properties/timeday_id")
 
 ### timeday_id Type
 
@@ -57,7 +57,7 @@ Required. Whether Mondays are included.
 -   is optional
 -   Type: `boolean`
 -   cannot be null
--   defined in: [time_set_definitions](time_set_definitions-properties-monday.md "undefined#/properties/monday")
+-   defined in: [time_set_definitions](time_set_definitions-properties-monday.md "spec/time_set_definitions.schema.json#/properties/monday")
 
 ### monday Type
 
@@ -73,7 +73,7 @@ Required. Whether Tuesdays are included.
 -   is optional
 -   Type: `boolean`
 -   cannot be null
--   defined in: [time_set_definitions](time_set_definitions-properties-tuesday.md "undefined#/properties/tuesday")
+-   defined in: [time_set_definitions](time_set_definitions-properties-tuesday.md "spec/time_set_definitions.schema.json#/properties/tuesday")
 
 ### tuesday Type
 
@@ -89,7 +89,7 @@ Required. Whether Wednesdays are included.
 -   is optional
 -   Type: `boolean`
 -   cannot be null
--   defined in: [time_set_definitions](time_set_definitions-properties-wednesday.md "undefined#/properties/wednesday")
+-   defined in: [time_set_definitions](time_set_definitions-properties-wednesday.md "spec/time_set_definitions.schema.json#/properties/wednesday")
 
 ### wednesday Type
 
@@ -105,7 +105,7 @@ Required. Whether Thursdays are included.
 -   is optional
 -   Type: `boolean`
 -   cannot be null
--   defined in: [time_set_definitions](time_set_definitions-properties-thursday.md "undefined#/properties/thursday")
+-   defined in: [time_set_definitions](time_set_definitions-properties-thursday.md "spec/time_set_definitions.schema.json#/properties/thursday")
 
 ### thursday Type
 
@@ -121,7 +121,7 @@ Required. Whether Fridays are included.
 -   is optional
 -   Type: `boolean`
 -   cannot be null
--   defined in: [time_set_definitions](time_set_definitions-properties-friday.md "undefined#/properties/Friday")
+-   defined in: [time_set_definitions](time_set_definitions-properties-friday.md "spec/time_set_definitions.schema.json#/properties/Friday")
 
 ### Friday Type
 
@@ -137,7 +137,7 @@ Required. Whether Saturdays are included.
 -   is optional
 -   Type: `boolean`
 -   cannot be null
--   defined in: [time_set_definitions](time_set_definitions-properties-saturday.md "undefined#/properties/saturday")
+-   defined in: [time_set_definitions](time_set_definitions-properties-saturday.md "spec/time_set_definitions.schema.json#/properties/saturday")
 
 ### saturday Type
 
@@ -153,7 +153,7 @@ Required. Whether Sundays are included.
 -   is optional
 -   Type: `boolean`
 -   cannot be null
--   defined in: [time_set_definitions](time_set_definitions-properties-sunday.md "undefined#/properties/sunday")
+-   defined in: [time_set_definitions](time_set_definitions-properties-sunday.md "spec/time_set_definitions.schema.json#/properties/sunday")
 
 ### sunday Type
 
@@ -169,7 +169,7 @@ Required. Whether holidays are included.
 -   is optional
 -   Type: `boolean`
 -   cannot be null
--   defined in: [time_set_definitions](time_set_definitions-properties-holiday.md "undefined#/properties/holiday")
+-   defined in: [time_set_definitions](time_set_definitions-properties-holiday.md "spec/time_set_definitions.schema.json#/properties/holiday")
 
 ### holiday Type
 
@@ -185,7 +185,7 @@ Required. Start time in HH:MM format.
 -   is optional
 -   Type: `time`
 -   cannot be null
--   defined in: [time_set_definitions](time_set_definitions-properties-start_time.md "undefined#/properties/start_time")
+-   defined in: [time_set_definitions](time_set_definitions-properties-start_time.md "spec/time_set_definitions.schema.json#/properties/start_time")
 
 ### start_time Type
 
@@ -201,7 +201,7 @@ Required. End  time in HH:MM format.
 -   is optional
 -   Type: `time`
 -   cannot be null
--   defined in: [time_set_definitions](time_set_definitions-properties-end_time.md "undefined#/properties/end_time")
+-   defined in: [time_set_definitions](time_set_definitions-properties-end_time.md "spec/time_set_definitions.schema.json#/properties/end_time")
 
 ### end_time Type
 

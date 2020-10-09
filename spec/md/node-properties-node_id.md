@@ -1,7 +1,7 @@
 # Untitled any in node Schema
 
 ```txt
-undefined#/properties/node_id
+spec/node.schema.json#/properties/node_id
 ```
 
 Primary key

@@ -1,7 +1,7 @@
 # Untitled any in signal_phase Schema
 
 ```txt
-undefined#/properties/signal_phase_num
+spec/signal_phase.schema.json#/properties/signal_phase_num
 ```
 
 Required. controller_id and signal_phase_num are unique
