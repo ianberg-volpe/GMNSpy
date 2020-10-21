@@ -66,5 +66,10 @@
     },
     "description": "For signalizd nodes, provides signal timing.",
     "$id": "spec/signal_timing_phase.schema.json",
-    "required": []
+    "required": [
+        "timing_phase_id",
+        "signal_phase_id",
+        "min_green",
+        "clearance"
+    ]
 }

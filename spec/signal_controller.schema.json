@@ -14,5 +14,7 @@
     },
     "description": "The signal controller is associated with an intersection or a cluster of intersections.",
     "$id": "spec/signal_controller.schema.json",
-    "required": []
+    "required": [
+        "controller_id"
+    ]
 }

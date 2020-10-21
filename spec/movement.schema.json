@@ -82,5 +82,11 @@
     },
     "description": "Describes how inbound and outbound links connect at an intersection.",
     "$id": "spec/movement.schema.json",
-    "required": []
+    "required": [
+        "mvmt_id",
+        "node_id",
+        "ib_link_id",
+        "ob_link_id",
+        "type"
+    ]
 }

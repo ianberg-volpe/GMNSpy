@@ -61,5 +61,9 @@
     },
     "description": "For signalized nodes, establishes timing plans and coordination.",
     "$id": "spec/signal_timing_plan.schema.json",
-    "required": []
+    "required": [
+        "timing_plan_id",
+        "controller_id",
+        "cycle_length"
+    ]
 }

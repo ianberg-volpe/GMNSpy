@@ -94,5 +94,8 @@
     },
     "description": "Handles day-of-week and time-of-day restrictions on links",
     "$id": "spec/link_tod.schema.json",
-    "required": []
+    "required": [
+        "link_tod_id",
+        "link_id"
+    ]
 }

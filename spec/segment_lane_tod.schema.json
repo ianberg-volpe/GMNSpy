@@ -64,5 +64,9 @@
     },
     "description": "An optional file that handles day-of-week and time-of-day restrictions on lanes within segments of links.",
     "$id": "spec/segment_lane_tod.schema.json",
-    "required": []
+    "required": [
+        "segment_lane_tod_id",
+        "segment_lane_id",
+        "lane_num"
+    ]
 }

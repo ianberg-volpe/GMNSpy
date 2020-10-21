@@ -22,5 +22,8 @@
     },
     "description": "Defines groupings of uses, to reduce the size of the Allowed_Uses lists in the other tables.",
     "$id": "spec/use_group.schema.json",
-    "required": []
+    "required": [
+        "use_group",
+        "uses"
+    ]
 }

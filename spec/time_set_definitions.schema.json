@@ -64,5 +64,17 @@
     },
     "description": "The optional time_set_definitions file encodes a set of times-of-day and days-of-week into a timeday_id.",
     "$id": "spec/time_set_definitions.schema.json",
-    "required": []
+    "required": [
+        "timeday_id",
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "Friday",
+        "saturday",
+        "sunday",
+        "holiday",
+        "start_time",
+        "end_time"
+    ]
 }
