@@ -51,8 +51,18 @@ for root, dir, files in os.walk(rt):
         f = open(os.path.join(rt, file))
         table = json.load(f)
         f.close()
-        table['description'] = metatable['tables'][name]['description']
-        table['$id'] = "spec/" + metatable['tables'][name]['schema']
+        required = []
+        for field in table['properties']:
+            try:
+                if field == "description":
+                    continue
+                if table['properties'][field]['required'] == True:
+                    required.append(field)
+            except KeyError:
+                continue
+        table['required'] = required
+        # table['description'] = metatable['tables'][name]['description']
+        # table['$id'] = "spec/" + metatable['tables'][name]['schema']
         g = open(os.path.join(rt, file), "w")
         json.dump(table, g, indent = 4)
         g.close()       
