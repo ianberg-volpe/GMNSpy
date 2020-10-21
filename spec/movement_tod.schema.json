@@ -86,5 +86,6 @@
         }
     },
     "description": "Handles day-of-week and time-of-day restrictions on movements.",
-    "$id": "spec/movement_tod.schema.json"
+    "$id": "spec/movement_tod.schema.json",
+    "required": []
 }

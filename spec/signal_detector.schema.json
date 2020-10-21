@@ -53,5 +53,6 @@
         }
     },
     "description": "A signal detector is associated with a phase and a group of lanes.",
-    "$id": "spec/signal_detector.schema.json"
+    "$id": "spec/signal_detector.schema.json",
+    "required": []
 }

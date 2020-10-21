@@ -43,5 +43,6 @@
         }
     },
     "description": "For signalized nodes, establishes phases that may run concurrently, using ring-barrier notation. Each phase is associated with a ring and a barrier. In order to run concurrently, two phases must be in: the same barrier, and different rings.",
-    "$id": "spec/signal_phase.schema.json"
+    "$id": "spec/signal_phase.schema.json",
+    "required": []
 }

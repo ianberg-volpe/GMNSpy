@@ -32,5 +32,6 @@
         }
     },
     "description": "The Use_Definition file defines the characteristics of each vehicle type or non-travel purpose (e.g., a shoulder or parking lane). A two-way left turn lane (TWLTL) is also a use.",
-    "$id": "spec/use_definition.schema.json"
+    "$id": "spec/use_definition.schema.json",
+    "required": []
 }

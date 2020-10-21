@@ -125,5 +125,6 @@
         }
     },
     "description": "A portion of a link defined by `link_id`,`ref_node_id`, `start_lr`, and `end_lr`. Values in the segment will override they value specified in the link table. When one segment is fully contained within another, its value prevails.",
-    "$id": "spec/segment.schema.json"
+    "$id": "spec/segment.schema.json",
+    "required": []
 }

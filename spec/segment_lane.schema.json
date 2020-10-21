@@ -58,5 +58,6 @@
         }
     },
     "description": "Defines added and dropped lanes, and changes to lane parameters. If a lane is added, it has no parent. If it is changed or dropped, the parent_lane_id field keys to the associated lane on the lane table.",
-    "$id": "spec/segment_lane.schema.json"
+    "$id": "spec/segment_lane.schema.json",
+    "required": []
 }

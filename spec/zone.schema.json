@@ -25,5 +25,6 @@
         }
     },
     "description": "Locates zones (travel analysis zones, parcels) on a map. Zones are represented as polygons in geographic information systems.",
-    "$id": "spec/zone.schema.json"
+    "$id": "spec/zone.schema.json",
+    "required": []
 }
