@@ -1,0 +1,23 @@
+{
+    "primaryKey": "geometry_id",
+    "missingValues": [
+        "NaN"
+    ],
+    "title": "geometry",
+    "properties": {
+        "geometry_id": {
+            "type": "any",
+            "description": "Primary key \u00e2\u20ac\u201c could be SharedStreets Geometry ID",
+            "required": true
+        },
+        "geometry": {
+            "type": "any",
+            "description": "Optional. Link geometry, specific format could be WKT, GeoJSON, etc."
+        }
+    },
+    "required": [
+        "geometry_id"
+    ],
+    "description": "The geometry is an optional file that contains geometry information (shapepoints) for a line object. It is similar to Geometries in the SharedStreets reference system. The specification also allows for geometry information to be stored directly on the link table.",
+    "$id": "spec/geometry.schema.json"
+}

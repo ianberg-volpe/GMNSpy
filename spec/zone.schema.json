@@ -1,0 +1,32 @@
+{
+    "primaryKey": "zone_id",
+    "missingValues": [
+        "NaN"
+    ],
+    "title": "zone",
+    "properties": {
+        "zone_id": {
+            "type": "any",
+            "description": "Primary key.",
+            "required": true
+        },
+        "name": {
+            "type": "any",
+            "description": "Optional."
+        },
+        "boundary": {
+            "type": "any",
+            "description": "Optional. The polygon geometry of the zone in WKT or Polygon."
+        },
+        "super_zone": {
+            "type": "string",
+            "foreign_key": ".zone_id",
+            "description": "Optional. If there is a hierarchy of zones (e.g., parcels and TAZs), indicates the zone of next higher level."
+        }
+    },
+    "required": [
+        "zone_id"
+    ],
+    "description": "Locates zones (travel analysis zones, parcels) on a map. Zones are represented as polygons in geographic information systems.",
+    "$id": "spec/zone.schema.json"
+}
