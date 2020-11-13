@@ -4,7 +4,7 @@
 spec/signal_timing_phase.schema.json#/properties/signal_phase_num
 ```
 
-Optional. Redundant with the record in the signal_phase table.
+Signal phase number.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |

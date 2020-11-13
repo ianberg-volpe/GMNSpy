@@ -4,7 +4,7 @@
 spec/signal_timing_phase.schema.json
 ```
 
-For signalizd nodes, provides signal timing.
+For signalized nodes, provides signal timing and establishes phases that may run concurrently.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                          |
@@ -20,15 +20,17 @@ unknown ([signal_timing_phase](signal_timing_phase.md))
 | Property                              | Type      | Required | Nullable       | Defined by                                                                                                                                    |
 | :------------------------------------ | --------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
 | [timing_phase_id](#timing_phase_id)   | `any`     | Required | cannot be null | [signal_timing_phase](signal_timing_phase-properties-timing_phase_id.md "spec/signal_timing_phase.schema.json#/properties/timing_phase_id")   |
-| [signal_phase_id](#signal_phase_id)   | `any`     | Required | cannot be null | [signal_timing_phase](signal_timing_phase-properties-signal_phase_id.md "spec/signal_timing_phase.schema.json#/properties/signal_phase_id")   |
 | [timing_plan_id](#timing_plan_id)     | `any`     | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-timing_plan_id.md "spec/signal_timing_phase.schema.json#/properties/timing_plan_id")     |
-| [signal_phase_num](#signal_phase_num) | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-signal_phase_num.md "spec/signal_timing_phase.schema.json#/properties/signal_phase_num") |
-| [min_green](#min_green)               | `integer` | Required | cannot be null | [signal_timing_phase](signal_timing_phase-properties-min_green.md "spec/signal_timing_phase.schema.json#/properties/min_green")               |
+| [signal_phase_num](#signal_phase_num) | `integer` | Required | cannot be null | [signal_timing_phase](signal_timing_phase-properties-signal_phase_num.md "spec/signal_timing_phase.schema.json#/properties/signal_phase_num") |
+| [min_green](#min_green)               | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-min_green.md "spec/signal_timing_phase.schema.json#/properties/min_green")               |
 | [max_green](#max_green)               | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-max_green.md "spec/signal_timing_phase.schema.json#/properties/max_green")               |
 | [extension](#extension)               | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-extension.md "spec/signal_timing_phase.schema.json#/properties/extension")               |
-| [clearance](#clearance)               | `integer` | Required | cannot be null | [signal_timing_phase](signal_timing_phase-properties-clearance.md "spec/signal_timing_phase.schema.json#/properties/clearance")               |
+| [clearance](#clearance)               | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-clearance.md "spec/signal_timing_phase.schema.json#/properties/clearance")               |
 | [walk_time](#walk_time)               | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-walk_time.md "spec/signal_timing_phase.schema.json#/properties/walk_time")               |
 | [ped_clearance](#ped_clearance)       | `integer` | Optional | cannot be null | [signal_timing_phase](signal_timing_phase-properties-ped_clearance.md "spec/signal_timing_phase.schema.json#/properties/ped_clearance")       |
+| [ring](#ring)                         | `integer` | Required | cannot be null | [signal_timing_phase](signal_timing_phase-properties-ring.md "spec/signal_timing_phase.schema.json#/properties/ring")                         |
+| [barrier](#barrier)                   | `integer` | Required | cannot be null | [signal_timing_phase](signal_timing_phase-properties-barrier.md "spec/signal_timing_phase.schema.json#/properties/barrier")                   |
+| [position](#position)                 | `integer` | Required | cannot be null | [signal_timing_phase](signal_timing_phase-properties-position.md "spec/signal_timing_phase.schema.json#/properties/position")                 |
 
 ## timing_phase_id
 
@@ -46,25 +48,9 @@ Primary key.
 
 `any`
 
-## signal_phase_id
-
-Optional. Foreign key, the associated sigal phase.
-
-
-`signal_phase_id`
-
--   is required
--   Type: `any`
--   cannot be null
--   defined in: [signal_timing_phase](signal_timing_phase-properties-signal_phase_id.md "spec/signal_timing_phase.schema.json#/properties/signal_phase_id")
-
-### signal_phase_id Type
-
-`any`
-
 ## timing_plan_id
 
-
+Foreign key; connects to a timing_plan associated with a controller.
 
 
 `timing_plan_id`
@@ -80,12 +66,12 @@ Optional. Foreign key, the associated sigal phase.
 
 ## signal_phase_num
 
-Optional. Redundant with the record in the signal_phase table.
+Signal phase number.
 
 
 `signal_phase_num`
 
--   is optional
+-   is required
 -   Type: `integer`
 -   cannot be null
 -   defined in: [signal_timing_phase](signal_timing_phase-properties-signal_phase_num.md "spec/signal_timing_phase.schema.json#/properties/signal_phase_num")
@@ -100,12 +86,12 @@ Optional. Redundant with the record in the signal_phase table.
 
 ## min_green
 
-Required. The minimum green time in seconds for an actuated signal. Green time in seconds for a fixed time signal.
+The minimum green time in seconds for an actuated signal. Green time in seconds for a fixed time signal.
 
 
 `min_green`
 
--   is required
+-   is optional
 -   Type: `integer`
 -   cannot be null
 -   defined in: [signal_timing_phase](signal_timing_phase-properties-min_green.md "spec/signal_timing_phase.schema.json#/properties/min_green")
@@ -162,12 +148,12 @@ Optional. The number of seconds the green time is extended each time vehicles ar
 
 ## clearance
 
-Required. Yellow interval plus all red interval
+Yellow interval plus all red interval
 
 
 `clearance`
 
--   is required
+-   is optional
 -   Type: `integer`
 -   cannot be null
 -   defined in: [signal_timing_phase](signal_timing_phase-properties-clearance.md "spec/signal_timing_phase.schema.json#/properties/clearance")
@@ -184,7 +170,7 @@ Required. Yellow interval plus all red interval
 
 ## walk_time
 
-Required if have ped phase. If a pedestrian phase exists, the walk time in seconds
+If a pedestrian phase exists, the walk time in seconds
 
 
 `walk_time`
@@ -206,7 +192,7 @@ Required if have ped phase. If a pedestrian phase exists, the walk time in secon
 
 ## ped_clearance
 
-Required if have ped phase. If a pedestrian phase exists, the flashing donâ€™t walk time.
+If a pedestrian phase exists, the flashing donâ€™t walk time.
 
 
 `ped_clearance`
@@ -225,3 +211,63 @@ Required if have ped phase. If a pedestrian phase exists, the flashing donâ€�
 **maximum**: the value of this number must smaller than or equal to: `120`
 
 **minimum**: the value of this number must greater than or equal to: `0`
+
+## ring
+
+Required. Set of phases that conflict with each other. 
+
+
+`ring`
+
+-   is required
+-   Type: `integer`
+-   cannot be null
+-   defined in: [signal_timing_phase](signal_timing_phase-properties-ring.md "spec/signal_timing_phase.schema.json#/properties/ring")
+
+### ring Type
+
+`integer`
+
+### ring Constraints
+
+**maximum**: the value of this number must smaller than or equal to: `12`
+
+**minimum**: the value of this number must greater than or equal to: `0`
+
+## barrier
+
+Required. Set of phases that can operate other.
+
+
+`barrier`
+
+-   is required
+-   Type: `integer`
+-   cannot be null
+-   defined in: [signal_timing_phase](signal_timing_phase-properties-barrier.md "spec/signal_timing_phase.schema.json#/properties/barrier")
+
+### barrier Type
+
+`integer`
+
+### barrier Constraints
+
+**maximum**: the value of this number must smaller than or equal to: `12`
+
+**minimum**: the value of this number must greater than or equal to: `0`
+
+## position
+
+Required. Position.
+
+
+`position`
+
+-   is required
+-   Type: `integer`
+-   cannot be null
+-   defined in: [signal_timing_phase](signal_timing_phase-properties-position.md "spec/signal_timing_phase.schema.json#/properties/position")
+
+### position Type
+
+`integer`

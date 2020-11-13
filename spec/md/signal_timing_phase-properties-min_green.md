@@ -4,7 +4,7 @@
 spec/signal_timing_phase.schema.json#/properties/min_green
 ```
 
-Required. The minimum green time in seconds for an actuated signal. Green time in seconds for a fixed time signal.
+The minimum green time in seconds for an actuated signal. Green time in seconds for a fixed time signal.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |

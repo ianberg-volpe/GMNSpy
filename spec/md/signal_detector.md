@@ -4,7 +4,7 @@
 spec/signal_detector.schema.json
 ```
 
-A signal detector is associated with a phase and a group of lanes.
+A signal detector is associated with a controller, a phase and a group of lanes.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                  |
@@ -17,17 +17,19 @@ unknown ([signal_detector](signal_detector.md))
 
 # signal_detector Properties
 
-| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                      |
-| :---------------------------------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| [detector_id](#detector_id)         | `any`     | Required | cannot be null | [signal_detector](signal_detector-properties-detector_id.md "spec/signal_detector.schema.json#/properties/detector_id")         |
-| [signal_phase_id](#signal_phase_id) | `any`     | Required | cannot be null | [signal_detector](signal_detector-properties-signal_phase_id.md "spec/signal_detector.schema.json#/properties/signal_phase_id") |
-| [link_id](#link_id)                 | `any`     | Required | cannot be null | [signal_detector](signal_detector-properties-link_id.md "spec/signal_detector.schema.json#/properties/link_id")                 |
-| [start_lane](#start_lane)           | `integer` | Required | cannot be null | [signal_detector](signal_detector-properties-start_lane.md "spec/signal_detector.schema.json#/properties/start_lane")           |
-| [end_lane](#end_lane)               | `integer` | Optional | cannot be null | [signal_detector](signal_detector-properties-end_lane.md "spec/signal_detector.schema.json#/properties/end_lane")               |
-| [ref_node_id](#ref_node_id)         | `any`     | Required | cannot be null | [signal_detector](signal_detector-properties-ref_node_id.md "spec/signal_detector.schema.json#/properties/ref_node_id")         |
-| [det_zone_lr](#det_zone_lr)         | `number`  | Required | cannot be null | [signal_detector](signal_detector-properties-det_zone_lr.md "spec/signal_detector.schema.json#/properties/det_zone_lr")         |
-| [det_zone_front](#det_zone_front)   | `number`  | Optional | cannot be null | [signal_detector](signal_detector-properties-det_zone_front.md "spec/signal_detector.schema.json#/properties/det_zone_front")   |
-| [det_type](#det_type)               | `string`  | Optional | cannot be null | [signal_detector](signal_detector-properties-det_type.md "spec/signal_detector.schema.json#/properties/det_type")               |
+| Property                              | Type      | Required | Nullable       | Defined by                                                                                                                        |
+| :------------------------------------ | --------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| [detector_id](#detector_id)           | `any`     | Required | cannot be null | [signal_detector](signal_detector-properties-detector_id.md "spec/signal_detector.schema.json#/properties/detector_id")           |
+| [controller_id](#controller_id)       | `any`     | Required | cannot be null | [signal_detector](signal_detector-properties-controller_id.md "spec/signal_detector.schema.json#/properties/controller_id")       |
+| [signal_phase_num](#signal_phase_num) | `integer` | Required | cannot be null | [signal_detector](signal_detector-properties-signal_phase_num.md "spec/signal_detector.schema.json#/properties/signal_phase_num") |
+| [link_id](#link_id)                   | `any`     | Required | cannot be null | [signal_detector](signal_detector-properties-link_id.md "spec/signal_detector.schema.json#/properties/link_id")                   |
+| [start_lane](#start_lane)             | `integer` | Required | cannot be null | [signal_detector](signal_detector-properties-start_lane.md "spec/signal_detector.schema.json#/properties/start_lane")             |
+| [end_lane](#end_lane)                 | `integer` | Optional | cannot be null | [signal_detector](signal_detector-properties-end_lane.md "spec/signal_detector.schema.json#/properties/end_lane")                 |
+| [ref_node_id](#ref_node_id)           | `any`     | Required | cannot be null | [signal_detector](signal_detector-properties-ref_node_id.md "spec/signal_detector.schema.json#/properties/ref_node_id")           |
+| [det_zone_lr](#det_zone_lr)           | `number`  | Required | cannot be null | [signal_detector](signal_detector-properties-det_zone_lr.md "spec/signal_detector.schema.json#/properties/det_zone_lr")           |
+| [det_zone_front](#det_zone_front)     | `number`  | Optional | cannot be null | [signal_detector](signal_detector-properties-det_zone_front.md "spec/signal_detector.schema.json#/properties/det_zone_front")     |
+| [det_zone_back](#det_zone_back)       | `number`  | Optional | cannot be null | [signal_detector](signal_detector-properties-det_zone_back.md "spec/signal_detector.schema.json#/properties/det_zone_back")       |
+| [det_type](#det_type)                 | `string`  | Optional | cannot be null | [signal_detector](signal_detector-properties-det_type.md "spec/signal_detector.schema.json#/properties/det_type")                 |
 
 ## detector_id
 
@@ -45,21 +47,37 @@ Primary key.
 
 `any`
 
-## signal_phase_id
+## controller_id
 
-Required. Foreign key to signal_phase table.
+Required. Foreign key to signal_controller table.
 
 
-`signal_phase_id`
+`controller_id`
 
 -   is required
 -   Type: `any`
 -   cannot be null
--   defined in: [signal_detector](signal_detector-properties-signal_phase_id.md "spec/signal_detector.schema.json#/properties/signal_phase_id")
+-   defined in: [signal_detector](signal_detector-properties-controller_id.md "spec/signal_detector.schema.json#/properties/controller_id")
 
-### signal_phase_id Type
+### controller_id Type
 
 `any`
+
+## signal_phase_num
+
+Required. Number of the associated phase.
+
+
+`signal_phase_num`
+
+-   is required
+-   Type: `integer`
+-   cannot be null
+-   defined in: [signal_detector](signal_detector-properties-signal_phase_num.md "spec/signal_detector.schema.json#/properties/signal_phase_num")
+
+### signal_phase_num Type
+
+`integer`
 
 ## link_id
 
@@ -127,7 +145,7 @@ The detector is on the approach to this node.
 
 ## det_zone_lr
 
-Required. Distance from from reference node to detector.
+Required. Distance from from the stop bar to detector.
 
 
 `det_zone_lr`
@@ -154,6 +172,22 @@ Optional. Linear reference of front of detection zone.
 -   defined in: [signal_detector](signal_detector-properties-det_zone_front.md "spec/signal_detector.schema.json#/properties/det_zone_front")
 
 ### det_zone_front Type
+
+`number`
+
+## det_zone_back
+
+Optional. Linear reference of back of detection zone.
+
+
+`det_zone_back`
+
+-   is optional
+-   Type: `number`
+-   cannot be null
+-   defined in: [signal_detector](signal_detector-properties-det_zone_back.md "spec/signal_detector.schema.json#/properties/det_zone_back")
+
+### det_zone_back Type
 
 `number`
 

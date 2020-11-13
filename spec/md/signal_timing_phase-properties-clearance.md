@@ -4,7 +4,7 @@
 spec/signal_timing_phase.schema.json#/properties/clearance
 ```
 
-Required. Yellow interval plus all red interval
+Yellow interval plus all red interval
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |

@@ -4,7 +4,7 @@
 spec/signal_timing_plan.schema.json#/properties/cycle_length
 ```
 
-Required. Cycle length in seconds.
+Cycle length in seconds.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                          |

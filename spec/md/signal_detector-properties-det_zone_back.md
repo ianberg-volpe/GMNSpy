@@ -1,16 +1,16 @@
-# Untitled any in signal_detector Schema
+# Untitled number in signal_detector Schema
 
 ```txt
-spec/signal_detector.schema.json#/properties/signal_phase_id
+spec/signal_detector.schema.json#/properties/det_zone_back
 ```
 
-Required. Foreign key to signal_phase table.
+Optional. Linear reference of back of detection zone.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                    |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [signal_detector.schema.json\*](../../out/signal_detector.schema.json "open original schema") |
 
-## signal_phase_id Type
+## det_zone_back Type
 
-`any`
+`number`

@@ -4,7 +4,7 @@
 spec/signal_timing_phase.schema.json#/properties/walk_time
 ```
 
-Required if have ped phase. If a pedestrian phase exists, the walk time in seconds
+If a pedestrian phase exists, the walk time in seconds
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |

@@ -4,7 +4,7 @@
 spec/signal_phase_mvmt.schema.json#/properties/controller_id
 ```
 
-Redundant with field in the signal_phase table.
+Associated controller.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                        |

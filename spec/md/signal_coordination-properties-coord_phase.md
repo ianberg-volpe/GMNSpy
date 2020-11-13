@@ -1,22 +1,22 @@
-# Untitled integer in signal_timing_phase Schema
+# Untitled integer in signal_coordination Schema
 
 ```txt
-spec/signal_timing_phase.schema.json#/properties/ped_clearance
+spec/signal_coordination.schema.json#/properties/coord_phase
 ```
 
-If a pedestrian phase exists, the flashing donâ€™t walk time.
+Optional. For coordinated signals, the phase at which coordination starts (time 0).
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [signal_timing_phase.schema.json\*](../../out/signal_timing_phase.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [signal_coordination.schema.json\*](../../out/signal_coordination.schema.json "open original schema") |
 
-## ped_clearance Type
+## coord_phase Type
 
 `integer`
 
-## ped_clearance Constraints
+## coord_phase Constraints
 
-**maximum**: the value of this number must smaller than or equal to: `120`
+**maximum**: the value of this number must smaller than or equal to: `32`
 
 **minimum**: the value of this number must greater than or equal to: `0`

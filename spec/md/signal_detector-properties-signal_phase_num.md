@@ -1,16 +1,16 @@
-# Untitled number in signal_detector Schema
+# Untitled integer in signal_detector Schema
 
 ```txt
-spec/signal_detector.schema.json#/properties/det_zone_lr
+spec/signal_detector.schema.json#/properties/signal_phase_num
 ```
 
-Required. Distance from from the stop bar to detector.
+Required. Number of the associated phase.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                    |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [signal_detector.schema.json\*](../../out/signal_detector.schema.json "open original schema") |
 
-## det_zone_lr Type
+## signal_phase_num Type
 
-`number`
+`integer`

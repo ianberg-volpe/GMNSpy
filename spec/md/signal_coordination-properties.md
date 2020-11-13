@@ -1,16 +1,16 @@
-# Untitled any in signal_timing_phase Schema
+# Untitled undefined type in signal_coordination Schema
 
 ```txt
-spec/signal_timing_phase.schema.json#/properties/timing_plan_id
+spec/signal_coordination.schema.json#/properties
 ```
 
-Foreign key; connects to a timing_plan associated with a controller.
+
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [signal_timing_phase.schema.json\*](../../out/signal_timing_phase.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [signal_coordination.schema.json\*](../../out/signal_coordination.schema.json "open original schema") |
 
-## timing_plan_id Type
+## properties Type
 
-`any`
+unknown

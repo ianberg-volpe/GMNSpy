@@ -4,7 +4,7 @@
 spec/time_set_definitions.schema.json
 ```
 
-The optional time_set_definitions file encodes a set of times-of-day and days-of-week into a timeday_id.
+The time_set_definitions file is an optional representation of time-of-day and day-of-week sets to enable time restrictions through `_tod` files.
 
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |

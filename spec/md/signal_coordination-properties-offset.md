@@ -1,22 +1,20 @@
-# Untitled integer in signal_timing_phase Schema
+# Untitled integer in signal_coordination Schema
 
 ```txt
-spec/signal_timing_phase.schema.json#/properties/ped_clearance
+spec/signal_coordination.schema.json#/properties/offset
 ```
 
-If a pedestrian phase exists, the flashing donâ€™t walk time.
+Optional. Offset in seconds.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [signal_timing_phase.schema.json\*](../../out/signal_timing_phase.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [signal_coordination.schema.json\*](../../out/signal_coordination.schema.json "open original schema") |
 
-## ped_clearance Type
+## offset Type
 
 `integer`
 
-## ped_clearance Constraints
-
-**maximum**: the value of this number must smaller than or equal to: `120`
+## offset Constraints
 
 **minimum**: the value of this number must greater than or equal to: `0`

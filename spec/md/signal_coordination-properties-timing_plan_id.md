@@ -1,16 +1,16 @@
-# Untitled any in signal_timing_phase Schema
+# Untitled any in signal_coordination Schema
 
 ```txt
-spec/signal_timing_phase.schema.json#/properties/signal_phase_id
+spec/signal_coordination.schema.json#/properties/timing_plan_id
 ```
 
-Optional. Foreign key, the associated sigal phase.
+Required. Foreign key (Signal_timing_plan table).
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [signal_timing_phase.schema.json\*](../../out/signal_timing_phase.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [signal_coordination.schema.json\*](../../out/signal_coordination.schema.json "open original schema") |
 
-## signal_phase_id Type
+## timing_plan_id Type
 
 `any`

@@ -20,9 +20,8 @@ unknown ([signal_phase_mvmt](signal_phase_mvmt.md))
 | Property                                      | Type      | Required | Nullable       | Defined by                                                                                                                                      |
 | :-------------------------------------------- | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [signal_phase_mvmt_id](#signal_phase_mvmt_id) | `any`     | Required | cannot be null | [signal_phase_mvmt](signal_phase_mvmt-properties-signal_phase_mvmt_id.md "spec/signal_phase_mvmt.schema.json#/properties/signal_phase_mvmt_id") |
-| [signal_phase_id](#signal_phase_id)           | `any`     | Required | cannot be null | [signal_phase_mvmt](signal_phase_mvmt-properties-signal_phase_id.md "spec/signal_phase_mvmt.schema.json#/properties/signal_phase_id")           |
-| [controller_id](#controller_id)               | `any`     | Optional | cannot be null | [signal_phase_mvmt](signal_phase_mvmt-properties-controller_id.md "spec/signal_phase_mvmt.schema.json#/properties/controller_id")               |
-| [signal_phase_num](#signal_phase_num)         | `integer` | Optional | cannot be null | [signal_phase_mvmt](signal_phase_mvmt-properties-signal_phase_num.md "spec/signal_phase_mvmt.schema.json#/properties/signal_phase_num")         |
+| [controller_id](#controller_id)               | `any`     | Required | cannot be null | [signal_phase_mvmt](signal_phase_mvmt-properties-controller_id.md "spec/signal_phase_mvmt.schema.json#/properties/controller_id")               |
+| [signal_phase_num](#signal_phase_num)         | `integer` | Required | cannot be null | [signal_phase_mvmt](signal_phase_mvmt-properties-signal_phase_num.md "spec/signal_phase_mvmt.schema.json#/properties/signal_phase_num")         |
 | [mvmt_id](#mvmt_id)                           | `any`     | Optional | cannot be null | [signal_phase_mvmt](signal_phase_mvmt-properties-mvmt_id.md "spec/signal_phase_mvmt.schema.json#/properties/mvmt_id")                           |
 | [link_id](#link_id)                           | `any`     | Optional | cannot be null | [signal_phase_mvmt](signal_phase_mvmt-properties-link_id.md "spec/signal_phase_mvmt.schema.json#/properties/link_id")                           |
 | [protection](#protection)                     | `any`     | Optional | cannot be null | [signal_phase_mvmt](signal_phase_mvmt-properties-protection.md "spec/signal_phase_mvmt.schema.json#/properties/protection")                     |
@@ -43,30 +42,14 @@ Primary key.
 
 `any`
 
-## signal_phase_id
-
-Required. Foreign key to signal_phase table.
-
-
-`signal_phase_id`
-
--   is required
--   Type: `any`
--   cannot be null
--   defined in: [signal_phase_mvmt](signal_phase_mvmt-properties-signal_phase_id.md "spec/signal_phase_mvmt.schema.json#/properties/signal_phase_id")
-
-### signal_phase_id Type
-
-`any`
-
 ## controller_id
 
-Redundant with field in the signal_phase table.
+Associated controller.
 
 
 `controller_id`
 
--   is optional
+-   is required
 -   Type: `any`
 -   cannot be null
 -   defined in: [signal_phase_mvmt](signal_phase_mvmt-properties-controller_id.md "spec/signal_phase_mvmt.schema.json#/properties/controller_id")
@@ -77,12 +60,12 @@ Redundant with field in the signal_phase table.
 
 ## signal_phase_num
 
-Redundant with field in the signal_phase table. ; each phase has one or more Movements associated with it.
+Each phase has one or more Movements associated with it.
 
 
 `signal_phase_num`
 
--   is optional
+-   is required
 -   Type: `integer`
 -   cannot be null
 -   defined in: [signal_phase_mvmt](signal_phase_mvmt-properties-signal_phase_num.md "spec/signal_phase_mvmt.schema.json#/properties/signal_phase_num")

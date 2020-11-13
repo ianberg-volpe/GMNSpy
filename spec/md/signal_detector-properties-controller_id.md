@@ -1,16 +1,16 @@
-# Untitled number in signal_detector Schema
+# Untitled any in signal_detector Schema
 
 ```txt
-spec/signal_detector.schema.json#/properties/det_zone_lr
+spec/signal_detector.schema.json#/properties/controller_id
 ```
 
-Required. Distance from from the stop bar to detector.
+Required. Foreign key to signal_controller table.
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                    |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [signal_detector.schema.json\*](../../out/signal_detector.schema.json "open original schema") |
 
-## det_zone_lr Type
+## controller_id Type
 
-`number`
+`any`
