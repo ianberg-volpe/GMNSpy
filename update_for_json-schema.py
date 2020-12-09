@@ -6,7 +6,7 @@ Created on Fri Oct  9 10:35:07 2020
 """
 # first pass-through
 import os, json
-rt = "C:\\Users\\ian.berg\\Documents\\GitHub\\GMNSpy\\spec"
+rt = "C:\\Users\\ian.berg\\Documents\\GitHub\\GMNS\\Specification"
 # for root, dir, files in os.walk(rt):
 #     for file in files:
 #         print(file)
@@ -45,24 +45,24 @@ for field in metatable['resources']:
 for root, dir, files in os.walk(rt):
     for file in files:
         print(file)
-        if file == "gmns.spec.json":
+        if file == "gmns.spec.json" or file == "README.md":
             continue
         name = file[:file.find(".")]
         f = open(os.path.join(rt, file))
         table = json.load(f)
         f.close()
-        required = []
-        for field in table['properties']:
-            try:
-                if field == "description":
-                    continue
-                if table['properties'][field]['required'] == True:
-                    required.append(field)
-            except KeyError:
-                continue
-        table['required'] = required
-        # table['description'] = metatable['tables'][name]['description']
-        # table['$id'] = "spec/" + metatable['tables'][name]['schema']
+        # required = []
+        # for field in table['properties']:
+        #     try:
+        #         if field == "description":
+        #             continue
+        #         if table['properties'][field]['required'] == True:
+        #             required.append(field)
+        #     except KeyError:
+        #         continue
+        # table['required'] = required
+        table['name'] = metatable['tables'][name]['schema']
+        table['description'] = metatable['tables'][name]['description']
         g = open(os.path.join(rt, file), "w")
         json.dump(table, g, indent = 4)
         g.close()       
